@@ -3,25 +3,135 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Primary - Deep Blue (from logo water droplet) */
+  --color-primary: #1B6B93;
+  --color-primary-light: #2A8AB8;
+  --color-primary-dark: #145273;
+  --color-primary-50: #E8F4F9;
+  --color-primary-100: #C5E3F0;
+  --color-primary-200: #8DC7E1;
+  --color-primary-300: #55ABD2;
+  --color-primary-400: #2A8AB8;
+  --color-primary-500: #1B6B93;
+  --color-primary-600: #145273;
+  --color-primary-700: #0E3A53;
+  --color-primary-800: #082333;
+  --color-primary-900: #031119;
+
+  /* Secondary - Green (from logo leaf) */
+  --color-secondary: #2E8B57;
+  --color-secondary-light: #3EAD6E;
+  --color-secondary-dark: #236B43;
+  --color-secondary-50: #ECF7F1;
+  --color-secondary-100: #C9EADB;
+  --color-secondary-200: #93D5B7;
+  --color-secondary-300: #5DC093;
+  --color-secondary-400: #3EAD6E;
+  --color-secondary-500: #2E8B57;
+  --color-secondary-600: #236B43;
+  --color-secondary-700: #194C30;
+  --color-secondary-800: #0F2D1D;
+  --color-secondary-900: #07170F;
+
+  /* Accent - Warm Gold (for CTAs, from questionnaire) */
+  --color-accent: #D4A006;
+  --color-accent-light: #E8B820;
+  --color-accent-dark: #A67D05;
+  --color-accent-50: #FDF8E6;
+  --color-accent-100: #F9ECBF;
+  --color-accent-200: #F2D880;
+  --color-accent-300: #E8C440;
+  --color-accent-400: #E0B320;
+  --color-accent-500: #D4A006;
+  --color-accent-600: #A67D05;
+  --color-accent-700: #785B04;
+  --color-accent-800: #4A3802;
+  --color-accent-900: #2A2001;
+
+  /* Neutral - Blue Gray (from logo text) */
+  --color-text: #1A2B3C;
+  --color-text-secondary: #4A6278;
+  --color-text-tertiary: #7A94A8;
+  --color-text-muted: #A3B5C4;
+
+  /* Surfaces */
+  --color-surface: #FFFFFF;
+  --color-surface-secondary: #F5F9FC;
+  --color-surface-tertiary: #EBF2F7;
+  --color-border: #D8E4ED;
+  --color-border-light: #E8F0F5;
+
+  /* Background */
+  --background: #FFFFFF;
+  --foreground: #1A2B3C;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: var(--color-primary-100);
+    color: var(--color-primary-700);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+
+  h1 { font-size: clamp(2.5rem, 5vw, 4rem); }
+  h2 { font-size: clamp(2rem, 4vw, 3rem); }
+  h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
+  h4 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
+
+  p {
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 50%, var(--color-primary-light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-bg-primary {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 50%, var(--color-secondary-dark) 100%);
+  }
+
+  .gradient-bg-light {
+    background: linear-gradient(180deg, var(--color-surface) 0%, var(--color-surface-secondary) 50%, var(--color-surface-tertiary) 100%);
+  }
+
+  .gradient-bg-water {
+    background: linear-gradient(
+      135deg,
+      oklch(92% 0.03 220) 0%,
+      oklch(95% 0.02 200) 30%,
+      oklch(97% 0.01 180) 60%,
+      oklch(98% 0.005 160) 100%
+    );
   }
 }
