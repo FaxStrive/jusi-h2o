@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { PageHero } from "@/components/sections/page-hero";
+import { TestimonialsContent } from "@/components/sections/testimonials-content";
+import { CTASection } from "@/components/sections/cta-section";
 
 export const metadata: Metadata = {
   title: "Testimonials",
@@ -7,8 +10,14 @@ export const metadata: Metadata = {
 
 export default function TestimonialsPage() {
   return (
-    <section className="min-h-screen pt-32 px-6">
-      <h1 className="font-heading text-display-sm text-center">Testimonials</h1>
-    </section>
+    <>
+      <PageHero
+        badge="Customer Reviews"
+        title="What Our Customers Say"
+        subtitle="2,500+ five-star Google reviews from homeowners across Tampa Bay who trust Jusi H2O."
+      />
+      <TestimonialsContent />
+      <CTASection />
+    </>
   );
 }
