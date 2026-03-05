@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jusih2o.com/sitemap.xml

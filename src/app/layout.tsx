@@ -45,6 +45,37 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <body className="font-body antialiased bg-background text-foreground">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "Jusi H2O",
+              description:
+                "Professional water testing and whole-home filtration solutions for Tampa Bay homeowners.",
+              telephone: "+1-770-875-9932",
+              email: "support@jusih2o.com",
+              url: "https://jusih2o.com",
+              areaServed: [
+                "Hillsborough County, FL",
+                "Pinellas County, FL",
+                "Manatee County, FL",
+                "Sarasota County, FL",
+                "Polk County, FL",
+              ],
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "5.0",
+                reviewCount: "2500",
+              },
+              sameAs: [
+                "https://www.facebook.com/profile.php?id=61578123391295",
+                "https://www.instagram.com/jusih2o/",
+              ],
+            }),
+          }}
+        />
         <SmoothScrollProvider>{children}</SmoothScrollProvider>
       </body>
     </html>
