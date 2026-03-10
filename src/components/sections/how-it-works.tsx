@@ -39,16 +39,23 @@ export function HowItWorks() {
 
   return (
     <section ref={ref} className="relative py-section-lg overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-to-b from-primary-800 via-primary-900 to-primary-800" />
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary-600/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-primary-400/10 rounded-full blur-3xl" />
-        {/* Flowing wave at top */}
-        <svg className="absolute top-0 w-full h-16 text-white" viewBox="0 0 1440 60" preserveAspectRatio="none">
-          <path d="M0,0 L1440,0 L1440,30 C1080,60 720,10 360,40 C180,55 0,30 0,30 Z" fill="currentColor" />
-        </svg>
+      {/* Video Background */}
+      <div className="absolute inset-0">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/videos/process.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-primary-900/[0.97]" />
       </div>
+      {/* Flowing wave at top */}
+      <svg className="absolute top-0 w-full h-16 text-white z-[1] pointer-events-none" viewBox="0 0 1440 60" preserveAspectRatio="none">
+        <path d="M0,0 L1440,0 L1440,30 C1080,60 720,10 360,40 C180,55 0,30 0,30 Z" fill="currentColor" />
+      </svg>
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         {/* Header */}
@@ -70,7 +77,7 @@ export function HowItWorks() {
             Better Water in 3 Simple Steps
           </motion.h2>
           <motion.p
-            className="text-primary-200 text-lg"
+            className="text-primary-100 text-lg"
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -117,7 +124,7 @@ export function HowItWorks() {
                 <h3 className="font-heading text-2xl font-bold text-white mb-3">
                   {step.title}
                 </h3>
-                <p className="text-primary-200 leading-relaxed">
+                <p className="text-primary-100 leading-relaxed drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
                   {step.description}
                 </p>
               </div>

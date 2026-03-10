@@ -4,8 +4,9 @@ import { ServiceAreaContent } from "@/components/sections/service-area-content";
 import { CTASection } from "@/components/sections/cta-section";
 
 export const metadata: Metadata = {
-  title: "Service Area",
-  description: "Jusi H2O serves Tampa Bay including Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties within 50 miles.",
+  title: "Service Area - Tampa Bay Coverage",
+  description: "Jusi H2O serves a 50-mile radius across Tampa Bay: Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties. Same-day response. Call (813) 303-0515.",
+  alternates: { canonical: "/service-area" },
 };
 
 export default function ServiceAreaPage() {
@@ -15,7 +16,8 @@ export default function ServiceAreaPage() {
         badge="Coverage Area"
         title="Where We Serve"
         subtitle="Professional water testing and filtration services across Tampa Bay and surrounding communities."
-        gradient="from-primary-800 via-primary-700 to-secondary-800"
+        backgroundImage="/images/ocean-aerial.jpeg"
+        overlayOpacity={0.75}
       />
       <ServiceAreaContent />
       <CTASection />

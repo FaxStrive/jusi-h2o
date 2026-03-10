@@ -4,9 +4,10 @@ import { AboutContent } from "@/components/sections/about-content";
 import { CTASection } from "@/components/sections/cta-section";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About Us",
   description:
-    "Learn about Jusi H2O - 15+ years of professional water testing and filtration solutions for Tampa Bay homeowners. Our story, mission, and values.",
+    "Jusi H2O has 15+ years of experience providing professional water testing and filtration for Tampa Bay homeowners. Meet our team, mission, and values.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {
@@ -16,7 +17,9 @@ export default function AboutPage() {
         badge="Our Story"
         title="Better Water for Every Home"
         subtitle="Born from a commitment to residential home solutions, Jusi H2O delivers honest water testing and customized filtration for Tampa Bay families."
-        gradient="from-primary-700 via-primary-800 to-secondary-900"
+        backgroundImage="/images/mom-daughter-water.jpeg"
+        overlayOpacity={0.75}
+        imagePosition="center 85%"
       />
       <AboutContent />
       <CTASection />

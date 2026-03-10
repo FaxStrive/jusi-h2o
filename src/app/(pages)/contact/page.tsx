@@ -3,8 +3,9 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ContactContent } from "@/components/sections/contact-content";
 
 export const metadata: Metadata = {
-  title: "Contact",
-  description: "Contact Jusi H2O for a free in-home water test. Call (770) 875-9932 or email support@jusih2o.com. Tampa Bay.",
+  title: "Contact Us - Free Water Test",
+  description: "Schedule your free in-home water test with Jusi H2O. Call (813) 303-0515 or email support@jusih2o.com. Same-day response in Tampa Bay.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {
@@ -14,7 +15,8 @@ export default function ContactPage() {
         badge="Get in Touch"
         title="Schedule Your Free Water Test"
         subtitle="Fill out the form below or give us a call. We respond same-day."
-        gradient="from-primary-900 via-primary-800 to-primary-700"
+        backgroundImage="/images/mom-child-washing.jpeg"
+        overlayOpacity={0.78}
       />
       <ContactContent />
     </>

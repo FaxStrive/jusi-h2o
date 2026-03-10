@@ -9,25 +9,25 @@ const services = [
   {
     title: "Whole House Filtration",
     description: "Complete home water treatment that filters every faucet, shower, and appliance in your home.",
-    image: "https://images.pexels.com/photos/6032817/pexels-photo-6032817.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "/images/shower-hands.jpeg",
     href: "/services#whole-house",
   },
   {
     title: "Reverse Osmosis",
     description: "Advanced drinking water purification that removes up to 99% of contaminants.",
-    image: "https://images.pexels.com/photos/4108727/pexels-photo-4108727.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "/images/filling-glass-tap.jpeg",
     href: "/services#reverse-osmosis",
   },
   {
     title: "Water Softeners",
     description: "Eliminate hard water to protect your plumbing, appliances, and skin.",
-    image: "https://images.pexels.com/photos/8374311/pexels-photo-8374311.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "/images/woman-at-sink.jpeg",
     href: "/services#water-softeners",
   },
   {
     title: "Water Testing",
     description: "Free professional testing to identify exactly what is in your water.",
-    image: "https://images.pexels.com/photos/247759/pexels-photo-247759.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "/images/water-droplet-lab.jpeg",
     href: "/services#water-testing",
   },
 ];

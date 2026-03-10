@@ -1,14 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useRef } from "react";
-import { useInView } from "framer-motion";
+import { motion, useInView, useMotionValue, useTransform, animate } from "framer-motion";
+import { useRef, useEffect } from "react";
 
 const stats = [
-  { value: "15+", label: "Years Experience" },
-  { value: "2,500+", label: "5-Star Reviews" },
-  { value: "10+", label: "Expert Technicians" },
-  { value: "Same Day", label: "Response Time" },
+  { value: 15, suffix: "+", label: "Years Experience" },
+  { value: 2500, suffix: "+", label: "5-Star Reviews" },
+  { value: 10, suffix: "+", label: "Expert Technicians" },
+  { value: null, text: "Same Day", label: "Response Time" },
 ];
 
 const certifications = [
@@ -20,6 +19,36 @@ const certifications = [
   "NSF-58",
   "NSF-401",
 ];
+
+function CountUp({ value, suffix, duration = 2 }: { value: number; suffix: string; duration?: number }) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-60px" });
+  const count = useMotionValue(0);
+  const rounded = useTransform(count, (v) => {
+    const num = Math.round(v);
+    if (num >= 1000) {
+      return num.toLocaleString();
+    }
+    return num.toString();
+  });
+
+  useEffect(() => {
+    if (isInView) {
+      const controls = animate(count, value, {
+        duration,
+        ease: [0.25, 0.46, 0.45, 0.94],
+      });
+      return controls.stop;
+    }
+  }, [isInView, count, value, duration]);
+
+  return (
+    <span ref={ref} className="font-heading text-3xl md:text-4xl font-bold text-primary">
+      <motion.span>{rounded}</motion.span>
+      {suffix}
+    </span>
+  );
+}
 
 export function TrustBar() {
   const ref = useRef(null);
@@ -48,8 +77,14 @@ export function TrustBar() {
                 ease: [0.25, 0.46, 0.45, 0.94],
               }}
             >
-              <div className="font-heading text-3xl md:text-4xl font-bold text-primary mb-1">
-                {stat.value}
+              <div className="mb-1">
+                {stat.value !== null ? (
+                  <CountUp value={stat.value} suffix={stat.suffix || ""} duration={stat.value > 100 ? 2.5 : 2} />
+                ) : (
+                  <span className="font-heading text-3xl md:text-4xl font-bold text-primary">
+                    {stat.text}
+                  </span>
+                )}
               </div>
               <div className="text-sm text-text-tertiary font-medium">
                 {stat.label}

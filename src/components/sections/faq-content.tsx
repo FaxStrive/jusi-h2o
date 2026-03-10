@@ -34,7 +34,7 @@ const faqCategories = [
       },
       {
         q: "How do I schedule a water test?",
-        a: "You can call us at (770) 875-9932, email support@jusih2o.com, or fill out the contact form on our website. We offer same-day scheduling in most areas.",
+        a: "You can call us at (813) 303-0515, email support@jusih2o.com, or fill out the contact form on our website. We offer same-day scheduling in most areas.",
       },
     ],
   },

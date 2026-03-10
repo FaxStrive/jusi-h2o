@@ -8,7 +8,8 @@ const serviceOptions = [
   "Whole House Filtration",
   "Reverse Osmosis",
   "Water Softener",
-  "Well Water Treatment",
+  "Water Heater Installation",
+  "Leak Repair",
   "Commercial System",
   "JusiCare+ Maintenance",
   "Other",
@@ -125,7 +126,7 @@ export function ContactContent() {
 
                 <button
                   type="submit"
-                  className="w-full sm:w-auto px-10 py-4 bg-accent text-primary-900 font-bold rounded-full hover:bg-accent-light transition-all duration-300 hover:scale-105 shadow-brand"
+                  className="w-full sm:w-auto px-10 py-4 bg-accent text-white font-bold rounded-full hover:bg-accent-light transition-all duration-300 hover:scale-105 shadow-brand"
                 >
                   Send Message
                 </button>
@@ -148,8 +149,8 @@ export function ContactContent() {
                 </svg>
               </div>
               <h3 className="font-heading font-bold text-text mb-1">Phone</h3>
-              <a href="tel:7708759932" className="text-lg text-primary font-semibold hover:text-primary-dark transition-colors">
-                (770) 875-9932
+              <a href="tel:8133030515" className="text-lg text-primary font-semibold hover:text-primary-dark transition-colors">
+                (813) 303-0515
               </a>
               <p className="text-sm text-text-tertiary mt-1">Same-day response</p>
             </div>

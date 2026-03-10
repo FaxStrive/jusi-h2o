@@ -33,20 +33,20 @@
   --color-secondary-800: #0F2D1D;
   --color-secondary-900: #07170F;
 
-  /* Accent - Warm Gold (for CTAs, from questionnaire) */
-  --color-accent: #D4A006;
-  --color-accent-light: #E8B820;
-  --color-accent-dark: #A67D05;
-  --color-accent-50: #FDF8E6;
-  --color-accent-100: #F9ECBF;
-  --color-accent-200: #F2D880;
-  --color-accent-300: #E8C440;
-  --color-accent-400: #E0B320;
-  --color-accent-500: #D4A006;
-  --color-accent-600: #A67D05;
-  --color-accent-700: #785B04;
-  --color-accent-800: #4A3802;
-  --color-accent-900: #2A2001;
+  /* Accent - Secondary Green (for CTAs and highlights) */
+  --color-accent: #2E8B57;
+  --color-accent-light: #3EAD6E;
+  --color-accent-dark: #236B43;
+  --color-accent-50: #ECF7F1;
+  --color-accent-100: #C9EADB;
+  --color-accent-200: #93D5B7;
+  --color-accent-300: #5DC093;
+  --color-accent-400: #3EAD6E;
+  --color-accent-500: #2E8B57;
+  --color-accent-600: #236B43;
+  --color-accent-700: #194C30;
+  --color-accent-800: #0F2D1D;
+  --color-accent-900: #07170F;
 
   /* Neutral - Blue Gray (from logo text) */
   --color-text: #1A2B3C;

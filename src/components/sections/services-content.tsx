@@ -7,34 +7,9 @@ import Link from "next/link";
 
 const services = [
   {
-    id: "whole-house",
-    title: "Whole House Filtration",
-    description:
-      "Our whole-house filtration systems treat every drop of water that enters your home. From the kitchen sink to the shower, every faucet delivers clean, filtered water. These systems remove sediment, chlorine, and other common contaminants, protecting your plumbing, appliances, and family.",
-    benefits: [
-      "Filters water at every faucet and shower",
-      "Protects appliances and plumbing from buildup",
-      "Removes chlorine, sediment, and contaminants",
-      "Low maintenance with long-lasting filters",
-    ],
-    image: "https://images.pexels.com/photos/6032817/pexels-photo-6032817.jpeg?auto=compress&cs=tinysrgb&w=800",
-  },
-  {
-    id: "reverse-osmosis",
-    title: "Reverse Osmosis Systems",
-    description:
-      "Our reverse osmosis (RO) systems provide the highest level of drinking water purification available for your home. Using multiple filtration stages, RO removes up to 99% of dissolved contaminants including lead, arsenic, fluoride, and more, delivering pure, great-tasting water right from your tap.",
-    benefits: [
-      "Removes up to 99% of contaminants",
-      "Crystal clear, great-tasting drinking water",
-      "Multi-stage filtration process",
-      "NSF-58 certified systems",
-    ],
-    image: "https://images.pexels.com/photos/4108727/pexels-photo-4108727.jpeg?auto=compress&cs=tinysrgb&w=800",
-  },
-  {
     id: "water-softeners",
     title: "Water Softeners",
+    slug: "water-softeners",
     description:
       "Hard water is one of the most common issues in Tampa Bay. Our water softening systems eliminate calcium and magnesium minerals that cause scale buildup, spots on fixtures, dry skin, and reduced appliance lifespan. Enjoy softer water, cleaner dishes, and longer-lasting appliances.",
     benefits: [
@@ -43,11 +18,82 @@ const services = [
       "Cleaner dishes and brighter laundry",
       "Extends appliance lifespan",
     ],
-    image: "https://images.pexels.com/photos/8374311/pexels-photo-8374311.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "/images/salt-softener.jpeg",
+  },
+  {
+    id: "water-filtration",
+    title: "Whole House Filtration",
+    slug: "water-filtration",
+    description:
+      "Our whole-house filtration systems treat every drop of water that enters your home. From the kitchen sink to the shower, every faucet delivers clean, filtered water. These systems remove sediment, chlorine, and other common contaminants, protecting your plumbing, appliances, and family.",
+    benefits: [
+      "Filters water at every faucet and shower",
+      "Protects appliances and plumbing from buildup",
+      "Removes chlorine, sediment, and contaminants",
+      "Low maintenance with long-lasting filters",
+    ],
+    image: "/images/kitchen-faucet-running.jpeg",
+  },
+  {
+    id: "reverse-osmosis",
+    title: "Reverse Osmosis Systems",
+    slug: "reverse-osmosis",
+    description:
+      "Our reverse osmosis (RO) systems provide the highest level of drinking water purification available for your home. Using multiple filtration stages, RO removes up to 99% of dissolved contaminants including lead, arsenic, fluoride, and more, delivering pure, great-tasting water right from your tap.",
+    benefits: [
+      "Removes up to 99% of contaminants",
+      "Crystal clear, great-tasting drinking water",
+      "Multi-stage filtration process",
+      "Compact under-sink installation",
+    ],
+    image: "/images/filling-glass-tap.jpeg",
+  },
+  {
+    id: "water-heater",
+    title: "Water Heater Installation",
+    slug: "water-heater-installation",
+    description:
+      "From tankless upgrades to standard replacements, our team handles water heater installation with precision and speed. We help you choose the right unit for your home size and usage, ensuring efficient hot water delivery and lower energy bills.",
+    benefits: [
+      "Tankless and traditional options",
+      "Energy-efficient installations",
+      "Same-day service available",
+      "Full warranty coverage",
+    ],
+    image: "/images/water-heater-install.jpeg",
+  },
+  {
+    id: "leak-repair",
+    title: "Leak Detection & Repair",
+    slug: "leak-repair",
+    description:
+      "Hidden leaks waste water and cause costly damage. Our technicians use advanced detection methods to locate leaks quickly and perform reliable repairs. From minor drips to major pipe issues, we fix it fast so you can avoid expensive water damage.",
+    benefits: [
+      "Advanced leak detection technology",
+      "Fast, reliable repairs",
+      "Prevents costly water damage",
+      "Licensed and insured technicians",
+    ],
+    image: "/images/plumber-pipes.jpeg",
+  },
+  {
+    id: "commercial",
+    title: "Commercial Plumbing",
+    slug: "commercial-plumbing",
+    description:
+      "We provide water treatment and plumbing solutions for businesses, restaurants, medical facilities, and commercial properties. From high-capacity filtration systems to specialized treatment for food service, our commercial solutions meet the unique demands of your operation.",
+    benefits: [
+      "High-capacity commercial systems",
+      "Restaurant and food service solutions",
+      "Plumbing inspections and re-piping",
+      "Ongoing maintenance plans available",
+    ],
+    image: "/images/technician-water-heater.jpeg",
   },
   {
     id: "water-testing",
-    title: "Professional Water Testing",
+    title: "Free Water Testing",
+    slug: "water-testing",
     description:
       "Our free in-home water test is the first step to understanding your water. Our trained technicians test for hardness, chlorine, pH, iron, TDS, and other common contaminants. We explain the results in simple terms and help you understand exactly what is in your water, with no obligation.",
     benefits: [
@@ -56,46 +102,21 @@ const services = [
       "Results explained in plain language",
       "Same-day custom recommendations",
     ],
-    image: "https://images.pexels.com/photos/247759/pexels-photo-247759.jpeg?auto=compress&cs=tinysrgb&w=800",
-  },
-  {
-    id: "commercial",
-    title: "Commercial Water Treatment",
-    description:
-      "We provide water treatment solutions for businesses, restaurants, medical facilities, and commercial properties. From high-capacity filtration systems to specialized treatment for food service, our commercial solutions are designed to meet the unique demands of your operation.",
-    benefits: [
-      "High-capacity commercial systems",
-      "Restaurant and food service solutions",
-      "Medical-grade water purification",
-      "Ongoing maintenance plans available",
-    ],
-    image: "https://images.pexels.com/photos/3665354/pexels-photo-3665354.jpeg?auto=compress&cs=tinysrgb&w=800",
-  },
-  {
-    id: "well-water",
-    title: "Well Water Treatment",
-    description:
-      "Well water presents unique challenges including bacteria, iron, sulfur, and other naturally occurring contaminants. Our well water treatment systems are specifically designed to address these issues, providing safe, clean water for your entire household.",
-    benefits: [
-      "Bacteria and coliform treatment",
-      "Iron and sulfur removal",
-      "pH balancing systems",
-      "UV disinfection options",
-    ],
-    image: "https://images.pexels.com/photos/5177211/pexels-photo-5177211.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "/images/water-droplet-lab.jpeg",
   },
   {
     id: "jusicare",
-    title: "JusiCare+ Maintenance Program",
+    title: "JusiCare+ Protection Plan",
+    slug: "jusicare",
     description:
-      "Our JusiCare+ program provides ongoing support to keep your water system running at peak performance. From maintenance reminders and filter replacements to periodic system check-ins, we ensure your investment continues to deliver clean water for years to come.",
+      "With the JusiCare+ Protection Plan, you do not just get clean water, you get confidence. Our $199 annual plan keeps your system performing like new with professional maintenance, priority support, and lifetime coverage on covered systems.",
     benefits: [
-      "Regular maintenance reminders",
-      "Filter replacement notifications",
-      "Periodic system check-ins",
-      "Priority service scheduling",
+      "Quarterly salt refills",
+      "Scheduled filter replacements",
+      "Complete system sanitation",
+      "Priority service and lifetime warranty",
     ],
-    image: "https://images.pexels.com/photos/5082870/pexels-photo-5082870.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "/images/technician-homeowner.jpeg",
   },
 ];
 
@@ -188,10 +209,10 @@ function ServiceCard({
           ))}
         </ul>
         <Link
-          href="/contact"
+          href={`/services/${service.slug}`}
           className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-full hover:bg-primary-dark transition-colors duration-300"
         >
-          Get a Free Quote
+          Learn More
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>

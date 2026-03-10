@@ -4,9 +4,10 @@ import { BeforeAfterContent } from "@/components/sections/before-after-content";
 import { CTASection } from "@/components/sections/cta-section";
 
 export const metadata: Metadata = {
-  title: "Before & After",
+  title: "Before & After Results",
   description:
-    "See real water filtration results from Jusi H2O customers across Tampa Bay. Case studies and visual proof.",
+    "See real before and after water filtration results from Tampa Bay homeowners. Case studies showing hard water, chlorine, and contaminant removal by Jusi H2O.",
+  alternates: { canonical: "/before-after" },
 };
 
 export default function BeforeAfterPage() {
@@ -16,7 +17,8 @@ export default function BeforeAfterPage() {
         badge="Real Results"
         title="See the Difference Clean Water Makes"
         subtitle="Real case studies from Tampa Bay homeowners who trusted Jusi H2O with their water quality."
-        gradient="from-secondary-800 via-primary-800 to-primary-900"
+        backgroundImage="/images/dirty-vs-clean-water.jpeg"
+        overlayOpacity={0.72}
       />
       <BeforeAfterContent />
       <CTASection />

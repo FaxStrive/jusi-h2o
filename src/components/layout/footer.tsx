@@ -6,16 +6,15 @@ import Image from "next/image";
 
 const footerLinks = {
   services: [
-    { href: "/services#whole-house", label: "Whole House Filtration" },
-    { href: "/services#reverse-osmosis", label: "Reverse Osmosis" },
-    { href: "/services#water-softeners", label: "Water Softeners" },
-    { href: "/services#water-testing", label: "Water Testing" },
-    { href: "/services#commercial", label: "Commercial Systems" },
-    { href: "/services#jusicare", label: "JusiCare+" },
+    { href: "/services/water-softeners", label: "Water Softeners" },
+    { href: "/services/water-filtration", label: "Whole House Filtration" },
+    { href: "/services/reverse-osmosis", label: "Reverse Osmosis" },
+    { href: "/services/water-heater-installation", label: "Water Heater Installation" },
+    { href: "/services/leak-repair", label: "Leak Repair" },
+    { href: "/services/jusicare", label: "JusiCare+" },
   ],
   company: [
     { href: "/about", label: "About Us" },
-    { href: "/before-after", label: "Before & After" },
     { href: "/testimonials", label: "Testimonials" },
     { href: "/service-area", label: "Service Area" },
     { href: "/faq", label: "FAQ" },
@@ -50,7 +49,7 @@ export function Footer() {
             </div>
             <Link
               href="/contact"
-              className="inline-flex items-center px-8 py-4 bg-accent text-primary-900 font-bold rounded-full hover:bg-accent-light transition-all duration-300 hover:scale-105 shadow-lg whitespace-nowrap"
+              className="inline-flex items-center px-8 py-4 bg-accent text-white font-bold rounded-full hover:bg-accent-light transition-all duration-300 hover:scale-105 shadow-lg whitespace-nowrap"
             >
               Get Your Free Test
             </Link>
@@ -171,10 +170,10 @@ export function Footer() {
             </h4>
             <div className="space-y-2 text-sm text-primary-200">
               <a
-                href="tel:7708759932"
+                href="tel:8133030515"
                 className="block hover:text-white transition-colors"
               >
-                (770) 875-9932
+                (813) 303-0515
               </a>
               <a
                 href="mailto:support@jusih2o.com"
@@ -182,7 +181,7 @@ export function Footer() {
               >
                 support@jusih2o.com
               </a>
-              <p>Tampa Bay, FL</p>
+              <p>7901 4th St N Ste 300, St. Petersburg, FL 33702</p>
             </div>
           </div>
         </div>

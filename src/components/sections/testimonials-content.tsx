@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -106,6 +107,38 @@ export function TestimonialsContent() {
                 </div>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Image Banner */}
+      <section className="relative overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
+          {/* Image Side */}
+          <div className="relative h-64 lg:h-auto lg:min-h-[400px]">
+            <Image
+              src="/images/family-four-water.jpeg"
+              alt="Happy family enjoying clean water"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
+          </div>
+          {/* Content Side */}
+          <div className="relative bg-primary-800 px-8 py-16 lg:px-16 lg:py-20 flex items-center">
+            <div className="absolute inset-0 pointer-events-none overflow-hidden">
+              <div className="absolute -top-20 -right-20 w-[300px] h-[300px] bg-secondary/10 rounded-full blur-3xl" />
+              <div className="absolute bottom-0 left-0 w-[200px] h-[200px] bg-primary-400/10 rounded-full blur-2xl" />
+            </div>
+            <div className="relative">
+              <p className="text-sm font-semibold uppercase tracking-widest text-secondary-300 mb-4">Trusted by Families</p>
+              <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
+                Over 2,500 Tampa Bay Families Trust Jusi H2O
+              </h2>
+              <p className="text-primary-200 text-lg max-w-lg">
+                From first water test to ongoing maintenance, we build lasting relationships with homeowners who want the best water for their families.
+              </p>
+            </div>
           </div>
         </div>
       </section>

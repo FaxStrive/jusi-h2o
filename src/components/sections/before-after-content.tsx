@@ -2,8 +2,8 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
+import { BeforeAfterSlider } from "@/components/ui/before-after-slider";
 
 const caseStudies = [
   {
@@ -15,12 +15,19 @@ const caseStudies = [
       "After confirming extremely high hardness levels through our in-home water test, we installed a whole-home filtration and conditioning system designed specifically for the hardness level detected.",
     result:
       "Within weeks the homeowner reported softer water, reduced mineral buildup, and improved appliance performance. Fixtures stayed cleaner, soap lathered better, and the water heater began operating more efficiently.",
-    image: "https://images.pexels.com/photos/6032817/pexels-photo-6032817.jpeg?auto=compress&cs=tinysrgb&w=800",
     stats: [
       { label: "Hardness Reduction", value: "95%" },
       { label: "Install Time", value: "3 hrs" },
       { label: "Monthly Savings", value: "$40+" },
     ],
+    slider: {
+      beforePlaceholderText: "Hard Water Stains on Fixtures",
+      afterPlaceholderText: "Crystal Clear, Spotless Fixtures",
+      beforeGradient:
+        "linear-gradient(135deg, #8B7355 0%, #6B5740 30%, #4A3C2A 60%, #2E2518 100%)",
+      afterGradient:
+        "linear-gradient(135deg, #2A8AB8 0%, #1B6B93 35%, #2E8B57 70%, #3EAD6E 100%)",
+    },
   },
   {
     title: "Family Water Quality Upgrade",
@@ -31,12 +38,19 @@ const caseStudies = [
       "Our in-home water test identified elevated chlorine levels and other taste-affecting contaminants. We installed a whole-home filtration system along with a dedicated drinking water solution for the kitchen.",
     result:
       "The family immediately noticed improved water taste and smell. Their children started drinking water from the tap again, and they reported the overall household water quality felt significantly better for cooking, bathing, and daily use.",
-    image: "https://images.pexels.com/photos/4835235/pexels-photo-4835235.jpeg?auto=compress&cs=tinysrgb&w=800",
     stats: [
       { label: "Chlorine Removed", value: "99%" },
       { label: "Install Time", value: "4 hrs" },
       { label: "Family Satisfaction", value: "5/5" },
     ],
+    slider: {
+      beforePlaceholderText: "Cloudy, Chlorine-Heavy Water",
+      afterPlaceholderText: "Pure, Fresh-Tasting Water",
+      beforeGradient:
+        "linear-gradient(135deg, #9CA3A0 0%, #7A8580 30%, #5A6460 60%, #3A4440 100%)",
+      afterGradient:
+        "linear-gradient(135deg, #55ABD2 0%, #1B6B93 35%, #2E8B57 70%, #2A8AB8 100%)",
+    },
   },
 ];
 
@@ -66,7 +80,9 @@ function CaseStudyCard({
     <div ref={ref} className="relative">
       {/* Background accent */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className={`absolute ${index % 2 === 0 ? "top-10 -right-10" : "top-10 -left-10"} w-[400px] h-[400px] bg-gradient-to-br from-primary-50/40 to-transparent rounded-full blur-3xl`} />
+        <div
+          className={`absolute ${index % 2 === 0 ? "top-10 -right-10" : "top-10 -left-10"} w-[400px] h-[400px] bg-gradient-to-br from-primary-50/40 to-transparent rounded-full blur-3xl`}
+        />
       </div>
 
       <motion.div
@@ -76,17 +92,19 @@ function CaseStudyCard({
         transition={{ duration: 0.6 }}
       >
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          {/* Image */}
-          <div className="relative h-64 lg:h-auto">
-            <Image
-              src={study.image}
-              alt={study.title}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
+          {/* Interactive Before/After Slider */}
+          <div className="relative">
+            <BeforeAfterSlider
+              beforeLabel="Before"
+              afterLabel="After"
+              beforePlaceholderText={study.slider.beforePlaceholderText}
+              afterPlaceholderText={study.slider.afterPlaceholderText}
+              beforeGradient={study.slider.beforeGradient}
+              afterGradient={study.slider.afterGradient}
+              aspectRatio="aspect-[4/3] lg:aspect-auto lg:h-full"
+              initialPosition={55}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-primary-900/30 to-transparent" />
-            <div className="absolute bottom-4 left-4 px-3 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-sm font-semibold text-primary">
+            <div className="absolute bottom-4 left-4 z-30 px-3 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-sm font-semibold text-primary">
               {study.location}
             </div>
           </div>
@@ -102,30 +120,41 @@ function CaseStudyCard({
                 <h4 className="font-heading font-semibold text-sm uppercase tracking-wider text-red-500 mb-2">
                   The Problem
                 </h4>
-                <p className="text-text-secondary text-sm leading-relaxed">{study.problem}</p>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  {study.problem}
+                </p>
               </div>
               <div>
                 <h4 className="font-heading font-semibold text-sm uppercase tracking-wider text-primary mb-2">
                   Our Solution
                 </h4>
-                <p className="text-text-secondary text-sm leading-relaxed">{study.solution}</p>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  {study.solution}
+                </p>
               </div>
               <div>
                 <h4 className="font-heading font-semibold text-sm uppercase tracking-wider text-secondary mb-2">
                   The Result
                 </h4>
-                <p className="text-text-secondary text-sm leading-relaxed">{study.result}</p>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  {study.result}
+                </p>
               </div>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 mb-8">
               {study.stats.map((stat) => (
-                <div key={stat.label} className="text-center p-3 bg-surface-secondary rounded-brand">
+                <div
+                  key={stat.label}
+                  className="text-center p-3 bg-surface-secondary rounded-brand"
+                >
                   <div className="font-heading font-bold text-xl text-primary">
                     {stat.value}
                   </div>
-                  <div className="text-xs text-text-tertiary mt-1">{stat.label}</div>
+                  <div className="text-xs text-text-tertiary mt-1">
+                    {stat.label}
+                  </div>
                 </div>
               ))}
             </div>
@@ -135,8 +164,18 @@ function CaseStudyCard({
               className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all duration-300"
             >
               Get Similar Results
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
               </svg>
             </Link>
           </div>

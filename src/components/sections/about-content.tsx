@@ -69,8 +69,8 @@ export function AboutContent() {
             >
               <div className="relative aspect-[4/3] rounded-brand-xl overflow-hidden">
                 <Image
-                  src="https://images.pexels.com/photos/5082870/pexels-photo-5082870.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Family in kitchen"
+                  src="/images/hands-under-faucet.jpeg"
+                  alt="Hands under clean running water from kitchen faucet"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -88,7 +88,7 @@ export function AboutContent() {
               </h2>
               <div className="space-y-4 text-text-secondary leading-relaxed">
                 <p>
-                  Jusi H2O was created as a natural expansion of our residential home service solutions. While working with homeowners, we consistently saw the impact that poor water quality had on homes, appliances, and families.
+                  Founded by Marquis Pendergrass, Jusi H2O was created as a natural expansion of our residential home service solutions. While working with homeowners, Marquis consistently saw the impact that poor water quality had on homes, appliances, and families.
                 </p>
                 <p>
                   This led us to build a company focused on professional water testing and filtration solutions, providing homeowners with water they can trust. Rather than offering one-size-fits-all systems, we take the time to evaluate a homeowner&apos;s water, explain the results clearly, and recommend the best long-term solution.
@@ -104,7 +104,15 @@ export function AboutContent() {
 
       {/* Mission */}
       <section className="relative py-16 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary-800 to-primary-900">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/family-yard-water.jpeg"
+            alt="Family enjoying clean water at home"
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-primary-900/80" />
           <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-secondary/10 rounded-full blur-3xl" />
         </div>
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
@@ -165,9 +173,16 @@ export function AboutContent() {
       </section>
 
       {/* Stats */}
-      <section ref={statsRef} className="relative py-20 overflow-hidden bg-surface-secondary">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[200px] bg-gradient-to-b from-primary-50/40 to-transparent rounded-full blur-3xl" />
+      <section ref={statsRef} className="relative py-20 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/clear-water-surface.jpeg"
+            alt="Crystal clear water surface"
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-primary-900/85" />
         </div>
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -179,10 +194,10 @@ export function AboutContent() {
                 animate={statsInView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
               >
-                <div className="font-heading text-4xl md:text-5xl font-bold text-primary mb-2">
+                <div className="font-heading text-4xl md:text-5xl font-bold text-white mb-2">
                   {stat.value}
                 </div>
-                <div className="text-text-tertiary font-medium text-sm">
+                <div className="text-primary-200 font-medium text-sm">
                   {stat.label}
                 </div>
               </motion.div>

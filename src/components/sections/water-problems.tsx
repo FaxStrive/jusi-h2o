@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import Image from "next/image";
 
 const problems = [
   {
@@ -140,6 +141,27 @@ export function WaterProblems() {
             exactly what is affecting your home.
           </motion.p>
         </div>
+
+        {/* Dirty vs Clean comparison image */}
+        <motion.div
+          className="relative aspect-[16/7] rounded-brand-xl overflow-hidden mb-14 shadow-brand-lg"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={isInView ? { opacity: 1, scale: 1 } : {}}
+          transition={{ duration: 0.6, delay: 0.3 }}
+        >
+          <Image
+            src="/images/dirty-vs-clean-water.jpeg"
+            alt="Comparison of dirty unfiltered water versus clean filtered water"
+            fill
+            className="object-cover"
+            sizes="(max-width: 1280px) 100vw, 1280px"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-red-900/30 via-transparent to-primary-900/30" />
+          <div className="absolute bottom-0 inset-x-0 flex justify-between p-6">
+            <span className="px-4 py-2 bg-red-500/90 text-white text-sm font-bold rounded-full backdrop-blur-sm">Before Filtration</span>
+            <span className="px-4 py-2 bg-secondary/90 text-white text-sm font-bold rounded-full backdrop-blur-sm">After Filtration</span>
+          </div>
+        </motion.div>
 
         {/* Problem Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
