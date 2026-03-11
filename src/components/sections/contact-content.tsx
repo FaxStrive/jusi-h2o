@@ -1,29 +1,21 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
-
-const serviceOptions = [
-  "Free Water Test",
-  "Whole House Filtration",
-  "Reverse Osmosis",
-  "Water Softener",
-  "Water Heater Installation",
-  "Leak Repair",
-  "Commercial System",
-  "JusiCare+ Maintenance",
-  "Other",
-];
 
 export function ContactContent() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-80px" });
-  const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://link.jusipower.com/js/form_embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     <section ref={ref} className="relative py-section overflow-hidden">
@@ -34,104 +26,32 @@ export function ContactContent() {
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
-          {/* Contact Form */}
+          {/* Embedded GHL Form */}
           <motion.div
             className="lg:col-span-3"
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5 }}
           >
-            {submitted ? (
-              <div className="p-12 bg-secondary-50 rounded-brand-xl border border-secondary-200 text-center">
-                <div className="w-16 h-16 rounded-full bg-secondary-100 flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                </div>
-                <h3 className="font-heading text-2xl font-bold text-text mb-3">
-                  Thank You!
-                </h3>
-                <p className="text-text-secondary">
-                  We received your message and will get back to you within the same business day.
-                </p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-semibold text-text mb-2">
-                      Full Name
-                    </label>
-                    <input
-                      id="name"
-                      type="text"
-                      required
-                      placeholder="Your name"
-                      className="w-full px-4 py-3 bg-white border border-border rounded-brand text-text placeholder:text-text-muted focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-semibold text-text mb-2">
-                      Phone Number
-                    </label>
-                    <input
-                      id="phone"
-                      type="tel"
-                      required
-                      placeholder="(xxx) xxx-xxxx"
-                      className="w-full px-4 py-3 bg-white border border-border rounded-brand text-text placeholder:text-text-muted focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="email" className="block text-sm font-semibold text-text mb-2">
-                    Email Address
-                  </label>
-                  <input
-                    id="email"
-                    type="email"
-                    required
-                    placeholder="you@example.com"
-                    className="w-full px-4 py-3 bg-white border border-border rounded-brand text-text placeholder:text-text-muted focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="service" className="block text-sm font-semibold text-text mb-2">
-                    Service Interest
-                  </label>
-                  <select
-                    id="service"
-                    className="w-full px-4 py-3 bg-white border border-border rounded-brand text-text focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
-                  >
-                    <option value="">Select a service...</option>
-                    {serviceOptions.map((opt) => (
-                      <option key={opt} value={opt}>{opt}</option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-semibold text-text mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={5}
-                    placeholder="Tell us about your water concerns..."
-                    className="w-full px-4 py-3 bg-white border border-border rounded-brand text-text placeholder:text-text-muted focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors resize-none"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full sm:w-auto px-10 py-4 bg-accent text-white font-bold rounded-full hover:bg-accent-light transition-all duration-300 hover:scale-105 shadow-brand"
-                >
-                  Send Message
-                </button>
-              </form>
-            )}
+            <div className="bg-white rounded-brand-xl border border-border-light overflow-hidden" style={{ minHeight: 727 }}>
+              <iframe
+                src="https://link.jusipower.com/widget/form/8JZyongBJ8twzcD5wqta"
+                style={{ width: "100%", height: 727, border: "none", borderRadius: 3 }}
+                id="inline-8JZyongBJ8twzcD5wqta"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="A2P Compliance Form"
+                data-height="727"
+                data-layout-iframe-id="inline-8JZyongBJ8twzcD5wqta"
+                data-form-id="8JZyongBJ8twzcD5wqta"
+                title="A2P Compliance Form"
+              />
+            </div>
           </motion.div>
 
           {/* Contact Info Sidebar */}
