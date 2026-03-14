@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useMemo } from "react";
+import { useState, useRef, useMemo, useEffect } from "react";
 import {
   motion,
   AnimatePresence,
@@ -68,29 +68,6 @@ function IconDroplet({ className }: { className?: string }) {
   );
 }
 
-function IconUser({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-    </svg>
-  );
-}
-
-function IconMail({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-    </svg>
-  );
-}
-
-function IconPhone({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-    </svg>
-  );
-}
 
 /* ─── Contaminant data for Tampa Bay ─── */
 
@@ -282,12 +259,21 @@ export function ZipChecker() {
   const [zipError, setZipError] = useState("");
   const [contaminants, setContaminants] = useState<Contaminant[]>([]);
   const [isServiceArea, setIsServiceArea] = useState(true);
-  const [formData, setFormData] = useState({ name: "", email: "", phone: "" });
-  const [formError, setFormError] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { once: true, amount: 0.15 });
+
+  useEffect(() => {
+    if (step !== 2) return;
+    const script = document.createElement("script");
+    script.src = "https://link.jusipower.com/js/form_embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, [step]);
+
   const { scrollYProgress } = useScroll({
     target: sectionRef,
     offset: ["start end", "end start"],
@@ -313,24 +299,6 @@ export function ZipChecker() {
     setStep(2);
   };
 
-  const handleContactSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.name.trim() || !formData.email.trim() || !formData.phone.trim()) {
-      setFormError("All fields are required");
-      return;
-    }
-    if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      setFormError("Please enter a valid email");
-      return;
-    }
-    setFormError("");
-    setIsSubmitting(true);
-
-    // Simulate brief delay then show results
-    await new Promise((r) => setTimeout(r, 800));
-    setIsSubmitting(false);
-    setStep(3);
-  };
 
   return (
     <section ref={sectionRef} id="zip-checker" className="relative py-16 md:py-20 overflow-hidden">
@@ -520,7 +488,7 @@ export function ZipChecker() {
                 </motion.div>
               </motion.div>
 
-              {/* Contact form */}
+              {/* EWG Form Embed */}
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -530,62 +498,33 @@ export function ZipChecker() {
                   <p className="text-sm font-semibold text-text text-center mb-4">
                     Unlock your full report with all {contaminants.length} contaminants
                   </p>
-                  <form onSubmit={handleContactSubmit}>
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 mb-3">
-                      <div className="relative">
-                        <IconUser className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
-                        <input
-                          type="text"
-                          placeholder="Your name"
-                          value={formData.name}
-                          onChange={(e) => setFormData((d) => ({ ...d, name: e.target.value }))}
-                          className="w-full pl-9 pr-3 py-2.5 rounded-xl border border-border bg-surface-secondary focus:border-primary focus:ring-2 focus:ring-primary/10 outline-none transition-all duration-200 text-sm text-text placeholder:text-text-muted"
-                        />
-                      </div>
-                      <div className="relative">
-                        <IconMail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
-                        <input
-                          type="email"
-                          placeholder="Email address"
-                          value={formData.email}
-                          onChange={(e) => setFormData((d) => ({ ...d, email: e.target.value }))}
-                          className="w-full pl-9 pr-3 py-2.5 rounded-xl border border-border bg-surface-secondary focus:border-primary focus:ring-2 focus:ring-primary/10 outline-none transition-all duration-200 text-sm text-text placeholder:text-text-muted"
-                        />
-                      </div>
-                      <div className="relative">
-                        <IconPhone className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
-                        <input
-                          type="tel"
-                          placeholder="Phone number"
-                          value={formData.phone}
-                          onChange={(e) => setFormData((d) => ({ ...d, phone: e.target.value }))}
-                          className="w-full pl-9 pr-3 py-2.5 rounded-xl border border-border bg-surface-secondary focus:border-primary focus:ring-2 focus:ring-primary/10 outline-none transition-all duration-200 text-sm text-text placeholder:text-text-muted"
-                        />
-                      </div>
-                    </div>
-                    {formError && (
-                      <motion.p
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        className="text-sm text-red-600 text-center mb-2"
-                      >
-                        {formError}
-                      </motion.p>
-                    )}
-                    <div className="flex flex-col items-center gap-2">
-                      <button
-                        type="submit"
-                        disabled={isSubmitting}
-                        className="inline-flex items-center gap-2 px-8 py-2.5 bg-primary text-white font-semibold text-sm rounded-full hover:bg-primary-dark transition-all duration-300 hover:scale-105 shadow-brand-sm disabled:opacity-60 disabled:hover:scale-100"
-                      >
-                        {isSubmitting ? "Unlocking..." : "Unlock Full Report"}
-                        <IconArrow className="w-4 h-4" />
-                      </button>
-                      <p className="text-[10px] text-text-muted">
-                        No spam, ever. We only use your info to send your water report.
-                      </p>
-                    </div>
-                  </form>
+                  <iframe
+                    src="https://link.jusipower.com/widget/form/doYowx1OjTCzF8OUlpY4"
+                    style={{ width: "100%", height: "409px", border: "none", borderRadius: "3px" }}
+                    id="inline-doYowx1OjTCzF8OUlpY4"
+                    data-layout='{"id":"INLINE"}'
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="EWG"
+                    data-height="409"
+                    data-layout-iframe-id="inline-doYowx1OjTCzF8OUlpY4"
+                    data-form-id="doYowx1OjTCzF8OUlpY4"
+                    title="EWG"
+                  />
+                  <div className="mt-4 flex justify-center">
+                    <button
+                      type="button"
+                      onClick={() => setStep(3)}
+                      className="inline-flex items-center gap-2 px-8 py-2.5 bg-primary text-white font-semibold text-sm rounded-full hover:bg-primary-dark transition-all duration-300 hover:scale-105 shadow-brand-sm"
+                    >
+                      View Full Report
+                      <IconArrow className="w-4 h-4" />
+                    </button>
+                  </div>
                 </div>
               </motion.div>
             </motion.div>
