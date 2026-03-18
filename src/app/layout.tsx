@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
-import { Inter, Outfit } from "next/font/google";
+import { Outfit, Inter } from "next/font/google";
+import { Suspense } from "react";
 import "./globals.css";
+import SchemaMarkup from "@/components/seo/schema-markup";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-outfit",
+  display: "swap",
+  weight: ["400", "500", "600", "700", "800", "900"],
+});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -8,64 +17,44 @@ const inter = Inter({
   display: "swap",
 });
 
-const outfit = Outfit({
-  subsets: ["latin"],
-  variable: "--font-outfit",
-  display: "swap",
-});
-
-const siteUrl = "https://jusih2o.com";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL("https://jusih2o.com"),
   title: {
-    default: "Jusi H2O | Professional Water Filtration Tampa Bay",
     template: "%s | Jusi H2O",
+    default: "Jusi H2O | Water Filtration Tampa Bay",
   },
   description:
-    "Professional water testing and whole-home filtration solutions for Tampa Bay homeowners. Free in-home water tests. 2,500+ five-star reviews. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.",
+    "Tampa Bay's trusted water filtration specialists. Water softeners, reverse osmosis, whole-house filtration, and free in-home water testing. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.",
   keywords: [
-    "water filtration Tampa",
-    "whole house water filter Tampa",
-    "water softener installation Tampa",
-    "reverse osmosis system Tampa",
-    "water testing near me",
-    "water filtration company Tampa Bay",
-    "water treatment Tampa FL",
-    "free water test Tampa",
-    "well water treatment Tampa",
+    "water filtration Tampa Bay",
+    "water softener Tampa",
+    "reverse osmosis Tampa",
+    "whole house water filter Florida",
+    "water testing Tampa",
     "Jusi H2O",
   ],
-  authors: [{ name: "Jusi H2O" }],
-  creator: "Jusi H2O",
-  publisher: "Jusi H2O",
-  formatDetection: {
-    telephone: true,
-    email: true,
-    address: true,
-  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: siteUrl,
+    url: "https://jusih2o.com",
     siteName: "Jusi H2O",
-    title: "Jusi H2O | Professional Water Filtration Tampa Bay",
+    title: "Jusi H2O | Water Filtration Tampa Bay",
     description:
-      "Free in-home water testing and customized filtration solutions for Tampa Bay homeowners. 2,500+ five-star Google reviews. Call (813) 303-0515.",
+      "Tampa Bay's trusted water filtration specialists. Free in-home water testing. Serving 5 counties.",
     images: [
       {
         url: "/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Jusi H2O - Professional Water Filtration Tampa Bay",
+        alt: "Jusi H2O - Water Filtration Tampa Bay",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jusi H2O | Professional Water Filtration Tampa Bay",
+    title: "Jusi H2O | Water Filtration Tampa Bay",
     description:
-      "Free in-home water testing and customized filtration solutions for Tampa Bay homeowners. 2,500+ five-star reviews.",
+      "Tampa Bay's trusted water filtration specialists. Free in-home water testing. Serving 5 counties.",
     images: ["/images/og-image.png"],
   },
   robots: {
@@ -80,65 +69,21 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: siteUrl,
+    canonical: "https://jusih2o.com",
   },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
-      <body className="font-body antialiased bg-background text-foreground">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              name: "Jusi H2O",
-              description:
-                "Professional water testing and whole-home filtration solutions for Tampa Bay homeowners.",
-              telephone: "+1-813-303-0515",
-              email: "support@jusih2o.com",
-              url: siteUrl,
-              image: `${siteUrl}/images/og-image.png`,
-              priceRange: "$$",
-              areaServed: [
-                "Hillsborough County, FL",
-                "Pinellas County, FL",
-                "Manatee County, FL",
-                "Sarasota County, FL",
-                "Polk County, FL",
-              ],
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "7901 4th St N Ste 300",
-                addressLocality: "St. Petersburg",
-                addressRegion: "FL",
-                postalCode: "33702",
-                addressCountry: "US",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: 27.9506,
-                longitude: -82.4572,
-              },
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "5.0",
-                reviewCount: "2500",
-                bestRating: "5",
-              },
-              sameAs: [
-                "https://www.facebook.com/profile.php?id=61578123391295",
-                "https://www.instagram.com/jusih2o/",
-              ],
-            }),
-          }}
-        />
+    <html lang="en" className={`${outfit.variable} ${inter.variable}`}>
+      <body className="antialiased">
+        <Suspense fallback={null}>
+          <SchemaMarkup />
+        </Suspense>
         {children}
       </body>
     </html>

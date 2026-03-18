@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 import { ServicesContent } from "@/components/sections/services-content";
+import { ServicesComparison } from "@/components/sections/services-comparison";
 import { CTASection } from "@/components/sections/cta-section";
 
 export const metadata: Metadata = {
   title: "Water Filtration Services",
   description:
-    "Professional water filtration services in Tampa Bay: whole-house systems, reverse osmosis, water softeners, well water treatment, and JusiCare+ maintenance. Free quotes.",
+    "Tampa Bay water filtration services: whole-house filters, reverse osmosis, water softeners, well water treatment, and JusiCare+ maintenance plans. Free quotes.",
   alternates: { canonical: "/services" },
 };
 
@@ -21,6 +22,7 @@ export default function ServicesPage() {
         overlayOpacity={0.78}
       />
       <ServicesContent />
+      <ServicesComparison />
       <CTASection />
     </>
   );

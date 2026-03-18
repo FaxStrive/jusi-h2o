@@ -4,7 +4,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { WellWaterContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Well Water Treatment Tampa | Iron, Sulfur & Bacteria Removal",
+  title: "Well Water Treatment Tampa Bay",
   description:
     "Professional well water treatment in Tampa Bay. Remove iron staining, sulfur smell, bacteria, and sediment. Free comprehensive well water testing. Licensed & insured.",
   alternates: { canonical: "/services/well-water" },
