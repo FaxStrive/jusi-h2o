@@ -59,7 +59,7 @@ export default function TermsOfServicePage() {
 
           <h3>5.3 Opt-Out Instructions</h3>
           <p>
-            You can cancel the SMS service at any time. Just text <strong>STOP</strong> to <a href="tel:8133030515">(813) 303-0515</a> or reply <strong>STOP</strong> to any message you receive from us.
+            You can cancel the SMS service at any time. Just text <strong>STOP</strong> to <a href="tel:7252358278">(725) 235-8278</a> or reply <strong>STOP</strong> to any message you receive from us.
           </p>
           <p>
             After you send the SMS message &quot;STOP&quot; to us, you will receive one final SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us.
@@ -74,7 +74,7 @@ export default function TermsOfServicePage() {
           </p>
           <ul>
             <li>Email: <a href="mailto:support@jusih2o.com">support@jusih2o.com</a></li>
-            <li>Phone: <a href="tel:8133030515">(813) 303-0515</a></li>
+            <li>Phone: <a href="tel:7252358278">(725) 235-8278</a></li>
           </ul>
 
           <h3>5.5 Message and Data Rates</h3>
@@ -126,7 +126,7 @@ export default function TermsOfServicePage() {
           <p>If you have questions about these Terms of Service, contact us at:</p>
           <ul>
             <li>Email: <a href="mailto:support@jusih2o.com">support@jusih2o.com</a></li>
-            <li>Phone: <a href="tel:8133030515">(813) 303-0515</a></li>
+            <li>Phone: <a href="tel:7252358278">(725) 235-8278</a></li>
             <li>Address: Tampa Bay, FL</li>
           </ul>
         </div>

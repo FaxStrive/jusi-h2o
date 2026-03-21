@@ -73,10 +73,10 @@ export function ServiceDetail({
                   </svg>
                 </Link>
                 <a
-                  href="tel:8133030515"
+                  href="tel:7252358278"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-50 text-primary font-semibold rounded-full hover:bg-primary-100 transition-colors"
                 >
-                  Call (813) 303-0515
+                  Call (725) 235-8278
                 </a>
               </div>
             </motion.div>

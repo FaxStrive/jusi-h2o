@@ -171,10 +171,10 @@ export function Footer() {
             </h4>
             <div className="space-y-2 text-sm text-primary-200">
               <a
-                href="tel:8133030515"
+                href="tel:7252358278"
                 className="block hover:text-white transition-colors"
               >
-                (813) 303-0515
+                (725) 235-8278
               </a>
               <a
                 href="mailto:support@jusih2o.com"

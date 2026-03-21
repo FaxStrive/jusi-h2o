@@ -73,7 +73,7 @@ const faqs = [
   },
   {
     q: "What if I need service between scheduled visits?",
-    a: "JusiCare+ members get priority scheduling. If something comes up between your regular maintenance visits, call us at (813) 303-0515 and we will get a technician to your home within 24 hours in most cases.",
+    a: "JusiCare+ members get priority scheduling. If something comes up between your regular maintenance visits, call us at (725) 235-8278 and we will get a technician to your home within 24 hours in most cases.",
   },
   {
     q: "Do I need JusiCare+ if my system is new?",
@@ -822,8 +822,8 @@ export function JusiCareContent() {
             </Link>
             <p className="text-text-tertiary text-sm mt-3">
               Or call us at{" "}
-              <a href="tel:8133030515" className="text-secondary hover:underline font-medium">
-                (813) 303-0515
+              <a href="tel:7252358278" className="text-secondary hover:underline font-medium">
+                (725) 235-8278
               </a>
             </p>
           </motion.div>
@@ -884,8 +884,8 @@ export function JusiCareContent() {
             transition={{ delay: 0.4 }}
           >
             Still have questions? Call us at{" "}
-            <a href="tel:8133030515" className="text-secondary hover:underline font-medium">
-              (813) 303-0515
+            <a href="tel:7252358278" className="text-secondary hover:underline font-medium">
+              (725) 235-8278
             </a>{" "}
             or{" "}
             <Link href="/contact" className="text-secondary hover:underline font-medium">

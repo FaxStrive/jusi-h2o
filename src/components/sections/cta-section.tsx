@@ -61,10 +61,10 @@ export function CTASection() {
             Schedule Your Free Test
           </Link>
           <a
-            href="tel:8133030515"
+            href="tel:7252358278"
             className="inline-flex items-center justify-center px-10 py-5 bg-white/10 backdrop-blur-sm text-white font-semibold text-lg rounded-full border border-white/20 hover:bg-white/20 transition-all duration-300"
           >
-            Call (813) 303-0515
+            Call (725) 235-8278
           </a>
         </motion.div>
       </div>

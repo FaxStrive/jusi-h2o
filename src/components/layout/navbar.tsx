@@ -354,8 +354,8 @@ export function Navbar() {
               >
                 <div>
                   <p className="text-xs uppercase tracking-widest text-text-tertiary mb-1">Phone</p>
-                  <a href="tel:8133030515" className="text-lg font-semibold text-text hover:text-primary transition-colors">
-                    (813) 303-0515
+                  <a href="tel:7252358278" className="text-lg font-semibold text-text hover:text-primary transition-colors">
+                    (725) 235-8278
                   </a>
                 </div>
                 <div>

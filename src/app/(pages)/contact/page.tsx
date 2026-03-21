@@ -4,7 +4,7 @@ import { ContactContent } from "@/components/sections/contact-content";
 
 export const metadata: Metadata = {
   title: "Contact Us - Free Water Test",
-  description: "Schedule your free in-home water test with Jusi H2O. Call (813) 303-0515 or email support@jusih2o.com. Same-day response in Tampa Bay.",
+  description: "Schedule your free in-home water test with Jusi H2O. Call (725) 235-8278 or email support@jusih2o.com. Same-day response in Tampa Bay.",
   alternates: { canonical: "/contact" },
 };
 
