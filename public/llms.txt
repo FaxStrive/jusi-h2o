@@ -1,20 +1,19 @@
-# jusi-h2o
+# Jusi H2O
 
-> jusi-h2o provides professional services in undefined.  Serving undefined, undefined | undefined, undefined | undefined, undefined | undefined, undefined | undefined, undefined | undefined, undefined.
+> Tampa Bay's trusted water filtration specialists. Water softeners, reverse osmosis, whole-house filtration, and free in-home water testing. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.  Serving Hillsborough County, FL | Pinellas County, FL | Sarasota County, FL | Tampa Bay, FL | Florida.
 
 ## About
 
-jusi-h2o is a trusted local provider serving undefined, undefined | undefined, undefined | undefined, undefined | undefined, undefined | undefined, undefined | undefined, undefined.  85% of U.S. homes have hard water (U.S. Geological Survey, 2024).
+Jusi H2O is a trusted local provider serving Hillsborough County, FL | Pinellas County, FL | Sarasota County, FL | Tampa Bay, FL | Florida. Tampa Bay's trusted water filtration specialists. Water softeners, reverse osmosis, whole-house filtration, and free in-home water testing. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties. 85% of U.S. homes have hard water (U.S. Geological Survey, 2024).
 
-Contact: 813-303-0515 |  | 
+Contact: 6157812339 |  | https://jusih2o.com
 
 ## Services
 
-- [Services](/services): Professional services tailored to local needs.
+- [Services](https://jusih2o.com/services): Professional services tailored to local needs.
 
 ## Service Areas
 
-- undefined, undefined
 - undefined, undefined
 - undefined, undefined
 - undefined, undefined
@@ -40,16 +39,16 @@ Getting started is simple: call or submit the online contact form to schedule a 
 
 ## Contact & Booking
 
-- **Phone**: 813-303-0515
+- **Phone**: 6157812339
 - **Address**: 
-- **Website**: 
-- **Book Online**: [Schedule a Free Consultation](/contact)
+- **Website**: https://jusih2o.com
+- **Book Online**: [Schedule a Free Consultation](https://jusih2o.com/contact)
 
 ## All Pages
 
-- [Home](): Welcome to jusi-h2o
+- [Home](https://jusih2o.com): Tampa Bay's trusted water filtration specialists. Water softeners, reverse osmosis, whole-house filtration, and free in-home water testing. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.
 
 ## Machine-Readable Versions
 
-- [Full Context](/llms-full.txt): Extended business information for AI systems
-- [Q&A Pairs](/llms-qa.json): Structured question-answer pairs
+- [Full Context](https://jusih2o.com/llms-full.txt): Extended business information for AI systems
+- [Q&A Pairs](https://jusih2o.com/llms-qa.json): Structured question-answer pairs
