@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { X, Phone, ArrowRight } from 'lucide-react'
+import { X, Phone } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 

@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import {
 import { InlineCTA } from "@/components/ui/inline-cta";
+import {
   motion,
   useScroll,
   useTransform,
