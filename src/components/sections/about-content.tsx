@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
+import { InlineCTA } from "@/components/ui/inline-cta";
 
 const values = [
   {
@@ -123,6 +124,8 @@ export function AboutContent() {
         </div>
       </section>
 
+      <InlineCTA variant="button" text="Book Your Free Water Test" trustLine="15+ years of trusted service in Tampa Bay." />
+
       {/* Values */}
       <section ref={valuesRef} className="relative py-section overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
@@ -205,6 +208,8 @@ export function AboutContent() {
           </div>
         </div>
       </section>
+
+      <InlineCTA variant="banner" text="Your Family Deserves Clean Water" message="Schedule a free in-home water test and see the difference." />
 
       {/* Certifications */}
       <section ref={certsRef} className="relative py-section overflow-hidden">

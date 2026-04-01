@@ -5,6 +5,7 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
+import { InlineCTA } from "@/components/ui/inline-cta";
 /* ------------------------------------------------------------------ */
 /*  Data                                                               */
 /* ------------------------------------------------------------------ */
@@ -419,6 +420,8 @@ export function WaterTestingContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="button" text="Book Your Free Water Test Now" trustLine="Same-day results. No strings attached." />
       {/* ============================================================ */}
       {/*  What We Test - Parameter Cards with severity                */}
       {/* ============================================================ */}
@@ -637,6 +640,8 @@ export function WaterTestingContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="banner" text="Know Exactly What Is in Your Water" message="Professional testing for hardness, chlorine, pH, iron, and more." />
       {/* ============================================================ */}
       {/*  FAQ Accordion                                               */}
       {/* ============================================================ */}

@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import {
+import { InlineCTA } from "@/components/ui/inline-cta";
   motion,
   useInView,
   useScroll,
@@ -808,6 +809,8 @@ export function WellWaterContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="button" text="Get a Free Well Water Analysis" trustLine="Iron, sulfur, bacteria testing included." />
       {/* ============================================================= */}
       {/*  Section 3 - Testing Process (3 Steps with SVG connector)     */}
       {/* ============================================================= */}
@@ -1022,6 +1025,8 @@ export function WellWaterContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="banner" text="Protect Your Well Water Supply" message="Schedule your comprehensive well water test today." />
       {/* ============================================================= */}
       {/*  Section 5 - Stats Bar with Animated Counters                 */}
       {/* ============================================================= */}
@@ -1240,6 +1245,8 @@ export function WellWaterContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="text" text="Questions about well water treatment?" />
       {/* ============================================================= */}
       {/*  Section 7 - Mid-Page CTA                                     */}
       {/* ============================================================= */}

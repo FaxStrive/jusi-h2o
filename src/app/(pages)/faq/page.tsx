@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 import { FaqContent } from "@/components/sections/faq-content";
 import { CTASection } from "@/components/sections/cta-section";
+import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
@@ -127,6 +128,7 @@ export default function FaqPage() {
         overlayOpacity={0.78}
       />
       <FaqContent />
+      <InlineCTA variant="banner" text="Still Have Questions?" message="Call us or book a free water test. Zero pressure, zero obligation." />
       <CTASection />
     </>
   );

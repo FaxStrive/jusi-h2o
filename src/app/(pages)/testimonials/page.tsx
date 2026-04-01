@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 import { TestimonialsContent } from "@/components/sections/testimonials-content";
 import { CTASection } from "@/components/sections/cta-section";
+import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
   title: "Customer Reviews & Testimonials",
@@ -20,6 +21,7 @@ export default function TestimonialsPage() {
         overlayOpacity={0.8}
       />
       <TestimonialsContent />
+      <InlineCTA variant="banner" text="Join Thousands of Happy Customers" message="Schedule your free water test and see why Tampa Bay trusts Jusi H2O." />
       <CTASection />
     </>
   );

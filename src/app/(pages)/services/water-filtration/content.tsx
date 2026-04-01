@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import {
+import { InlineCTA } from "@/components/ui/inline-cta";
   motion,
   useInView,
   useScroll,
@@ -437,6 +438,8 @@ export function WaterFiltrationContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="button" text="Schedule Your Free Water Test" trustLine="Clean water at every faucet. No obligation." />
       {/* ============================================================= */}
       {/*  Section 3 - Comparison Cards (Whole House elevated)             */}
       {/* ============================================================= */}
@@ -659,6 +662,8 @@ export function WaterFiltrationContent() {
           </motion.div>
         </div>
       </section>
+
+      <InlineCTA variant="banner" text="Cleaner Water Starts Today" message="Book a free in-home water test and see the difference filtration makes." />
     </>
   );
 }

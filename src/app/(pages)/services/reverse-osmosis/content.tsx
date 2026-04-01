@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import {
+import { InlineCTA } from "@/components/ui/inline-cta";
   motion,
   useScroll,
   useTransform,
@@ -468,6 +469,8 @@ export function ReverseOsmosisContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="button" text="Taste the Difference" trustLine="Up to 99% of contaminants removed. Free water test included." />
       {/* ─── Section 3: What Gets Removed ─────────────────────────── */}
       <section ref={contaminantsRef} className="relative py-section overflow-hidden">
         {/* Background mesh */}
@@ -732,6 +735,8 @@ export function ReverseOsmosisContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="banner" text="Pure Drinking Water From Your Kitchen Tap" message="Book your free water test and see what is really in your water." />
       {/* ─── Section 5: Benefits Cards ────────────────────────────── */}
       <section className="relative py-section overflow-hidden">
         {/* Background mesh */}
@@ -921,6 +926,8 @@ export function ReverseOsmosisContent() {
           </motion.p>
         </div>
       </section>
+
+      <InlineCTA variant="text" text="Compare RO systems with a specialist" />
     </>
   );
 }

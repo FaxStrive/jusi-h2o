@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import {
+import { InlineCTA } from "@/components/ui/inline-cta";
   motion,
   useInView,
   useScroll,
@@ -458,6 +459,8 @@ export function WaterSoftenersContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="button" text="End Hard Water Problems Today" trustLine="Free in-home test shows your exact hardness level." />
       {/* ═══ BEFORE / AFTER VISUAL ═══ */}
       <section
         ref={beforeAfterRef}
@@ -816,6 +819,8 @@ export function WaterSoftenersContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="banner" text="Softer Water, Happier Home" message="Schedule your free consultation and feel the difference." />
       <WaveSeparator color="var(--color-primary-50)" />
 
       {/* ═══ PROCESS / HOW IT WORKS ═══ */}
@@ -1050,6 +1055,8 @@ export function WaterSoftenersContent() {
           </motion.div>
         </div>
       </section>
+
+      <InlineCTA variant="text" text="Talk to a water softener specialist" />
     </>
   );
 }

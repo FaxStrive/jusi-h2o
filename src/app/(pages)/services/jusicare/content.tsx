@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import { motion, AnimatePresence, useInView, useScroll, useTransform, useSpring } from "framer-motion";
 import Link from "next/link";
 
+import { InlineCTA } from "@/components/ui/inline-cta";
 /* ------------------------------------------------------------------ */
 /*  DATA                                                               */
 /* ------------------------------------------------------------------ */
@@ -492,6 +493,8 @@ export function JusiCareContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="button" text="Join JusiCare+ Today" trustLine="Complete protection for just $199/year." />
       {/* ============================================================ */}
       {/*  FEATURES - WHAT IS INCLUDED                                  */}
       {/* ============================================================ */}
@@ -693,6 +696,8 @@ export function JusiCareContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="banner" text="Never Worry About Your Water System Again" message="Priority service, quarterly refills, and lifetime warranty included." />
       {/* ============================================================ */}
       {/*  TESTIMONIAL                                                  */}
       {/* ============================================================ */}
@@ -829,6 +834,8 @@ export function JusiCareContent() {
           </motion.div>
         </div>
       </section>
+
+      <InlineCTA variant="text" text="Have questions about JusiCare+? We are here to help" />
 
       {/* ============================================================ */}
       {/*  FAQ ACCORDION                                                */}

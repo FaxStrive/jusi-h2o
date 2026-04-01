@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import {
+import { InlineCTA } from "@/components/ui/inline-cta";
   motion,
   useInView,
   useScroll,
@@ -411,6 +412,8 @@ export function CommercialContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="button" text="Request a Commercial Assessment" trustLine="High-capacity solutions for restaurants, offices, and facilities." />
       {/* ------------------------------------------------------------ */}
       {/*  Industries Grid                                              */}
       {/* ------------------------------------------------------------ */}
@@ -605,6 +608,8 @@ export function CommercialContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="banner" text="Reliable Water for Your Business" message="Schedule your free commercial water evaluation today." />
       {/* ------------------------------------------------------------ */}
       {/*  Why Choose Us for Commercial                                 */}
       {/* ------------------------------------------------------------ */}
@@ -687,6 +692,8 @@ export function CommercialContent() {
           </div>
         </div>
       </section>
+
+      <InlineCTA variant="text" text="Questions about commercial water systems? Talk to a specialist" />
 
       {/* ------------------------------------------------------------ */}
       {/*  FAQ Accordion                                                */}

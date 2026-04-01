@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import { InlineCTA } from "@/components/ui/inline-cta";
 
 const galleryImages = [
   { src: "/images/dirty-vs-clean-water.jpeg", alt: "Before and after water filtration comparison", category: "before-after" },
@@ -79,6 +80,8 @@ export function GalleryContent() {
         </div>
       </section>
 
+      <InlineCTA variant="button" text="Get Your Free Water Assessment" trustLine="See what clean water can do for your home." />
+
       {/* Filter + Gallery */}
       <section className="relative py-section overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
@@ -148,6 +151,8 @@ export function GalleryContent() {
           </motion.div>
         </div>
       </section>
+
+      <InlineCTA variant="banner" text="Want Results Like These?" message="Book a free water test and see the difference for yourself." />
 
       {/* Lightbox */}
       <AnimatePresence>

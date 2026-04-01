@@ -3,6 +3,11 @@ import { Outfit, Inter } from "next/font/google";
 import { Suspense } from "react";
 import "./globals.css";
 import SchemaMarkup from "@/components/seo/schema-markup";
+import { MobileCallBar } from "@/components/ui/mobile-call-bar";
+import { ExitIntentPopup } from "@/components/ui/exit-intent-popup";
+import { SocialProofToast } from "@/components/ui/social-proof-toast";
+import { ScrollRevealCTA } from "@/components/ui/scroll-reveal-cta";
+import { CornerOfferPeek } from "@/components/ui/corner-offer-peek";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -85,6 +90,11 @@ export default function RootLayout({
           <SchemaMarkup />
         </Suspense>
         {children}
+        <MobileCallBar />
+        <ExitIntentPopup />
+        <SocialProofToast />
+        <ScrollRevealCTA />
+        <CornerOfferPeek />
       </body>
     </html>
   );

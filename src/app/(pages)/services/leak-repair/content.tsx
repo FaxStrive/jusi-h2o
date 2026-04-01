@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import {
+import { InlineCTA } from "@/components/ui/inline-cta";
   motion,
   AnimatePresence,
   useInView,
@@ -592,6 +593,8 @@ export function LeakRepairContent() {
         </div>
       </section>
 
+      <InlineCTA variant="text" text="Think you might have a leak? Get a free assessment" />
+
       {/* ================================================================ */}
       {/* SECTION 2 - Cost of Inaction (Dark dramatic band)                */}
       {/* ================================================================ */}
@@ -710,6 +713,8 @@ export function LeakRepairContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="button" text="Detect Leaks Before They Cause Damage" trustLine="Advanced technology finds hidden leaks fast." />
       {/* ================================================================ */}
       {/* SECTION 3 - Service Types (Interactive Cards)                     */}
       {/* ================================================================ */}
@@ -997,6 +1002,8 @@ export function LeakRepairContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="banner" text="Stop Water Damage in Its Tracks" message="Call for same-day leak detection and repair." />
       {/* ================================================================ */}
       {/* SECTION 5 - FAQ Accordion                                        */}
       {/* ================================================================ */}

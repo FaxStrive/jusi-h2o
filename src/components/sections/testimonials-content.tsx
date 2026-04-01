@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
+import { InlineCTA } from "@/components/ui/inline-cta";
 
 const testimonials = [
   {
@@ -110,6 +111,8 @@ export function TestimonialsContent() {
           </div>
         </div>
       </section>
+
+      <InlineCTA variant="button" text="Experience the Jusi H2O Difference" trustLine="Free water test, no pressure, no obligation." />
 
       {/* Trust Image Banner */}
       <section className="relative overflow-hidden">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 import { BeforeAfterContent } from "@/components/sections/before-after-content";
 import { CTASection } from "@/components/sections/cta-section";
+import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
   title: "Before & After Results",
@@ -21,6 +22,7 @@ export default function BeforeAfterPage() {
         overlayOpacity={0.72}
       />
       <BeforeAfterContent />
+      <InlineCTA variant="banner" text="Want Results Like These?" message="Book your free water test and start your transformation." />
       <CTASection />
     </>
   );

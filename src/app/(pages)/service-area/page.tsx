@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 import { ServiceAreaContent } from "@/components/sections/service-area-content";
 import { CTASection } from "@/components/sections/cta-section";
+import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
   title: "Service Area - Tampa Bay Coverage",
@@ -20,6 +21,7 @@ export default function ServiceAreaPage() {
         overlayOpacity={0.75}
       />
       <ServiceAreaContent />
+      <InlineCTA variant="button" text="Check If We Serve Your Area" trustLine="Covering 5 counties across Tampa Bay." />
       <CTASection />
     </>
   );

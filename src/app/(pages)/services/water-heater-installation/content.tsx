@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import {
+import { InlineCTA } from "@/components/ui/inline-cta";
   motion,
   useInView,
   useScroll,
@@ -348,6 +349,8 @@ export function WaterHeaterContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="button" text="Get a Free Water Heater Quote" trustLine="Same-day service available. Full warranty included." />
       {/* ══════════════════════════════════════════════════════════
           TANK VS TANKLESS - Animated tilt cards
           ══════════════════════════════════════════════════════════ */}
@@ -659,6 +662,8 @@ export function WaterHeaterContent() {
         </div>
       </section>
 
+
+      <InlineCTA variant="banner" text="Hot Water When You Need It" message="Tankless and traditional options. Expert installation." />
       {/* ══════════════════════════════════════════════════════════
           PROCESS TIMELINE - What to Expect
           ══════════════════════════════════════════════════════════ */}
@@ -934,6 +939,8 @@ export function WaterHeaterContent() {
           </motion.div>
         </div>
       </section>
+
+      <InlineCTA variant="text" text="Compare water heater options" />
     </>
   );
 }

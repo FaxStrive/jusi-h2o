@@ -3,6 +3,7 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ServicesContent } from "@/components/sections/services-content";
 import { ServicesComparison } from "@/components/sections/services-comparison";
 import { CTASection } from "@/components/sections/cta-section";
+import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
   title: "Water Filtration Services",
@@ -22,6 +23,7 @@ export default function ServicesPage() {
         overlayOpacity={0.78}
       />
       <ServicesContent />
+      <InlineCTA variant="banner" text="Not Sure Which System You Need?" message="Start with a free water test. We will recommend the perfect solution for your home." />
       <ServicesComparison />
       <CTASection />
     </>

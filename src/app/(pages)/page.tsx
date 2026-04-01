@@ -8,6 +8,7 @@ import { WaterStats } from "@/components/sections/water-stats";
 import { TestimonialsPreview } from "@/components/sections/testimonials-preview";
 import { ServiceAreaPreview } from "@/components/sections/service-area-preview";
 import { CTASection } from "@/components/sections/cta-section";
+import { InlineCTA } from "@/components/ui/inline-cta";
 
 import type { Metadata } from 'next';
 
@@ -27,9 +28,11 @@ export default function Home() {
       <ZipChecker />
       <WaterProblems />
       <ServicesOverview />
+      <InlineCTA variant="button" text="Get Your Free Water Test" trustLine="No cost, no obligation. See what is in your water." />
       <HowItWorks />
       <WaterStats />
       <TestimonialsPreview />
+      <InlineCTA variant="banner" text="Tampa Bay Families Trust Jusi H2O" message="Schedule your free in-home water test and experience the difference." />
       <ServiceAreaPreview />
       <CTASection />
     </>
