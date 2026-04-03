@@ -110,7 +110,7 @@ const timelineSteps = [
   {
     step: "1",
     title: "Call Us",
-    desc: "Reach us at (725) 235-8278 for emergency or scheduled leak service.",
+    desc: "Reach us at (813) 303-0515 for emergency or scheduled leak service.",
     icon: "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z",
   },
   {
@@ -140,7 +140,7 @@ const faqs = [
   },
   {
     q: "How much does leak detection cost?",
-    a: "Leak detection pricing depends on the complexity and location. We provide clear, upfront pricing before any work begins. Call us at (725) 235-8278 for a same-day estimate. There are never hidden fees or surprise charges.",
+    a: "Leak detection pricing depends on the complexity and location. We provide clear, upfront pricing before any work begins. Call us at (813) 303-0515 for a same-day estimate. There are never hidden fees or surprise charges.",
   },
   {
     q: "Can a small leak really cause serious damage?",
@@ -148,7 +148,7 @@ const faqs = [
   },
   {
     q: "Do you offer emergency leak repair services?",
-    a: "Yes, we offer same-day emergency leak repair throughout the Tampa Bay area. If you have an active leak, call us immediately at (725) 235-8278 and we will dispatch a licensed technician as soon as possible.",
+    a: "Yes, we offer same-day emergency leak repair throughout the Tampa Bay area. If you have an active leak, call us immediately at (813) 303-0515 and we will dispatch a licensed technician as soon as possible.",
   },
   {
     q: "How long does a typical leak repair take?",
@@ -363,7 +363,7 @@ function ServiceCard({
                   {type.details}
                 </p>
                 <a
-                  href="tel:7252358278"
+                  href="tel:8133030515"
                   className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-primary hover:text-primary-dark transition-colors"
                 >
                   <svg
@@ -379,7 +379,7 @@ function ServiceCard({
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  Call (725) 235-8278
+                  Call (813) 303-0515
                 </a>
               </motion.div>
             )}
@@ -569,7 +569,7 @@ export function LeakRepairContent() {
                 transition={{ duration: 0.4, delay: 0.9 }}
               >
                 <a
-                  href="tel:7252358278"
+                  href="tel:8133030515"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-red-600 text-white font-bold rounded-full hover:bg-red-700 transition-all duration-300 hover:scale-105 shadow-lg shadow-red-600/20"
                 >
                   <svg
@@ -704,7 +704,7 @@ export function LeakRepairContent() {
             transition={{ duration: 0.4, delay: 0.7 }}
           >
             <a
-              href="tel:7252358278"
+              href="tel:8133030515"
               className="inline-flex items-center gap-2 px-10 py-4 bg-white text-primary-800 font-bold rounded-full hover:bg-primary-50 transition-all duration-300 hover:scale-105 shadow-xl shadow-black/20"
             >
               Stop the Damage - Call Now
@@ -980,7 +980,7 @@ export function LeakRepairContent() {
             transition={{ duration: 0.4, delay: 0.8 }}
           >
             <a
-              href="tel:7252358278"
+              href="tel:8133030515"
               className="inline-flex items-center gap-2 px-10 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary-dark transition-all duration-300 hover:scale-105 shadow-brand-lg"
             >
               <svg
@@ -996,7 +996,7 @@ export function LeakRepairContent() {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              Call (725) 235-8278
+              Call (813) 303-0515
             </a>
           </motion.div>
         </div>
@@ -1086,10 +1086,10 @@ export function LeakRepairContent() {
                 Contact Us
               </Link>
               <a
-                href="tel:7252358278"
+                href="tel:8133030515"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-50 text-primary font-semibold rounded-full hover:bg-primary-100 transition-colors"
               >
-                Call (725) 235-8278
+                Call (813) 303-0515
               </a>
             </div>
           </motion.div>

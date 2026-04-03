@@ -69,8 +69,8 @@ export function ContactContent() {
                 </svg>
               </div>
               <h3 className="font-heading font-bold text-text mb-1">Phone</h3>
-              <a href="tel:7252358278" className="text-lg text-primary font-semibold hover:text-primary-dark transition-colors">
-                (725) 235-8278
+              <a href="tel:8133030515" className="text-lg text-primary font-semibold hover:text-primary-dark transition-colors">
+                (813) 303-0515
               </a>
               <p className="text-sm text-text-tertiary mt-1">Same-day response</p>
             </div>

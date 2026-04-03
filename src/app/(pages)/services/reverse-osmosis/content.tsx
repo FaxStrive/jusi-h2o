@@ -843,10 +843,10 @@ export function ReverseOsmosisContent() {
             <p className="mt-3 text-text-tertiary text-sm">
               Or call us at{" "}
               <a
-                href="tel:7252358278"
+                href="tel:8133030515"
                 className="text-primary hover:text-primary-dark font-semibold transition-colors"
               >
-                (725) 235-8278
+                (813) 303-0515
               </a>
             </p>
           </motion.div>
@@ -917,10 +917,10 @@ export function ReverseOsmosisContent() {
           >
             Still have questions? Call us at{" "}
             <a
-              href="tel:7252358278"
+              href="tel:8133030515"
               className="text-primary hover:text-primary-dark font-semibold transition-colors"
             >
-              (725) 235-8278
+              (813) 303-0515
             </a>{" "}
             and we&apos;ll walk you through everything.
           </motion.p>

@@ -98,7 +98,7 @@ export default function PrivacyPolicyPage() {
           <ul>
             <li>Replying <strong>STOP</strong>, <strong>STOPALL</strong>, <strong>UNSUBSCRIBE</strong>, <strong>CANCEL</strong>, <strong>END</strong>, or <strong>QUIT</strong> to any SMS message</li>
             <li>Emailing <a href="mailto:support@jusih2o.com">support@jusih2o.com</a></li>
-            <li>Calling <a href="tel:7252358278">(725) 235-8278</a></li>
+            <li>Calling <a href="tel:8133030515">(813) 303-0515</a></li>
           </ul>
           <p>
             After opting out, you will receive one final confirmation message. No further messages will be sent unless you re-subscribe.
@@ -132,7 +132,7 @@ export default function PrivacyPolicyPage() {
           <p>If you have questions about this Privacy Policy, contact us at:</p>
           <ul>
             <li>Email: <a href="mailto:support@jusih2o.com">support@jusih2o.com</a></li>
-            <li>Phone: <a href="tel:7252358278">(725) 235-8278</a></li>
+            <li>Phone: <a href="tel:8133030515">(813) 303-0515</a></li>
             <li>Address: Tampa Bay, FL</li>
           </ul>
         </div>

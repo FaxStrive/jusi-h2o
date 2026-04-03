@@ -18,7 +18,7 @@ export function InlineCTA({
   variant,
   text,
   message,
-  phone = '(725) 235-8278',
+  phone = '(813) 303-0515',
   trustLine,
   href = '/contact',
 }: InlineCTAProps) {

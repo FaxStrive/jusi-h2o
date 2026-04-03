@@ -15,7 +15,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Water Filtration Tampa Bay',
   description:
-    'Jusi H2O is Tampa Bay\'s trusted water specialist. Free in-home water testing, water softeners, reverse osmosis, and whole-house filtration. Serving 5 counties. Call (725) 235-8278.',
+    'Jusi H2O is Tampa Bay\'s trusted water specialist. Free in-home water testing, water softeners, reverse osmosis, and whole-house filtration. Serving 5 counties. Call (813) 303-0515.',
   alternates: { canonical: 'https://jusih2o.com' },
 };
 

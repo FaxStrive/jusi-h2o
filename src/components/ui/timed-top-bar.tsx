@@ -57,11 +57,11 @@ export function TimedTopBar() {
               </motion.p>
 
               <a
-                href="tel:+17252358278"
+                href="tel:+18133030515"
                 className="hidden md:flex items-center gap-1.5 text-white font-semibold text-sm shrink-0 hover:underline"
               >
                 <Phone className="w-4 h-4" />
-                (725) 235-8278
+                (813) 303-0515
               </a>
 
               <button

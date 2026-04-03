@@ -38,7 +38,7 @@ export function MobileCallBar() {
             }}
           >
             <a
-              href="tel:7252358278"
+              href="tel:8133030515"
               className="flex flex-col items-center justify-center gap-1 py-3 text-white font-semibold text-xs transition-colors"
               style={{ background: "var(--color-primary)" }}
             >
@@ -53,7 +53,7 @@ export function MobileCallBar() {
               Call Now
             </a>
             <a
-              href="sms:7252358278"
+              href="sms:8133030515"
               className="flex flex-col items-center justify-center gap-1 py-3 font-semibold text-xs transition-colors"
               style={{
                 background: "var(--color-accent)",

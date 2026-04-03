@@ -6,7 +6,7 @@ import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
   title: "Service Area - Tampa Bay Coverage",
-  description: "Jusi H2O serves a 50-mile radius across Tampa Bay: Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties. Same-day response. Call (725) 235-8278.",
+  description: "Jusi H2O serves a 50-mile radius across Tampa Bay: Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties. Same-day response. Call (813) 303-0515.",
   alternates: { canonical: "/service-area" },
 };
 
