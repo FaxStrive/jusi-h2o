@@ -1,21 +1,12 @@
 "use client";
 
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { BookingForm } from "@/components/ui/booking-form";
 
 export function ContactContent() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-80px" });
-
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://link.jusipower.com/js/form_embed.js";
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   return (
     <section ref={ref} className="relative py-section overflow-hidden">
@@ -26,32 +17,14 @@ export function ContactContent() {
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
-          {/* Embedded GHL Form */}
+          {/* Two-Step Booking Form */}
           <motion.div
             className="lg:col-span-3"
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5 }}
           >
-            <div className="bg-white rounded-brand-xl border border-border-light overflow-hidden" style={{ minHeight: 727 }}>
-              <iframe
-                src="https://link.jusipower.com/widget/form/8JZyongBJ8twzcD5wqta"
-                style={{ width: "100%", height: 727, border: "none", borderRadius: 3 }}
-                id="inline-8JZyongBJ8twzcD5wqta"
-                data-layout="{'id':'INLINE'}"
-                data-trigger-type="alwaysShow"
-                data-trigger-value=""
-                data-activation-type="alwaysActivated"
-                data-activation-value=""
-                data-deactivation-type="neverDeactivate"
-                data-deactivation-value=""
-                data-form-name="A2P Compliance Form"
-                data-height="727"
-                data-layout-iframe-id="inline-8JZyongBJ8twzcD5wqta"
-                data-form-id="8JZyongBJ8twzcD5wqta"
-                title="A2P Compliance Form"
-              />
-            </div>
+            <BookingForm />
           </motion.div>
 
           {/* Contact Info Sidebar */}
