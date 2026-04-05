@@ -9,7 +9,7 @@
  *   trackFormSubmit('contact-form');
  *
  *   // On phone link click:
- *   trackPhoneClick('6157812339');
+ *   trackPhoneClick('+18133030515');
  *
  *   // On CTA button click:
  *   trackCTAClick('hero-get-quote');

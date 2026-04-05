@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Water Testing Tampa Bay | Jusi H2O',
+  title: 'Free Professional Water Testing in Tampa Bay',
   description: 'Free professional water testing in Tampa Bay from Jusi H2O. Test for hardness, chlorine, pH, iron, and TDS. Same-day results, no obligation.',
   alternates: {
     canonical: 'https://jusih2o.com/water-testing',
   },
   openGraph: {
-    title: 'Water Testing Tampa Bay | Jusi H2O',
+    title: 'Free Professional Water Testing in Tampa Bay | Jusi H2O',
     description: 'Free professional water testing in Tampa Bay from Jusi H2O. Test for hardness, chlorine, pH, iron, and TDS. Same-day results, no obligation.',
     url: 'https://jusih2o.com/water-testing',
     siteName: 'Jusi H2O',

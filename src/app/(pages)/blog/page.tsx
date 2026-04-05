@@ -4,12 +4,12 @@ import { getAllPosts } from "@/lib/blog-posts";
 import { PageHero } from "@/components/sections/page-hero";
 
 export const metadata: Metadata = {
-  title: "Water Quality Blog",
+  title: "Water Quality Blog - Tampa Bay Guides & Tips",
   description:
     "Expert articles on Tampa Bay water quality, hard water, well water treatment, reverse osmosis, and water testing. Free guides from the Jusi H2O team.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: "Water Quality Blog | Jusi H2O",
+    title: "Water Quality Blog - Tampa Bay Guides & Tips | Jusi H2O",
     description:
       "Expert guides on Tampa Bay water quality, hard water, and home water treatment from Jusi H2O.",
     url: "https://jusih2o.com/blog",

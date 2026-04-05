@@ -5,7 +5,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
-  title: "Customer Reviews & Testimonials",
+  title: "Customer Reviews - 2,500+ Five-Star Testimonials",
   description: "Read 2,500+ five-star Google reviews from Tampa Bay homeowners who trust Jusi H2O for water filtration, softening, and treatment services.",
   alternates: { canonical: "/testimonials" },
 };

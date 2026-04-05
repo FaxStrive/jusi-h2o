@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: "Privacy Policy - Data Protection & SMS Terms",
   description: "Jusi H2O privacy policy. Learn how we collect, use, and protect your personal information including SMS/text messaging data.",
   alternates: { canonical: "/privacy-policy" },
 };

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 
 export const metadata: Metadata = {
-  title: "Terms of Service",
+  title: "Terms of Service - Water Treatment Agreement",
   description: "Jusi H2O terms of service. Review our terms including SMS/text messaging program details, opt-out instructions, and usage policies.",
   alternates: { canonical: "/terms-of-service" },
 };

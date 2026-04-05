@@ -6,7 +6,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
-  title: "Water Filtration Services",
+  title: "Water Filtration & Treatment Services Tampa Bay",
   description:
     "Tampa Bay water filtration services: whole-house filters, reverse osmosis, water softeners, well water treatment, and JusiCare+ maintenance plans. Free quotes.",
   alternates: { canonical: "/services" },

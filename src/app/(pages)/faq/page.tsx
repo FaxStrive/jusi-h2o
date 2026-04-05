@@ -5,7 +5,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions",
+  title: "Water Filtration FAQ - Common Questions Answered",
   description: "Answers to common questions about water testing, filtration systems, installation, pricing, maintenance, and JusiCare+ from Jusi H2O in Tampa Bay.",
   alternates: { canonical: "/faq" },
 };

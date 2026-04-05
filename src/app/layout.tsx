@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     default: "Jusi H2O | Water Filtration Tampa Bay",
   },
   description:
-    "Tampa Bay's trusted water filtration specialists. Water softeners, reverse osmosis, whole-house filtration, and free in-home water testing. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.",
+    "Tampa Bay's trusted water filtration specialists. Water softeners, reverse osmosis, whole-house filtration, and free in-home water testing. Serving 5 counties.",
   keywords: [
     "water filtration Tampa Bay",
     "water softener Tampa",

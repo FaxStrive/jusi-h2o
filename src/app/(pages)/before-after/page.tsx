@@ -5,7 +5,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { InlineCTA } from "@/components/ui/inline-cta";
 
 export const metadata: Metadata = {
-  title: "Before & After Results",
+  title: "Before & After Water Filtration Results Tampa Bay",
   description:
     "See real before and after water filtration results from Tampa Bay homeowners. Case studies showing hard water, chlorine, and contaminant removal by Jusi H2O.",
   alternates: { canonical: "/before-after" },

@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Well Water Treatment Tampa Bay | Jusi H2O',
+  title: 'Well Water Treatment & Iron Removal Tampa Bay',
   description: 'Well water treatment in Tampa Bay by Jusi H2O. Remove iron, sulfur smell, bacteria, and sediment. Free well water testing included.',
   alternates: {
     canonical: 'https://jusih2o.com/well-water-treatment',
   },
   openGraph: {
-    title: 'Well Water Treatment Tampa Bay | Jusi H2O',
+    title: 'Well Water Treatment & Iron Removal Tampa Bay | Jusi H2O',
     description: 'Well water treatment in Tampa Bay by Jusi H2O. Remove iron, sulfur smell, bacteria, and sediment. Free well water testing included.',
     url: 'https://jusih2o.com/well-water-treatment',
     siteName: 'Jusi H2O',

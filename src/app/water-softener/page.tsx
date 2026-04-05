@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Water Softener Tampa Bay | Jusi H2O',
+  title: 'Water Softener Installation & Service Tampa Bay',
   description: 'Professional water softener installation in Tampa Bay by Jusi H2O. Eliminate hard water, protect appliances, and enjoy softer skin. Free in-home water test included.',
   alternates: {
     canonical: 'https://jusih2o.com/water-softener',
   },
   openGraph: {
-    title: 'Water Softener Tampa Bay | Jusi H2O',
+    title: 'Water Softener Installation & Service Tampa Bay | Jusi H2O',
     description: 'Professional water softener installation in Tampa Bay by Jusi H2O. Eliminate hard water, protect appliances, and enjoy softer skin. Free in-home water test included.',
     url: 'https://jusih2o.com/water-softener',
     siteName: 'Jusi H2O',

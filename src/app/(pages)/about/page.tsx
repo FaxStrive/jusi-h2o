@@ -4,7 +4,7 @@ import { AboutContent } from "@/components/sections/about-content";
 import { CTASection } from "@/components/sections/cta-section";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Us - Tampa Bay Water Filtration Experts",
   description:
     "Jusi H2O has 15+ years of experience providing professional water testing and filtration for Tampa Bay homeowners. Meet our team, mission, and values.",
   alternates: { canonical: "/about" },

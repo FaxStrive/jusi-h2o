@@ -14,7 +14,7 @@ const localBusinessSchema = {
   description:
     'Jusi H2O provides professional water filtration, water softeners, and reverse osmosis systems in Tampa Bay, FL. Free in-home water testing with same-day results. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.',
   url: SITE_URL,
-  telephone: '+1-813-303-0515',
+  telephone: '+18133030515',
   priceRange: '$',
   image: `${SITE_URL}/images/og-image.png`,
   logo: `${SITE_URL}/images/logo.png`,
@@ -59,11 +59,25 @@ const localBusinessSchema = {
   ],
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+1-813-303-0515',
+    telephone: '+18133030515',
     contactType: 'customer service',
     areaServed: 'US',
     availableLanguage: 'English',
   },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: 5.0,
+    reviewCount: 2500,
+    bestRating: 5,
+    worstRating: 1,
+  },
+  hasCredential: [
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'WQA Certified (Water Quality Association)' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-42: Aesthetic effects' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-44: Cation exchange water softeners' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-53: Health effects' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-58: Reverse osmosis systems' },
+  ],
   makesOffer: [
     {
       '@type': 'Offer',
@@ -385,7 +399,7 @@ function getServiceSchema(pathname: string) {
       '@type': SCHEMA_TYPE,
       name: BUSINESS_NAME,
       url: SITE_URL,
-      telephone: '+1-813-303-0515',
+      telephone: '+18133030515',
     },
     areaServed: [
       { '@type': 'City', name: 'Tampa, FL' },

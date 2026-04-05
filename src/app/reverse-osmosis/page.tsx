@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Reverse Osmosis Tampa Bay | Jusi H2O',
+  title: 'Reverse Osmosis Drinking Water Systems Tampa Bay',
   description: 'Reverse osmosis drinking water systems in Tampa Bay. Removes up to 99% of contaminants. Professional installation by Jusi H2O. Free water test.',
   alternates: {
     canonical: 'https://jusih2o.com/reverse-osmosis',
   },
   openGraph: {
-    title: 'Reverse Osmosis Tampa Bay | Jusi H2O',
+    title: 'Reverse Osmosis Drinking Water Systems Tampa Bay | Jusi H2O',
     description: 'Reverse osmosis drinking water systems in Tampa Bay. Removes up to 99% of contaminants. Professional installation by Jusi H2O. Free water test.',
     url: 'https://jusih2o.com/reverse-osmosis',
     siteName: 'Jusi H2O',

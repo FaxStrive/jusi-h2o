@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Whole-House Filtration Tampa Bay | Jusi H2O',
+  title: 'Whole-House Water Filtration Tampa Bay FL',
   description: 'Whole-house filtration systems in Tampa Bay from Jusi H2O. Clean filtered water at every faucet in your home. Free water test included.',
   alternates: {
     canonical: 'https://jusih2o.com/whole-house-filtration',
   },
   openGraph: {
-    title: 'Whole-House Filtration Tampa Bay | Jusi H2O',
+    title: 'Whole-House Water Filtration Tampa Bay FL | Jusi H2O',
     description: 'Whole-house filtration systems in Tampa Bay from Jusi H2O. Clean filtered water at every faucet in your home. Free water test included.',
     url: 'https://jusih2o.com/whole-house-filtration',
     siteName: 'Jusi H2O',

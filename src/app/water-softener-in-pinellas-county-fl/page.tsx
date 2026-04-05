@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Water Softener in Pinellas County, FL | Jusi H2O',
-  description: 'Jusi H2O provides professional water softener services in Pinellas County, FL. Free consultation and expert service from locally trusted specialists.',
+  title: 'Water Softener Installation Pinellas County FL',
+  description: 'Jusi H2O provides professional water softener installation in Pinellas County, FL. Eliminate hard water scale and protect your appliances. Free in-home water test.',
   alternates: {
     canonical: 'https://jusih2o.com/water-softener-in-pinellas-county-fl',
   },
   openGraph: {
-    title: 'Water Softener in Pinellas County, FL | Jusi H2O',
+    title: 'Water Softener Installation Pinellas County FL | Jusi H2O',
     description: 'Jusi H2O provides professional water softener services in Pinellas County, FL. Free consultation and expert service from locally trusted specialists.',
     url: 'https://jusih2o.com/water-softener-in-pinellas-county-fl',
     siteName: 'Jusi H2O',

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Service Areas | Jusi H2O',
-  description: 'Jusi H2O serves these locations. Click your city to learn more.',
+  title: 'Water Treatment Service Areas Across Tampa Bay FL',
+  description: 'Jusi H2O provides water softener, filtration, reverse osmosis, and well water treatment across Tampa Bay. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.',
 };
 
 const areas = [
@@ -222,9 +222,18 @@ const areas = [
 export default function ServiceAreasPage() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-8">Service Areas</h1>
+      <h1 className="text-4xl font-bold mb-8">Water Treatment Service Areas</h1>
+      <p className="text-lg text-gray-700 mb-4">
+        Jusi H2O proudly serves homeowners across a 50-mile radius of Tampa Bay with professional water testing, filtration, softening, and treatment services. Our licensed technicians provide same-day response throughout Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.
+      </p>
+      <p className="text-lg text-gray-700 mb-4">
+        Whether you need a water softener to tackle the hard water common throughout Central Florida, a whole-house filtration system to remove chlorine and sediment, or a reverse osmosis system for pure drinking water, our team delivers expert installation and ongoing maintenance right to your door.
+      </p>
+      <p className="text-lg text-gray-700 mb-4">
+        Every service call begins with a free in-home water test so we can recommend the right solution for your specific water quality challenges. From well water treatment in rural Hillsborough County to condo-friendly RO systems in downtown St. Petersburg, Jusi H2O has you covered.
+      </p>
       <p className="text-lg text-gray-700 mb-10">
-        Jusi H2O proudly serves the following communities.
+        Select your area below to learn more about water treatment services available near you, or call <a href="tel:+18133030515" className="text-blue-600 font-semibold hover:underline">(813) 303-0515</a> to schedule your free water test today.
       </p>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {areas.map((area) => (
