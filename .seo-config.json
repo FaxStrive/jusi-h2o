@@ -1,0 +1,189 @@
+{
+  "business": {
+    "name": "Jusi H2O",
+    "legalName": "Jusi H2O",
+    "type": "HomeAndConstructionBusiness",
+    "description": "Locally trusted home water treatment provider serving Tampa Bay with professional water testing, filtration, softening, and plumbing services.",
+    "url": "https://jusih2o.com",
+    "phone": "(813) 303-0515",
+    "phoneE164": "+1-813-303-0515",
+    "email": "support@jusih2o.com",
+    "license": "Licensed and Insured",
+    "yearEstablished": 2011,
+    "founder": "Marquis Pendergrass",
+    "mission": "Improve quality of life for homeowners by delivering reliable water testing, advanced filtration solutions, and honest guidance to protect homes, health, and everyday living.",
+    "certifications": [
+      "WQA Certified (Water Quality Association)",
+      "NSF-42: Aesthetic effects (taste, odor, chlorine)",
+      "NSF-44: Cation exchange water softeners",
+      "NSF-53: Health effects (lead, cysts)",
+      "NSF-55: UV treatment systems",
+      "NSF-58: Reverse osmosis systems",
+      "NSF-401: Emerging contaminants"
+    ],
+    "address": {
+      "street": "7901 4th St N Ste 300",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "zip": "33702",
+      "country": "US"
+    },
+    "geo": {
+      "latitude": 27.7676,
+      "longitude": -82.6403
+    },
+    "hours": {
+      "mondayFriday": "8:00 AM - 6:00 PM",
+      "saturday": "8:00 AM - 2:00 PM",
+      "sunday": "Closed"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=61578123391295",
+      "instagram": "https://www.instagram.com/jusih2o/"
+    }
+  },
+  "team": [
+    {
+      "name": "Marquis Pendergrass",
+      "role": "Founder",
+      "bio": "Founder of Jusi H2O with 15+ years of experience in home water treatment. Committed to delivering honest guidance and reliable water solutions to Tampa Bay homeowners."
+    }
+  ],
+  "services": [
+    "Water Softener Installation",
+    "Whole-House Water Filtration",
+    "Reverse Osmosis Systems",
+    "Free Professional In-Home Water Testing",
+    "Well Water Treatment",
+    "Leak Detection & Repair",
+    "Water Heater Installation & Replacement",
+    "Commercial Plumbing & Water Treatment",
+    "JusiCare+ Protection Plan"
+  ],
+  "serviceAreas": [
+    {
+      "county": "Hillsborough County",
+      "state": "FL",
+      "primary": true,
+      "cities": ["Tampa", "Brandon", "Plant City", "Riverview", "Temple Terrace", "Lutz", "Valrico", "Seffner", "Lithia", "Thonotosassa"]
+    },
+    {
+      "county": "Pinellas County",
+      "state": "FL",
+      "primary": false,
+      "cities": ["St. Petersburg", "Clearwater", "Largo", "Dunedin", "Palm Harbor", "Tarpon Springs", "Safety Harbor", "Seminole", "Pinellas Park"]
+    },
+    {
+      "county": "Manatee County",
+      "state": "FL",
+      "primary": false,
+      "cities": ["Bradenton", "Palmetto", "Lakewood Ranch", "Parrish", "Ellenton", "Anna Maria"]
+    },
+    {
+      "county": "Sarasota County",
+      "state": "FL",
+      "primary": false,
+      "cities": ["Sarasota", "Venice", "North Port", "Englewood", "Osprey", "Siesta Key", "Nokomis"]
+    },
+    {
+      "county": "Polk County",
+      "state": "FL",
+      "primary": false,
+      "cities": ["Lakeland", "Winter Haven", "Bartow", "Auburndale", "Haines City", "Mulberry", "Lake Wales"]
+    }
+  ],
+  "costData": {
+    "waterSoftener": {
+      "low": 1200,
+      "high": 4500,
+      "avg": 2800,
+      "unit": "USD"
+    },
+    "wholeHouseFiltration": {
+      "low": 1500,
+      "high": 5000,
+      "avg": 3200,
+      "unit": "USD"
+    },
+    "reverseOsmosis": {
+      "low": 400,
+      "high": 1800,
+      "avg": 900,
+      "unit": "USD"
+    },
+    "waterHeater": {
+      "low": 800,
+      "high": 3500,
+      "avg": 2000,
+      "unit": "USD"
+    },
+    "jusiCarePlan": {
+      "low": 199,
+      "high": 199,
+      "avg": 199,
+      "unit": "USD/year"
+    },
+    "waterTesting": {
+      "low": 0,
+      "high": 0,
+      "avg": 0,
+      "unit": "USD",
+      "note": "Free professional in-home water testing"
+    }
+  },
+  "projectPhotos": [
+    {
+      "src": "/images/gallery/dirty-vs-clean-water.jpeg",
+      "alt": "Before and after water filtration comparison showing dirty vs clean water",
+      "category": "before-after"
+    },
+    {
+      "src": "/images/gallery/whole-house-filtration.jpeg",
+      "alt": "Whole-house water filtration system installation by Jusi H2O",
+      "category": "installation"
+    },
+    {
+      "src": "/images/gallery/salt-softener.jpeg",
+      "alt": "Water softener system installed in Tampa Bay home",
+      "category": "installation"
+    },
+    {
+      "src": "/images/gallery/ro-filter-system.jpeg",
+      "alt": "Reverse osmosis filtration system under kitchen sink",
+      "category": "installation"
+    },
+    {
+      "src": "/images/gallery/technician-filter-install.jpeg",
+      "alt": "Jusi H2O technician installing water filter system",
+      "category": "service"
+    },
+    {
+      "src": "/images/gallery/water-heater-install.jpeg",
+      "alt": "Professional water heater installation by Jusi H2O",
+      "category": "installation"
+    },
+    {
+      "src": "/images/gallery/water-testing.jpeg",
+      "alt": "Professional in-home water quality testing",
+      "category": "testing"
+    },
+    {
+      "src": "/images/gallery/filling-glass-tap.jpeg",
+      "alt": "Clean filtered water filling glass from kitchen tap",
+      "category": "results"
+    }
+  ],
+  "aggregateRating": {
+    "ratingValue": 5.0,
+    "reviewCount": 2500,
+    "bestRating": 5,
+    "worstRating": 1,
+    "platform": "Google"
+  },
+  "stats": {
+    "yearsInBusiness": "15+",
+    "expertTechnicians": "10+",
+    "serviceRadiusMiles": 50,
+    "countiesServed": 5
+  }
+}
