@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { X, Phone } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { trackCTAClick, trackPhoneClick } from '@/lib/analytics'
 
 const SESSION_KEY = 'jusi_scroll_cta_closed'
 
@@ -72,6 +73,7 @@ export function ScrollRevealCTA() {
               <div className="flex items-center gap-3 shrink-0">
                 <Link
                   href="/contact"
+                  onClick={() => trackCTAClick('scroll-reveal-book', 'scroll-banner')}
                   className="relative overflow-hidden bg-white text-[#1B6B93] font-bold px-6 py-2.5 rounded-lg text-sm hover:scale-105 transition-transform"
                 >
                   <span className="relative z-10">Book Free Test</span>
@@ -84,6 +86,7 @@ export function ScrollRevealCTA() {
 
                 <a
                   href="tel:+18133030515"
+                  onClick={() => trackPhoneClick('+18133030515')}
                   className="flex items-center gap-1.5 text-white font-semibold text-sm hover:underline"
                 >
                   <Phone className="w-4 h-4" />

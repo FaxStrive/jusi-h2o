@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import { trackCTAClick, trackPhoneClick } from "@/lib/analytics";
 
 export function ExitIntentPopup() {
   const [show, setShow] = useState(false);
@@ -140,7 +141,7 @@ export function ExitIntentPopup() {
               {/* CTA Button */}
               <Link
                 href="/contact"
-                onClick={() => setShow(false)}
+                onClick={() => { trackCTAClick('exit-intent-cta', 'exit-popup'); setShow(false); }}
                 className="block w-full py-3.5 rounded-xl text-white font-semibold text-sm text-center transition-all hover:brightness-110"
                 style={{ background: "var(--color-accent)" }}
               >
@@ -156,7 +157,8 @@ export function ExitIntentPopup() {
 
               {/* Call alternative */}
               <a
-                href="tel:8133030515"
+                href="tel:+18133030515"
+                onClick={() => trackPhoneClick('+18133030515')}
                 className="flex items-center justify-center gap-2 text-sm font-semibold transition-colors"
                 style={{ color: "var(--color-primary)" }}
               >

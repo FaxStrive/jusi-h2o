@@ -67,7 +67,7 @@ export default function NotFound() {
         <div className="mt-12 pt-8 border-t border-border-light">
           <p className="text-text-tertiary text-sm mb-3">Need help? Call us directly:</p>
           <a
-            href="tel:8133030515"
+            href="tel:+18133030515"
             className="text-primary font-semibold text-lg hover:text-primary-dark transition-colors"
           >
             (813) 303-0515

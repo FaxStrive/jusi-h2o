@@ -15,7 +15,7 @@ const localBusinessSchema = {
     'Jusi H2O provides professional water filtration, water softeners, and reverse osmosis systems in Tampa Bay, FL. Free in-home water testing with same-day results. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.',
   url: SITE_URL,
   telephone: '+1-813-303-0515',
-  priceRange: '$$',
+  priceRange: '$',
   image: `${SITE_URL}/images/og-image.png`,
   logo: `${SITE_URL}/images/logo.png`,
   dateModified: DATE_MODIFIED,

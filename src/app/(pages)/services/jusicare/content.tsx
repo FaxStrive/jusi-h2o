@@ -827,7 +827,7 @@ export function JusiCareContent() {
             </Link>
             <p className="text-text-tertiary text-sm mt-3">
               Or call us at{" "}
-              <a href="tel:8133030515" className="text-secondary hover:underline font-medium">
+              <a href="tel:+18133030515" className="text-secondary hover:underline font-medium">
                 (813) 303-0515
               </a>
             </p>
@@ -891,7 +891,7 @@ export function JusiCareContent() {
             transition={{ delay: 0.4 }}
           >
             Still have questions? Call us at{" "}
-            <a href="tel:8133030515" className="text-secondary hover:underline font-medium">
+            <a href="tel:+18133030515" className="text-secondary hover:underline font-medium">
               (813) 303-0515
             </a>{" "}
             or{" "}

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { trackCTAClick, trackPhoneClick } from "@/lib/analytics";
 
 export function MobileCallBar() {
   const [visible, setVisible] = useState(false);
@@ -38,7 +39,8 @@ export function MobileCallBar() {
             }}
           >
             <a
-              href="tel:8133030515"
+              href="tel:+18133030515"
+              onClick={() => trackPhoneClick('+18133030515')}
               className="flex flex-col items-center justify-center gap-1 py-3 text-white font-semibold text-xs transition-colors"
               style={{ background: "var(--color-primary)" }}
             >
@@ -53,7 +55,7 @@ export function MobileCallBar() {
               Call Now
             </a>
             <a
-              href="sms:8133030515"
+              href="sms:+18133030515"
               className="flex flex-col items-center justify-center gap-1 py-3 font-semibold text-xs transition-colors"
               style={{
                 background: "var(--color-accent)",
@@ -72,6 +74,7 @@ export function MobileCallBar() {
             </a>
             <Link
               href="/contact"
+              onClick={() => trackCTAClick('mobile-free-quote', 'mobile-bar')}
               className="flex flex-col items-center justify-center gap-1 py-3 font-semibold text-xs transition-colors"
               style={{
                 background: "var(--color-primary-dark)",

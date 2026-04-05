@@ -341,7 +341,7 @@ export function CommercialContent() {
                     </svg>
                   </Link>
                   <a
-                    href="tel:8133030515"
+                    href="tel:+18133030515"
                     className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/10 backdrop-blur-sm text-white font-bold rounded-full hover:bg-white/20 border border-white/20 transition-all duration-300 text-sm"
                   >
                     <svg
@@ -586,7 +586,7 @@ export function CommercialContent() {
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <a
-              href="tel:8133030515"
+              href="tel:+18133030515"
               className="inline-flex items-center gap-2.5 px-10 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary-dark transition-all duration-300 hover:shadow-brand-lg hover:scale-[1.03] text-sm"
             >
               <svg
@@ -771,7 +771,7 @@ export function CommercialContent() {
                 </svg>
               </Link>
               <a
-                href="tel:8133030515"
+                href="tel:+18133030515"
                 className="inline-flex items-center gap-2 px-8 py-3.5 bg-white text-primary font-bold rounded-full border border-primary-200 hover:bg-primary-50 transition-all duration-300 text-sm"
               >
                 <svg

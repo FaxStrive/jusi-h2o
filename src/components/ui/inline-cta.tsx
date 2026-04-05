@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { Phone, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import { trackCTAClick, trackPhoneClick } from '@/lib/analytics'
 
 interface InlineCTAProps {
   variant: 'banner' | 'button' | 'text'
@@ -51,6 +52,7 @@ export function InlineCTA({
             <div className="flex flex-col sm:flex-row items-center gap-3">
               <Link
                 href={href}
+                onClick={() => trackCTAClick('inline-cta-schedule', 'inline-banner')}
                 className="inline-flex items-center gap-2 bg-white text-[var(--color-primary-dark)] font-bold px-7 py-3 rounded-lg text-sm hover:scale-105 transition-transform"
               >
                 Schedule Now
@@ -58,6 +60,7 @@ export function InlineCTA({
               </Link>
               <a
                 href={`tel:${phone.replace(/[^+\d]/g, '')}`}
+                onClick={() => trackPhoneClick(phone.replace(/[^+\d]/g, ''))}
                 className="inline-flex items-center gap-2 text-white font-semibold text-sm hover:underline"
               >
                 <Phone className="h-4 w-4" />

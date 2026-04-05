@@ -843,7 +843,7 @@ export function ReverseOsmosisContent() {
             <p className="mt-3 text-text-tertiary text-sm">
               Or call us at{" "}
               <a
-                href="tel:8133030515"
+                href="tel:+18133030515"
                 className="text-primary hover:text-primary-dark font-semibold transition-colors"
               >
                 (813) 303-0515
@@ -917,7 +917,7 @@ export function ReverseOsmosisContent() {
           >
             Still have questions? Call us at{" "}
             <a
-              href="tel:8133030515"
+              href="tel:+18133030515"
               className="text-primary hover:text-primary-dark font-semibold transition-colors"
             >
               (813) 303-0515

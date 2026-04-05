@@ -26,6 +26,8 @@ const navLinks = [
   { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
   { label: "Blog", href: "/blog" },
+  { label: "(pages)/blog", href: "/(pages)/blog" },
+  { label: "Service Areas", href: "/service-areas" },
 ];
 
 export function Navbar() {
@@ -354,7 +356,7 @@ export function Navbar() {
               >
                 <div>
                   <p className="text-xs uppercase tracking-widest text-text-tertiary mb-1">Phone</p>
-                  <a href="tel:8133030515" className="text-lg font-semibold text-text hover:text-primary transition-colors">
+                  <a href="tel:+18133030515" className="text-lg font-semibold text-text hover:text-primary transition-colors">
                     (813) 303-0515
                   </a>
                 </div>

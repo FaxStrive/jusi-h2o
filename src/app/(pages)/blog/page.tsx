@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description:
       "Expert guides on Tampa Bay water quality, hard water, and home water treatment from Jusi H2O.",
     url: "https://jusih2o.com/blog",
-    images: [{ url: "/images/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Jusi H2O Water Quality Blog - Tampa Bay Water Filtration Guides" }],
   },
 };
 

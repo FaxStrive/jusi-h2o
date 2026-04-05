@@ -3,6 +3,7 @@
 import { useState, useRef, FormEvent } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowLeft, ArrowRight, CheckCircle, Loader2 } from 'lucide-react'
+import { trackFormSubmit, trackQuoteRequest } from '@/lib/analytics'
 
 const SERVICES = [
   'Water Softeners',
@@ -79,6 +80,8 @@ export function BookingForm() {
         throw new Error(data.error || 'Submission failed')
       }
 
+      trackFormSubmit('booking-form', { service: formData.service })
+      trackQuoteRequest(formData.service)
       setDirection(1)
       setStep(2)
     } catch (err) {

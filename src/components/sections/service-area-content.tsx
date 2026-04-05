@@ -236,7 +236,7 @@ export function ServiceAreaContent() {
             Give us a call and we will let you know if we can help.
           </p>
           <a
-            href="tel:8133030515"
+            href="tel:+18133030515"
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-full hover:bg-primary-dark transition-colors"
           >
             Call (813) 303-0515

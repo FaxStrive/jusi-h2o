@@ -73,6 +73,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    other: {
+      "msvalidate.01": "BING_VERIFICATION_CODE_HERE",
+    },
+  },
   alternates: {
     canonical: "https://jusih2o.com",
   },

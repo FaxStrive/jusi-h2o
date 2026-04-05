@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
+import { trackCTAClick, trackPhoneClick } from "@/lib/analytics";
 
 export function CTASection() {
   const ref = useRef(null);
@@ -56,12 +57,14 @@ export function CTASection() {
         >
           <Link
             href="/contact"
+            onClick={() => trackCTAClick('schedule-free-test', 'cta-section')}
             className="inline-flex items-center justify-center px-10 py-5 bg-accent text-white font-bold text-lg rounded-full hover:bg-accent-light transition-all duration-300 hover:scale-105 shadow-xl"
           >
             Schedule Your Free Test
           </Link>
           <a
-            href="tel:8133030515"
+            href="tel:+18133030515"
+            onClick={() => trackPhoneClick('+18133030515')}
             className="inline-flex items-center justify-center px-10 py-5 bg-white/10 backdrop-blur-sm text-white font-semibold text-lg rounded-full border border-white/20 hover:bg-white/20 transition-all duration-300"
           >
             Call (813) 303-0515

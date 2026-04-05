@@ -363,7 +363,7 @@ function ServiceCard({
                   {type.details}
                 </p>
                 <a
-                  href="tel:8133030515"
+                  href="tel:+18133030515"
                   className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-primary hover:text-primary-dark transition-colors"
                 >
                   <svg
@@ -569,7 +569,7 @@ export function LeakRepairContent() {
                 transition={{ duration: 0.4, delay: 0.9 }}
               >
                 <a
-                  href="tel:8133030515"
+                  href="tel:+18133030515"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-red-600 text-white font-bold rounded-full hover:bg-red-700 transition-all duration-300 hover:scale-105 shadow-lg shadow-red-600/20"
                 >
                   <svg
@@ -704,7 +704,7 @@ export function LeakRepairContent() {
             transition={{ duration: 0.4, delay: 0.7 }}
           >
             <a
-              href="tel:8133030515"
+              href="tel:+18133030515"
               className="inline-flex items-center gap-2 px-10 py-4 bg-white text-primary-800 font-bold rounded-full hover:bg-primary-50 transition-all duration-300 hover:scale-105 shadow-xl shadow-black/20"
             >
               Stop the Damage - Call Now
@@ -980,7 +980,7 @@ export function LeakRepairContent() {
             transition={{ duration: 0.4, delay: 0.8 }}
           >
             <a
-              href="tel:8133030515"
+              href="tel:+18133030515"
               className="inline-flex items-center gap-2 px-10 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary-dark transition-all duration-300 hover:scale-105 shadow-brand-lg"
             >
               <svg
@@ -1086,7 +1086,7 @@ export function LeakRepairContent() {
                 Contact Us
               </Link>
               <a
-                href="tel:8133030515"
+                href="tel:+18133030515"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-50 text-primary font-semibold rounded-full hover:bg-primary-100 transition-colors"
               >
                 Call (813) 303-0515

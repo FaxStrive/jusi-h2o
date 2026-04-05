@@ -225,7 +225,7 @@ export function WaterHeaterContent() {
               Bay.
             </p>
             <a
-              href="tel:8133030515"
+              href="tel:+18133030515"
               className="inline-flex items-center gap-3 px-8 py-3.5 bg-white text-primary-700 font-bold rounded-full hover:bg-primary-50 transition-colors group"
             >
               {/* Pulsing phone icon */}
@@ -917,7 +917,7 @@ export function WaterHeaterContent() {
                 Get a Free Quote
               </Link>
               <a
-                href="tel:8133030515"
+                href="tel:+18133030515"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-primary-50 text-primary font-semibold rounded-full hover:bg-primary-100 transition-colors"
               >
                 <svg

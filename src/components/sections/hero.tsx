@@ -7,6 +7,7 @@ import {
   useTransform,
 } from "framer-motion";
 import Link from "next/link";
+import { trackCTAClick, trackPhoneClick } from "@/lib/analytics";
 
 export function Hero() {
   const containerRef = useRef<HTMLElement>(null);
@@ -98,6 +99,7 @@ export function Hero() {
         >
           <Link
             href="/contact"
+            onClick={() => trackCTAClick('schedule-free-test', 'hero')}
             className="group relative inline-flex items-center justify-center px-8 py-4 bg-white text-primary-900 font-bold rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl"
           >
             <span className="absolute inset-0 bg-primary-50 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
@@ -119,7 +121,8 @@ export function Hero() {
             </span>
           </Link>
           <a
-            href="tel:8133030515"
+            href="tel:+18133030515"
+            onClick={() => trackPhoneClick('+18133030515')}
             className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-full border border-white/20 hover:bg-white/20 transition-all duration-300"
           >
             <svg
