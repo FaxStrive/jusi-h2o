@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://jusih2o.com"),
   title: {
     template: "%s | Jusi H2O",
-    default: "Jusi H2O | Water Filtration Tampa Bay",
+    default: "Jusi H2O | Water Filtration & Treatment Tampa Bay",
   },
   description:
     "Tampa Bay's trusted water filtration specialists. Water softeners, reverse osmosis, whole-house filtration, and free in-home water testing. Serving 5 counties.",
@@ -90,6 +90,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${outfit.variable} ${inter.variable}`}>
+      <head>
+        <link rel="dns-prefetch" href="https://www.facebook.com" />
+        <link rel="dns-prefetch" href="https://www.instagram.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+      </head>
       <body className="antialiased">
         <Suspense fallback={null}>
           <SchemaMarkup />

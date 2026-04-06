@@ -13,9 +13,9 @@ import { InlineCTA } from "@/components/ui/inline-cta";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Water Filtration Tampa Bay',
+  title: 'Water Filtration & Softener Experts Tampa Bay',
   description:
-    'Jusi H2O is Tampa Bay\'s trusted water specialist. Free in-home water testing, water softeners, reverse osmosis, and whole-house filtration. Serving 5 counties. Call (813) 303-0515.',
+    'Jusi H2O is Tampa Bay\'s trusted water specialist. Free in-home water testing, water softeners, reverse osmosis, and whole-house filtration. Serving 5 counties.',
   alternates: { canonical: 'https://jusih2o.com' },
 };
 

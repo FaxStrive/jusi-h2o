@@ -4,7 +4,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { JusiCareContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "JusiCare+ Protection Plan - $199/Year",
+  title: "JusiCare+ Annual Water System Protection Plan",
   description:
     "JusiCare+ annual protection plan: quarterly salt refills, scheduled filter replacements, system sanitation, priority service, and lifetime warranty. $199/year.",
   alternates: { canonical: "/services/jusicare" },

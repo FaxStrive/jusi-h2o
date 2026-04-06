@@ -21,6 +21,7 @@ const localBusinessSchema = {
   dateModified: DATE_MODIFIED,
   address: {
     '@type': 'PostalAddress',
+    streetAddress: '7901 4th St N Ste 300',
     addressLocality: 'St. Petersburg',
     addressRegion: 'FL',
     postalCode: '33702',
@@ -77,6 +78,8 @@ const localBusinessSchema = {
     { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-44: Cation exchange water softeners' },
     { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-53: Health effects' },
     { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-58: Reverse osmosis systems' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-55: UV treatment systems' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-401: Emerging contaminants' },
   ],
   makesOffer: [
     {
@@ -362,6 +365,86 @@ const SERVICE_SCHEMA_MAP: Record<
   },
 }
 
+const HOWTO_SCHEMA_MAP: Record<string, { name: string; description: string; steps: Array<{ name: string; text: string }> }> = {
+  '/': {
+    name: 'How to Get Better Water in 3 Simple Steps',
+    description: 'Schedule a free water test, get a custom recommendation, and have professional installation in Tampa Bay.',
+    steps: [
+      { name: 'Schedule a Free Water Test', text: 'Schedule a free in-home visit. Our technician tests your water for hardness, contaminants, and other common issues, explaining the results in simple terms.' },
+      { name: 'Get a Custom Recommendation', text: 'Based on your test results, we recommend the best filtration solution for your specific home. No one-size-fits-all systems. You get a clear, same-day quote with no pressure.' },
+      { name: 'Professional Installation', text: 'Most systems are installed within 24-72 hours. Our technicians ensure everything is fully operational and walk you through how it works before leaving.' },
+    ],
+  },
+  '/services/water-softeners': {
+    name: 'How Water Softener Installation Works',
+    description: 'Professional water softener installation process by Jusi H2O in Tampa Bay.',
+    steps: [
+      { name: 'Free In-Home Water Test', text: 'We test your water for hardness levels, iron, and other minerals to determine the right softener size and type.' },
+      { name: 'Custom System Recommendation', text: 'Based on your water test results and household size, we recommend the ideal water softener system for your home.' },
+      { name: 'Professional Installation', text: 'Our certified technicians install your water softener, typically in 2-4 hours, with minimal disruption to your home.' },
+      { name: 'System Programming & Testing', text: 'We program the softener to your specific water hardness level and verify it is working correctly before leaving.' },
+      { name: 'Ongoing Support & Maintenance', text: 'Optional JusiCare+ plan provides quarterly salt refills, filter changes, and lifetime warranty coverage.' },
+    ],
+  },
+  '/services/reverse-osmosis': {
+    name: 'How Reverse Osmosis Installation Works',
+    description: 'Professional RO system installation process by Jusi H2O in Tampa Bay.',
+    steps: [
+      { name: 'Free Water Quality Test', text: 'We test your drinking water for TDS, contaminants, and other impurities to confirm RO is the right solution.' },
+      { name: 'System Selection', text: 'We recommend a multi-stage RO system sized for your household drinking water needs and contaminant profile.' },
+      { name: 'Under-Sink Installation', text: 'The RO system is installed under your kitchen sink with a dedicated faucet for purified drinking water.' },
+      { name: 'Testing & Verification', text: 'We test the output water to verify contaminant removal rates meet specifications before completing the job.' },
+    ],
+  },
+  '/services/water-filtration': {
+    name: 'How Whole-House Water Filtration Installation Works',
+    description: 'Professional whole-house filtration installation process by Jusi H2O in Tampa Bay.',
+    steps: [
+      { name: 'Comprehensive Water Test', text: 'We test your water for chlorine, sediment, VOCs, and other contaminants to design the right filtration system.' },
+      { name: 'Custom System Design', text: 'Based on test results, we design a multi-stage filtration system sized for your home flow rate and contaminant profile.' },
+      { name: 'Main Line Installation', text: 'The system is installed at your main water line so every faucet, shower, and appliance receives filtered water.' },
+      { name: 'Performance Verification', text: 'We test water quality at multiple points in your home to ensure the system is performing as designed.' },
+    ],
+  },
+  '/services/water-testing': {
+    name: 'How the Free In-Home Water Test Works',
+    description: 'Free professional water testing process by Jusi H2O in Tampa Bay.',
+    steps: [
+      { name: 'Schedule Your Appointment', text: 'Call (813) 303-0515 or fill out our online form to schedule a convenient time for your free water test.' },
+      { name: 'In-Home Water Testing', text: 'Our certified technician visits your home and tests your water for 10+ parameters including hardness, chlorine, pH, iron, and TDS.' },
+      { name: 'Review Your Results', text: 'Results are explained in plain language on the spot. You receive a written report of all findings with no obligation.' },
+    ],
+  },
+  '/services/well-water': {
+    name: 'How Well Water Treatment Works',
+    description: 'Professional well water treatment process by Jusi H2O in Tampa Bay.',
+    steps: [
+      { name: 'Comprehensive Well Water Test', text: 'We test for iron, sulfur, bacteria, tannins, pH, hardness, and other contaminants specific to Florida well water.' },
+      { name: 'Custom Treatment Design', text: 'We design a multi-stage treatment system targeting your specific well water contaminants.' },
+      { name: 'Professional Installation', text: 'Our technicians install the complete treatment system, ensuring proper flow rates and backwash cycles.' },
+      { name: 'Ongoing Monitoring', text: 'We schedule follow-up testing to verify treatment effectiveness and adjust the system as needed.' },
+    ],
+  },
+  '/services/leak-repair': {
+    name: 'How Leak Detection and Repair Works',
+    description: 'Professional leak detection and repair process by Jusi H2O in Tampa Bay.',
+    steps: [
+      { name: 'Initial Assessment', text: 'We evaluate your symptoms: high water bills, damp spots, mold, or reduced pressure to narrow down potential leak locations.' },
+      { name: 'Advanced Detection', text: 'Using acoustic listening devices, thermal imaging, and pressure testing, we pinpoint the exact leak location without unnecessary demolition.' },
+      { name: 'Repair & Restoration', text: 'We repair the leak using the least invasive method possible, then verify the fix with follow-up pressure testing.' },
+    ],
+  },
+  '/services/water-heater-installation': {
+    name: 'How Water Heater Installation Works',
+    description: 'Professional water heater installation process by Jusi H2O in Tampa Bay.',
+    steps: [
+      { name: 'Assessment & Selection', text: 'We evaluate your hot water needs, household size, and energy preferences to recommend the right tankless or traditional water heater.' },
+      { name: 'Professional Installation', text: 'Our licensed technicians install your new water heater, handling all plumbing, electrical, and gas connections. We handle permits and inspections.' },
+      { name: 'Testing & Commissioning', text: 'We test the system for proper temperature, flow rate, and safety before completing the job.' },
+    ],
+  },
+}
+
 function getBreadcrumbs(pathname: string) {
   if (pathname === '/') return null
   const segments = pathname.split('/').filter(Boolean)
@@ -380,6 +463,25 @@ function getBreadcrumbs(pathname: string) {
         item: `${SITE_URL}/${segments.slice(0, i + 1).join('/')}`,
       })),
     ],
+  }
+}
+
+function getHowToSchema(pathname: string) {
+  const howtoData = HOWTO_SCHEMA_MAP[pathname]
+  if (!howtoData) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: howtoData.name,
+    description: howtoData.description,
+    totalTime: 'PT1H',
+    step: howtoData.steps.map((s, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
   }
 }
 
@@ -452,6 +554,10 @@ export default function SchemaMarkup() {
     const faq = getFaqSchema(pathname)
     if (faq) schemas.push(faq)
   }
+
+  // HowTo schema for pages with step-by-step content
+  const howto = getHowToSchema(pathname)
+  if (howto) schemas.push(howto)
 
   if (schemas.length === 0) return null
 

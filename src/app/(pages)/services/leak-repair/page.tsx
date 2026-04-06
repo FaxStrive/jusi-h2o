@@ -4,7 +4,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { LeakRepairContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Leak Detection & Repair",
+  title: "Leak Detection & Pipe Repair Services Tampa Bay",
   description:
     "Professional leak detection and repair in Tampa Bay. Advanced technology finds hidden leaks fast. Prevent water damage and high bills. Licensed and insured.",
   alternates: { canonical: "/services/leak-repair" },

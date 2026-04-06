@@ -9,7 +9,7 @@ const faqCategories = [
     faqs: [
       {
         q: "How do I know if my water has a problem?",
-        a: "Common signs include white scale buildup on faucets, dry skin and hair after showering, spots on dishes, unpleasant taste or smell, and discolored water. Our free in-home water test can identify exactly what is in your water.",
+        a: "Common signs include white scale buildup on faucets, dry skin and hair after showering, spots on dishes, unpleasant taste or smell, and discolored water. Schedule a free in-home water test to identify exactly what is in your water.",
       },
       {
         q: "What is hard water and why is it a problem?",
@@ -89,7 +89,7 @@ const faqCategories = [
       },
       {
         q: "What is your service area?",
-        a: "We serve a 50-mile radius across Tampa Bay, including Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties. Contact us to confirm service availability at your address.",
+        a: "We serve a 50-mile radius across Tampa Bay, including Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties. View our full service area map or contact us to confirm availability at your address.",
       },
     ],
   },

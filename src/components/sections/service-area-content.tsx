@@ -3,6 +3,7 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import Link from "next/link";
 
 const counties = [
   {
@@ -220,6 +221,30 @@ export function ServiceAreaContent() {
           {counties.map((county) => (
             <CountyCard key={county.name} county={county} />
           ))}
+        </motion.div>
+
+        {/* Services Available in All Areas */}
+        <motion.div
+          className="mb-16 p-8 bg-white rounded-brand-xl border border-border-light"
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ delay: 0.6 }}
+        >
+          <h3 className="font-heading text-xl font-bold text-text mb-4 text-center">Services Available in All Areas</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {[
+              { name: "Water Softeners", href: "/services/water-softeners" },
+              { name: "Water Filtration", href: "/services/water-filtration" },
+              { name: "Reverse Osmosis", href: "/services/reverse-osmosis" },
+              { name: "Free Water Testing", href: "/services/water-testing" },
+              { name: "Well Water Treatment", href: "/services/well-water" },
+              { name: "Leak Detection", href: "/services/leak-repair" },
+            ].map((svc) => (
+              <Link key={svc.href} href={svc.href} className="text-sm text-primary hover:text-primary-dark hover:underline font-medium py-2 px-3 rounded-lg bg-primary-50/50 text-center transition-colors">
+                {svc.name}
+              </Link>
+            ))}
+          </div>
         </motion.div>
 
         {/* Not in area? */}

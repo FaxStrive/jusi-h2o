@@ -4,7 +4,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { CommercialContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Commercial Plumbing & Water Treatment",
+  title: "Commercial Plumbing & Water Treatment Tampa",
   description:
     "Commercial water treatment and plumbing services in Tampa Bay. Restaurants, offices, medical facilities. High-capacity systems with ongoing maintenance.",
   alternates: { canonical: "/services/commercial-plumbing" },

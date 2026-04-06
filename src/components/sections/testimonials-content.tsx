@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { InlineCTA } from "@/components/ui/inline-cta";
 
 const testimonials = [
@@ -138,9 +139,14 @@ export function TestimonialsContent() {
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
                 Over 2,500 Tampa Bay Families Trust Jusi H2O
               </h2>
-              <p className="text-primary-200 text-lg max-w-lg">
+              <p className="text-primary-200 text-lg max-w-lg mb-6">
                 From first water test to ongoing maintenance, we build lasting relationships with homeowners who want the best water for their families.
               </p>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/services/water-testing" className="text-sm font-semibold text-white bg-white/15 hover:bg-white/25 px-4 py-2 rounded-full transition-colors">Free Water Test</Link>
+                <Link href="/about" className="text-sm font-semibold text-white bg-white/15 hover:bg-white/25 px-4 py-2 rounded-full transition-colors">About Us</Link>
+                <Link href="/service-area" className="text-sm font-semibold text-white bg-white/15 hover:bg-white/25 px-4 py-2 rounded-full transition-colors">Service Areas</Link>
+              </div>
             </div>
           </div>
         </div>

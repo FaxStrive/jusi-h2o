@@ -4,7 +4,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { WaterSoftenersContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Water Softeners - Hard Water Solutions",
+  title: "Water Softener Installation - Hard Water Tampa",
   description:
     "Professional water softener installation in Tampa Bay. Eliminate hard water scale, protect appliances, and enjoy softer skin and hair. Free in-home water test.",
   alternates: { canonical: "/services/water-softeners" },

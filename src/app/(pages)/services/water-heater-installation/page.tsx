@@ -4,9 +4,9 @@ import { CTASection } from "@/components/sections/cta-section";
 import { WaterHeaterContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Water Heater Installation & Replacement",
+  title: "Water Heater Installation & Replacement Tampa",
   description:
-    "Professional water heater installation in Tampa Bay. Tankless and traditional options. Same-day service available. Energy-efficient solutions with full warranty.",
+    "Professional water heater installation in Tampa Bay. Tankless and traditional options. Same-day service. Energy-efficient solutions with full warranty.",
   alternates: { canonical: "/services/water-heater-installation" },
 };
 

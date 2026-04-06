@@ -4,7 +4,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { WaterTestingContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Free In-Home Water Testing",
+  title: "Free In-Home Water Testing Services Tampa Bay",
   description:
     "Free professional water testing in Tampa Bay. Test for hardness, chlorine, pH, iron, TDS, and more. Same-day results with no obligation. Call (813) 303-0515.",
   alternates: { canonical: "/services/water-testing" },

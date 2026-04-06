@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Water Softener Installation & Service Tampa Bay',
-  description: 'Professional water softener installation in Tampa Bay by Jusi H2O. Eliminate hard water, protect appliances, and enjoy softer skin. Free in-home water test included.',
+  description: 'Professional water softener installation in Tampa Bay by Jusi H2O. Eliminate hard water, protect appliances, and enjoy softer skin. Free water test.',
   alternates: {
     canonical: 'https://jusih2o.com/water-softener',
   },
   openGraph: {
     title: 'Water Softener Installation & Service Tampa Bay | Jusi H2O',
-    description: 'Professional water softener installation in Tampa Bay by Jusi H2O. Eliminate hard water, protect appliances, and enjoy softer skin. Free in-home water test included.',
+    description: 'Professional water softener installation in Tampa Bay by Jusi H2O. Eliminate hard water, protect appliances, and enjoy softer skin. Free water test.',
     url: 'https://jusih2o.com/water-softener',
     siteName: 'Jusi H2O',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Jusi H2O Water Filtration Services Tampa Bay' }],

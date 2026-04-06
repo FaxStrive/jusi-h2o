@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { InlineCTA } from "@/components/ui/inline-cta";
 
 const values = [
@@ -92,10 +93,10 @@ export function AboutContent() {
                   Founded by Marquis Pendergrass, Jusi H2O was created as a natural expansion of our residential home service solutions. While working with homeowners, Marquis consistently saw the impact that poor water quality had on homes, appliances, and families.
                 </p>
                 <p>
-                  This led us to build a company focused on professional water testing and filtration solutions, providing homeowners with water they can trust. Rather than offering one-size-fits-all systems, we take the time to evaluate a homeowner&apos;s water, explain the results clearly, and recommend the best long-term solution.
+                  This led us to build a company focused on professional <Link href="/services/water-testing" className="text-primary hover:underline font-medium">water testing</Link> and <Link href="/services/water-filtration" className="text-primary hover:underline font-medium">filtration solutions</Link>, providing homeowners with water they can trust. Rather than offering one-size-fits-all systems, we take the time to evaluate a homeowner&apos;s water, explain the results clearly, and recommend the best long-term solution.
                 </p>
                 <p>
-                  Backed by real residential service experience and ongoing customer support through our JusiCare+ program, we focus on building lasting relationships while delivering water homeowners can truly trust.
+                  Backed by real residential service experience and ongoing customer support through our <Link href="/services/jusicare" className="text-primary hover:underline font-medium">JusiCare+ program</Link>, we focus on building lasting relationships while delivering water homeowners can truly trust. See what our customers say in our <Link href="/testimonials" className="text-primary hover:underline font-medium">2,500+ five-star reviews</Link>.
                 </p>
               </div>
             </motion.div>

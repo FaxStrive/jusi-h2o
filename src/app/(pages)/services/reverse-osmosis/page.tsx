@@ -4,7 +4,7 @@ import { CTASection } from "@/components/sections/cta-section";
 import { ReverseOsmosisContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Reverse Osmosis Drinking Water Systems",
+  title: "Reverse Osmosis Drinking Water Systems Tampa",
   description:
     "Reverse osmosis systems remove up to 99% of contaminants for pure drinking water. Professional installation in Tampa Bay. Free water test included.",
   alternates: { canonical: "/services/reverse-osmosis" },
