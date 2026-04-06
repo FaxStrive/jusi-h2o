@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Well Water Treatment & Iron Removal Tampa Bay',
-  description: 'Well water treatment in Tampa Bay by Jusi H2O. Remove iron, sulfur smell, bacteria, and sediment. Free well water testing included.',
+  description: 'Well water treatment in Tampa Bay by Jusi H2O. Remove iron staining, sulfur smell, bacteria, and sediment with custom filtration systems. Free well water testing included.',
   alternates: {
     canonical: 'https://jusih2o.com/well-water-treatment',
   },
   openGraph: {
     title: 'Well Water Treatment & Iron Removal Tampa Bay | Jusi H2O',
-    description: 'Well water treatment in Tampa Bay by Jusi H2O. Remove iron, sulfur smell, bacteria, and sediment. Free well water testing included.',
+    description: 'Well water treatment in Tampa Bay by Jusi H2O. Remove iron staining, sulfur smell, bacteria, and sediment with custom filtration systems. Free well water testing included.',
     url: 'https://jusih2o.com/well-water-treatment',
     siteName: 'Jusi H2O',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Jusi H2O Water Filtration Services Tampa Bay' }],
@@ -22,7 +22,7 @@ export default function WellWaterTreatmentPage() {
     <main>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"Service","name":"Well Water Treatment","provider":{"@type":"LocalBusiness","name":"Jusi H2O","telephone":"+1-813-303-0515","url":"https://jusih2o.com"},"areaServed":[{"@type":"City","name":"Hillsborough County, FL"},{"@type":"City","name":"Pinellas County, FL"},{"@type":"City","name":"Sarasota County, FL"},{"@type":"City","name":"Tampa Bay, FL"},{"@type":"City","name":"Florida"}],"url":"https://jusih2o.com/well-water-treatment","description":"Jusi H2O provides professional well water treatment services in your area. Free consultations available."}` }}
+        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"Service","name":"Well Water Treatment","provider":{"@type":"LocalBusiness","name":"Jusi H2O","telephone":"+18133030515","url":"https://jusih2o.com"},"areaServed":[{"@type":"City","name":"Hillsborough County, FL"},{"@type":"City","name":"Pinellas County, FL"},{"@type":"City","name":"Sarasota County, FL"},{"@type":"City","name":"Tampa Bay, FL"},{"@type":"City","name":"Florida"}],"url":"https://jusih2o.com/well-water-treatment","description":"Jusi H2O provides professional well water treatment services in your area. Free consultations available."}` }}
       />
       <script
         type="application/ld+json"

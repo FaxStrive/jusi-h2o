@@ -22,7 +22,7 @@ export default function WaterSoftenerInHillsboroughCountyFLPage() {
     <main>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"Service","name":"Water Softener in Hillsborough County, FL, ","provider":{"@type":"LocalBusiness","name":"Jusi H2O","telephone":"+1-813-303-0515"},"areaServed":{"@type":"City","name":"Hillsborough County, FL"},"url":"https://jusih2o.com/water-softener-in-hillsborough-county-fl","description":"Professional water softener services in Hillsborough County, FL by Jusi H2O."}` }}
+        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"Service","name":"Water Softener in Hillsborough County, FL, ","provider":{"@type":"LocalBusiness","name":"Jusi H2O","telephone":"+18133030515"},"areaServed":{"@type":"City","name":"Hillsborough County, FL"},"url":"https://jusih2o.com/water-softener-in-hillsborough-county-fl","description":"Professional water softener services in Hillsborough County, FL by Jusi H2O."}` }}
       />
       <script
         type="application/ld+json"

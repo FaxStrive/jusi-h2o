@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Water Treatment Service Areas Across Tampa Bay FL',
-  description: 'Jusi H2O provides water softener, filtration, reverse osmosis, and well water treatment across Tampa Bay. Serving 5 counties.',
+  description: 'Jusi H2O provides water softener, filtration, reverse osmosis, and well water treatment across Tampa Bay. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.',
   alternates: { canonical: '/service-areas' },
 };
 

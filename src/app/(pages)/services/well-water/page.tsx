@@ -4,9 +4,9 @@ import { CTASection } from "@/components/sections/cta-section";
 import { WellWaterContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Well Water Treatment & Iron Removal Tampa Bay",
+  title: "Well Water Filtration & Iron Removal Services Tampa",
   description:
-    "Professional well water treatment in Tampa Bay. Remove iron staining, sulfur smell, bacteria, and sediment. Free well water testing included.",
+    "Professional well water treatment and iron removal in Tampa Bay by Jusi H2O. We eliminate iron staining, sulfur smell, bacteria, and sediment. Free well water testing included.",
   alternates: { canonical: "/services/well-water" },
   keywords: [
     "well water treatment Tampa",
