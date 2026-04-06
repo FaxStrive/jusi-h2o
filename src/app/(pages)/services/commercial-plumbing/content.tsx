@@ -793,6 +793,28 @@ export function CommercialContent() {
           </motion.div>
         </div>
       </section>
+
+      {/* Related Services */}
+      <section className="py-16 px-4 bg-gradient-to-b from-white to-primary-50/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-text-primary mb-2 text-center">Related Services</h2>
+          <p className="text-text-secondary text-center mb-8">We also serve commercial properties with these water solutions.</p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/services/water-filtration" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Water Filtration</h3>
+              <p className="text-sm text-text-secondary">Commercial-grade filtration systems for restaurants, offices, and facilities.</p>
+            </Link>
+            <Link href="/services/water-softeners" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Water Softeners</h3>
+              <p className="text-sm text-text-secondary">Protect commercial equipment and plumbing from hard water damage.</p>
+            </Link>
+            <Link href="/services/leak-repair" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Leak Repair</h3>
+              <p className="text-sm text-text-secondary">Fast leak detection and repair to prevent costly water damage.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

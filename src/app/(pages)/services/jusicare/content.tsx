@@ -902,6 +902,28 @@ export function JusiCareContent() {
           </motion.p>
         </div>
       </section>
+
+      {/* Related Services */}
+      <section className="py-16 px-4 bg-gradient-to-b from-white to-secondary-50/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-text-primary mb-2 text-center">Services Covered by JusiCare</h2>
+          <p className="text-text-secondary text-center mb-8">Our maintenance plan keeps these systems running at peak performance.</p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/services/water-softeners" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-secondary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-secondary transition-colors mb-2">Water Softeners</h3>
+              <p className="text-sm text-text-secondary">Salt refills, resin checks, and valve maintenance included in your plan.</p>
+            </Link>
+            <Link href="/services/reverse-osmosis" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-secondary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-secondary transition-colors mb-2">Reverse Osmosis</h3>
+              <p className="text-sm text-text-secondary">Scheduled filter and membrane replacements keep your RO water pure.</p>
+            </Link>
+            <Link href="/services/water-filtration" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-secondary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-secondary transition-colors mb-2">Water Filtration</h3>
+              <p className="text-sm text-text-secondary">Timely filter changes ensure your whole-house system stays effective.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

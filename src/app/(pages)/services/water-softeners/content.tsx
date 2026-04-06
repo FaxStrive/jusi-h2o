@@ -1056,6 +1056,28 @@ export function WaterSoftenersContent() {
         </div>
       </section>
 
+      {/* Related Services */}
+      <section className="py-16 px-4 bg-gradient-to-b from-white to-primary-50/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-text-primary mb-2 text-center">Related Services</h2>
+          <p className="text-text-secondary text-center mb-8">Pair your water softener with these complementary solutions for complete water quality.</p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/services/water-filtration" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Water Filtration</h3>
+              <p className="text-sm text-text-secondary">Remove chlorine, sediment, and contaminants with whole-house filtration.</p>
+            </Link>
+            <Link href="/services/water-testing" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Water Testing</h3>
+              <p className="text-sm text-text-secondary">Find out exactly what is in your water with a free in-home test.</p>
+            </Link>
+            <Link href="/services/well-water" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Well Water Treatment</h3>
+              <p className="text-sm text-text-secondary">Specialized treatment for iron, sulfur, and bacteria in well water systems.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <InlineCTA variant="text" text="Talk to a water softener specialist" />
     </>
   );

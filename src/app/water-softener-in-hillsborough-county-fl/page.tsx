@@ -158,23 +158,30 @@ export default function WaterSoftenerInHillsboroughCountyFLPage() {
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="text-blue-600 hover:underline">
-                Contact Jusi H2O
+              <Link href="/water-filtration" className="text-blue-600 hover:underline">
+                Water Filtration in Hillsborough County
               </Link>
             </li>
             <li>
-              <Link href="/" className="text-blue-600 hover:underline">
-                Jusi H2O Home
+              <Link href="/water-testing" className="text-blue-600 hover:underline">
+                Water Testing Services
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="text-blue-600 hover:underline">
+                Contact Jusi H2O
               </Link>
             </li>
           </ul>
         </nav>
       </article>
-    
-        <nav className="mt-12 pt-8 border-t border-gray-200" aria-label="Related resources">
-          <h2 className="text-lg font-semibold mb-3">Related Resources</h2>
+
+        <nav className="mt-12 pt-8 border-t border-gray-200" aria-label="Related services">
+          <h2 className="text-lg font-semibold mb-3">Related Services</h2>
           <ul className="space-y-2">
-            <li><Link href="/water-softener" className="text-blue-600 hover:underline">Learn more about Water Softener</Link></li>
+            <li><Link href="/water-softener" className="text-blue-600 hover:underline">Water Softener Installation</Link></li>
+            <li><Link href="/whole-house-filtration" className="text-blue-600 hover:underline">Whole-House Filtration</Link></li>
+            <li><Link href="/well-water-treatment" className="text-blue-600 hover:underline">Well Water Treatment</Link></li>
           </ul>
         </nav>
     </main>

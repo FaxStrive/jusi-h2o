@@ -1095,6 +1095,28 @@ export function LeakRepairContent() {
           </motion.div>
         </div>
       </section>
+
+      {/* Related Services */}
+      <section className="py-16 px-4 bg-gradient-to-b from-white to-primary-50/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-text-primary mb-2 text-center">Related Services</h2>
+          <p className="text-text-secondary text-center mb-8">Protect your home further with these water quality solutions.</p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/services/water-softeners" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Water Softeners</h3>
+              <p className="text-sm text-text-secondary">Hard water causes pipe corrosion. A softener helps prevent future leaks.</p>
+            </Link>
+            <Link href="/services/water-heater-installation" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Water Heater Installation</h3>
+              <p className="text-sm text-text-secondary">Leaking water heater? We install energy-efficient replacements same day.</p>
+            </Link>
+            <Link href="/services/commercial-plumbing" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Commercial Plumbing</h3>
+              <p className="text-sm text-text-secondary">Commercial leak detection and repair for businesses across Tampa Bay.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

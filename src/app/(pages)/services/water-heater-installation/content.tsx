@@ -940,6 +940,28 @@ export function WaterHeaterContent() {
         </div>
       </section>
 
+      {/* Related Services */}
+      <section className="py-16 px-4 bg-gradient-to-b from-white to-primary-50/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-text-primary mb-2 text-center">Related Services</h2>
+          <p className="text-text-secondary text-center mb-8">Maximize your water heater lifespan with these complementary services.</p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/services/water-softeners" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Water Softeners</h3>
+              <p className="text-sm text-text-secondary">Soft water prevents scale buildup that shortens water heater life by years.</p>
+            </Link>
+            <Link href="/services/leak-repair" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Leak Repair</h3>
+              <p className="text-sm text-text-secondary">Leaking water heater connections? We fix pipe and fitting leaks fast.</p>
+            </Link>
+            <Link href="/services/jusicare" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">JusiCare Maintenance</h3>
+              <p className="text-sm text-text-secondary">Keep all your water systems running perfectly with our maintenance plan.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <InlineCTA variant="text" text="Compare water heater options" />
     </>
   );

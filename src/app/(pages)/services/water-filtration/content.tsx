@@ -663,6 +663,28 @@ export function WaterFiltrationContent() {
         </div>
       </section>
 
+      {/* Related Services */}
+      <section className="py-16 px-4 bg-gradient-to-b from-white to-primary-50/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-text-primary mb-2 text-center">Related Services</h2>
+          <p className="text-text-secondary text-center mb-8">Complement your filtration system with these water quality solutions.</p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/services/reverse-osmosis" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Reverse Osmosis</h3>
+              <p className="text-sm text-text-secondary">Get the purest drinking water with multi-stage RO filtration at your kitchen tap.</p>
+            </Link>
+            <Link href="/services/water-softeners" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Water Softeners</h3>
+              <p className="text-sm text-text-secondary">Eliminate hard water scale and protect your appliances and plumbing.</p>
+            </Link>
+            <Link href="/services/water-testing" className="group block p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-brand transition-all duration-300">
+              <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors mb-2">Water Testing</h3>
+              <p className="text-sm text-text-secondary">Identify exactly what contaminants are in your water before choosing a system.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <InlineCTA variant="banner" text="Cleaner Water Starts Today" message="Book a free in-home water test and see the difference filtration makes." />
     </>
   );
