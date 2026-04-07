@@ -95,7 +95,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://www.instagram.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
       </head>
-      <body className="antialiased">
+      <body className="antialiased pb-16 lg:pb-0">
         <Suspense fallback={null}>
           <SchemaMarkup />
         </Suspense>

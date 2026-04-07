@@ -35,7 +35,7 @@ export default function ReverseOsmosisPage() {
           <p className="text-sm text-gray-500 mb-4">
             Last updated: <time dateTime="2026-04-05">April 2026</time>
           </p>
-          <h1 className="text-5xl font-bold mb-6">Reverse Osmosis Drinking Water Systems</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Reverse Osmosis Drinking Water Systems</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             The purest drinking water available from a residential system. Reverse osmosis removes up to 99 percent of dissolved contaminants including lead, fluoride, arsenic, sodium, and total dissolved solids. Professional installation by Jusi H2O throughout Tampa Bay. Free water test included.
           </p>

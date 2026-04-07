@@ -35,7 +35,7 @@ export default function WellWaterTreatmentPage() {
           <p className="text-sm text-gray-500 mb-4">
             Last updated: <time dateTime="2026-04-05">April 2026</time>
           </p>
-          <h1 className="text-5xl font-bold mb-6">Well Water Treatment for Tampa Bay Homes</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Well Water Treatment for Tampa Bay Homes</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Eliminate iron staining, sulfur odor, bacteria, and hardness from your private well water. Jusi H2O designs custom well water treatment systems for homes across Hillsborough, Pinellas, and Sarasota counties. Free comprehensive well water testing included.
           </p>

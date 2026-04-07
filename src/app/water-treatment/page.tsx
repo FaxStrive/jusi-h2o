@@ -35,7 +35,7 @@ export default function WaterTreatmentPage() {
           <p className="text-sm text-gray-500 mb-4">
             Last updated: <time dateTime="2026-04-05">April 2026</time>
           </p>
-          <h1 className="text-5xl font-bold mb-6">Complete Water Treatment Solutions for Tampa Bay</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Complete Water Treatment Solutions for Tampa Bay</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Comprehensive water treatment systems that address every water quality challenge in your home. Jusi H2O designs custom solutions combining softening, filtration, and purification — tailored to Tampa Bay&apos;s unique water conditions. Free in-home water testing and consultation.
           </p>

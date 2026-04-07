@@ -35,7 +35,7 @@ export default function WaterFiltrationPage() {
           <p className="text-sm text-gray-500 mb-4">
             Last updated: <time dateTime="2026-04-05">April 2026</time>
           </p>
-          <h1 className="text-5xl font-bold mb-6">Water Filtration Systems for Tampa Bay Homes</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Water Filtration Systems for Tampa Bay Homes</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Remove chlorine, sediment, and contaminants from your household water with a professionally installed filtration system from Jusi H2O. Serving Tampa Bay, Hillsborough, Pinellas, and Sarasota counties. Free in-home water testing included.
           </p>

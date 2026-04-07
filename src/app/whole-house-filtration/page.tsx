@@ -35,7 +35,7 @@ export default function WholeHouseFiltrationPage() {
           <p className="text-sm text-gray-500 mb-4">
             Last updated: <time dateTime="2026-04-05">April 2026</time>
           </p>
-          <h1 className="text-5xl font-bold mb-6">Whole-House Water Filtration for Tampa Bay Homes</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Whole-House Water Filtration for Tampa Bay Homes</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Clean, filtered water at every faucet, shower, and appliance in your home. Jusi H2O installs whole-house filtration systems designed for Tampa Bay water conditions — removing chlorine, sediment, and contaminants before they reach any fixture. Free in-home water test included.
           </p>

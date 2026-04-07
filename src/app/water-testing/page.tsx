@@ -35,7 +35,7 @@ export default function WaterTestingPage() {
           <p className="text-sm text-gray-500 mb-4">
             Last updated: <time dateTime="2026-04-05">April 2026</time>
           </p>
-          <h1 className="text-5xl font-bold mb-6">Free Professional Water Testing in Tampa Bay</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Free Professional Water Testing in Tampa Bay</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Find out exactly what is in your water. Jusi H2O provides free in-home water testing throughout Tampa Bay — measuring hardness, chlorine, pH, iron, TDS, and more. Same-day results, clear explanations, and zero obligation. The first step to better water starts with knowing what you are working with.
           </p>
