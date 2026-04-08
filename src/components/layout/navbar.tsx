@@ -24,10 +24,8 @@ const navLinks = [
   { href: "/testimonials", label: "Testimonials" },
   { href: "/service-area", label: "Service Area" },
   { href: "/faq", label: "FAQ" },
+  { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
-  { label: "Blog", href: "/blog" },
-  { label: "(pages)/blog", href: "/(pages)/blog" },
-  { label: "Service Areas", href: "/service-areas" },
 ];
 
 export function Navbar() {
