@@ -75,7 +75,8 @@ export const metadata: Metadata = {
   },
   verification: {
     other: {
-      "msvalidate.01": "BING_VERIFICATION_CODE_HERE",
+      // Add Bing verification code from Bing Webmaster Tools
+      // "msvalidate.01": "YOUR_BING_CODE",
     },
   },
   alternates: {
@@ -94,6 +95,8 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://www.facebook.com" />
         <link rel="dns-prefetch" href="https://www.instagram.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        {/* Preload LCP hero video poster for faster Largest Contentful Paint */}
+        <link rel="preload" as="image" href="/images/og-image.png" />
       </head>
       <body className="antialiased pb-16 lg:pb-0">
         <Suspense fallback={null}>

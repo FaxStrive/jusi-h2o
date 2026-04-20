@@ -15,6 +15,8 @@ const footerLinks = {
   ],
   company: [
     { href: "/about", label: "About Us" },
+    { href: "/pricing", label: "Pricing" },
+    { href: "/certifications", label: "Certifications" },
     { href: "/testimonials", label: "Testimonials" },
     { href: "/service-area", label: "Service Area" },
     { href: "/faq", label: "FAQ" },
@@ -190,7 +192,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-300">
-          <p>2026 Jusi H2O. All rights reserved.</p>
+          <p>© 2011–2026 Jusi H2O. All rights reserved. Licensed & Insured in Florida.</p>
           <div className="flex gap-6">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">
               Privacy Policy

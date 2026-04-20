@@ -2,36 +2,59 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://jusih2o.com";
-  const lastModified = new Date("2026-03-18");
+  const lastModified = new Date("2026-04-19");
+  const older = new Date("2026-03-18");
 
   return [
+    // Core pages
     { url: baseUrl, lastModified, changeFrequency: "weekly", priority: 1 },
-    { url: `${baseUrl}/services`, lastModified, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/contact`, lastModified, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/services/water-softeners`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/services/water-filtration`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/services/reverse-osmosis`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/services/water-testing`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/services/well-water`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/services/water-heater-installation`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/services/leak-repair`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/services/commercial-plumbing`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/services/jusicare`, lastModified, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/about`, lastModified, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/testimonials`, lastModified, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${baseUrl}/service-area`, lastModified, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/before-after`, lastModified, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/gallery`, lastModified, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${baseUrl}/faq`, lastModified, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${baseUrl}/privacy-policy`, lastModified, changeFrequency: "yearly", priority: 0.3 },
-    { url: `${baseUrl}/terms-of-service`, lastModified, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${baseUrl}/services`, lastModified: older, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/contact`, lastModified: older, changeFrequency: "monthly", priority: 0.9 },
+    // New pages
+    { url: `${baseUrl}/pricing`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/certifications`, lastModified, changeFrequency: "yearly", priority: 0.8 },
+    // Service pages
+    { url: `${baseUrl}/services/water-softeners`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/services/water-filtration`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/services/reverse-osmosis`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/services/water-testing`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/services/well-water`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/services/water-heater-installation`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/services/leak-repair`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/services/commercial-plumbing`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/services/jusicare`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    // City pages (new)
+    { url: `${baseUrl}/water-softener-tampa-fl`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/water-softener-st-petersburg-fl`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/water-softener-clearwater-fl`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/water-softener-brandon-fl`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/water-softener-sarasota-fl`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    // County pages
+    { url: `${baseUrl}/water-softener-in-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/water-softener-in-pinellas-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.8 },
+    // Company pages
+    { url: `${baseUrl}/about`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/testimonials`, lastModified: older, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${baseUrl}/service-area`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/service-areas`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/before-after`, lastModified: older, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${baseUrl}/faq`, lastModified: older, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${baseUrl}/privacy-policy`, lastModified: older, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${baseUrl}/terms-of-service`, lastModified: older, changeFrequency: "yearly", priority: 0.3 },
+    // Blog
     { url: `${baseUrl}/blog`, lastModified, changeFrequency: "weekly", priority: 0.7 },
-      {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-04-05'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
+    { url: `${baseUrl}/blog/water-heater-installation-cost-tampa-bay`, lastModified, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/best-water-softener-tampa-bay`, lastModified, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/commercial-water-treatment-tampa-bay`, lastModified, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/water-softener-cost-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/whole-house-filtration-cost-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/reverse-osmosis-cost-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/water-filtration-cost-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/water-testing-cost-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/water-treatment-cost-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/water-softener-vs-water-conditioner`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog/winter-water-tips-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${baseUrl}/blog/summer-water-guide-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.6 },
   
     { url: 'https://jusih2o.com/articles/water-softener-cost-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: 'https://jusih2o.com/articles/whole-house-filtration-cost-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },

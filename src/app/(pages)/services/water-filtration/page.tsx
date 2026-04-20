@@ -4,9 +4,9 @@ import { CTASection } from "@/components/sections/cta-section";
 import { WaterFiltrationContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Whole-House Water Filtration Installation Tampa Bay",
+  title: "Whole-House Water Filtration Tampa Bay",
   description:
-    "Get clean, filtered water at every faucet with a whole-house water filtration system from Jusi H2O. We remove chlorine, sediment, and contaminants for Tampa Bay homes. Free water test included.",
+    "Clean water at every faucet. Jusi H2O installs whole-house filtration systems that remove chlorine, sediment, and contaminants for Tampa Bay homes. Free in-home water test included.",
   alternates: { canonical: "/services/water-filtration" },
 };
 

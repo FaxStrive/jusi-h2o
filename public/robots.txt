@@ -23,7 +23,7 @@ User-agent: Meta-ExternalAgent
 Disallow: /
 
 User-agent: Applebot-Extended
-Disallow: /
+Allow: /
 
 User-agent: Amazonbot
 Disallow: /
@@ -52,4 +52,6 @@ User-agent: Perplexity-User
 Allow: /
 # LLM content discovery
 # https://jusih2o.com/llms.txt
+# https://jusih2o.com/llms-full.txt
+# https://jusih2o.com/llms-qa.json
 

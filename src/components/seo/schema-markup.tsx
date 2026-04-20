@@ -4,8 +4,8 @@ import { usePathname } from 'next/navigation'
 
 const SITE_URL = 'https://jusih2o.com'
 const BUSINESS_NAME = 'Jusi H2O'
-const SCHEMA_TYPE = 'HomeAndConstructionBusiness'
-const DATE_MODIFIED = '2026-03-18'
+const SCHEMA_TYPE = 'Plumber'
+const DATE_MODIFIED = '2026-04-19'
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
@@ -72,6 +72,13 @@ const localBusinessSchema = {
     bestRating: 5,
     worstRating: 1,
   },
+  sameAs: [
+    'https://www.facebook.com/profile.php?id=61578123391295',
+    'https://www.instagram.com/jusih2o/',
+    'https://www.google.com/maps?cid=jusih2o',
+    'https://www.yelp.com/biz/jusi-h2o',
+    'https://www.bbb.org/us/fl/st-petersburg/profile/water-filtration',
+  ],
   hasCredential: [
     { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'WQA Certified (Water Quality Association)' },
     { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF-42: Aesthetic effects' },
@@ -365,7 +372,8 @@ const SERVICE_SCHEMA_MAP: Record<
   },
 }
 
-const HOWTO_SCHEMA_MAP: Record<string, { name: string; description: string; steps: Array<{ name: string; text: string }> }> = {
+// HowTo rich results were deprecated Sept 2023 — replaced with ItemList process schema
+const PROCESS_SCHEMA_MAP: Record<string, { name: string; description: string; steps: Array<{ name: string; text: string }> }> = {
   '/': {
     name: 'How to Get Better Water in 3 Simple Steps',
     description: 'Schedule a free water test, get a custom recommendation, and have professional installation in Tampa Bay.',
@@ -466,22 +474,36 @@ function getBreadcrumbs(pathname: string) {
   }
 }
 
-function getHowToSchema(pathname: string) {
-  const howtoData = HOWTO_SCHEMA_MAP[pathname]
-  if (!howtoData) return null
+function getProcessSchema(pathname: string) {
+  const processData = PROCESS_SCHEMA_MAP[pathname]
+  if (!processData) return null
 
   return {
     '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: howtoData.name,
-    description: howtoData.description,
-    totalTime: 'PT1H',
-    step: howtoData.steps.map((s, i) => ({
-      '@type': 'HowToStep',
+    '@type': 'ItemList',
+    name: processData.name,
+    description: processData.description,
+    itemListElement: processData.steps.map((s, i) => ({
+      '@type': 'ListItem',
       position: i + 1,
       name: s.name,
-      text: s.text,
+      description: s.text,
     })),
+  }
+}
+
+function getSpeakableSchema(pathname: string) {
+  const speakablePages = ['/', '/faq', '/services/water-softeners', '/services/water-filtration', '/services/reverse-osmosis', '/services/water-testing', '/services/well-water']
+  if (!speakablePages.includes(pathname)) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', 'h2', '.speakable', '[data-speakable]'],
+    },
+    url: `${SITE_URL}${pathname === '/' ? '' : pathname}`,
   }
 }
 
@@ -555,9 +577,13 @@ export default function SchemaMarkup() {
     if (faq) schemas.push(faq)
   }
 
-  // HowTo schema for pages with step-by-step content
-  const howto = getHowToSchema(pathname)
-  if (howto) schemas.push(howto)
+  // Process/ItemList schema for pages with step-by-step content
+  const process = getProcessSchema(pathname)
+  if (process) schemas.push(process)
+
+  // Speakable schema for key pages (AI voice assistant optimization)
+  const speakable = getSpeakableSchema(pathname)
+  if (speakable) schemas.push(speakable)
 
   if (schemas.length === 0) return null
 

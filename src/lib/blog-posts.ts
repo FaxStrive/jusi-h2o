@@ -18,7 +18,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Tampa Bay has some of Florida's hardest water — measuring 15–25 grains per gallon. Discover why it damages pipes, appliances, and skin, and what you can do about it.",
     date: "2026-01-15",
-    author: "Jusi H2O Team",
+    author: "Marquis Pendergrass",
     category: "Water Quality",
     readTime: "9 min read",
     tags: ["Hard Water", "Tampa Bay", "Water Quality"],
@@ -93,7 +93,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Over 80,000 private wells operate in Hillsborough County. While county health tests for bacteria and nitrates, most homeowners don't realize what else may be in their water — and it can affect their health.",
     date: "2026-01-22",
-    author: "Jusi H2O Team",
+    author: "Marquis Pendergrass",
     category: "Well Water",
     readTime: "10 min read",
     tags: ["Well Water", "Hillsborough County", "Water Testing"],
@@ -154,7 +154,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Scale buildup from hard water reduces water heater efficiency by up to 25% and cuts its lifespan nearly in half. Here's the science, the cost, and what to do about it.",
     date: "2026-02-01",
-    author: "Jusi H2O Team",
+    author: "Marquis Pendergrass",
     category: "Home Protection",
     readTime: "8 min read",
     tags: ["Water Heater", "Scale", "Hard Water"],
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "RO systems remove 95–99% of contaminants including PFAS, chlorine byproducts, lead, and nitrates. Here's what you're drinking without one — and what life looks like with one.",
     date: "2026-02-12",
-    author: "Jusi H2O Team",
+    author: "Marquis Pendergrass",
     category: "Reverse Osmosis",
     readTime: "9 min read",
     tags: ["Reverse Osmosis", "Drinking Water", "PFAS"],
@@ -304,7 +304,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "What tests do you actually need, what do the results mean, and when should you worry? A practical guide to understanding your water from a Tampa Bay perspective.",
     date: "2026-02-20",
-    author: "Jusi H2O Team",
+    author: "Marquis Pendergrass",
     category: "Water Testing",
     readTime: "11 min read",
     tags: ["Water Testing", "Water Quality", "Homeowner Guide"],
@@ -421,6 +421,44 @@ export const blogPosts: BlogPost[] = [
   {"slug":"winter-water-tips-hillsborough-county-fl","title":"Winter Water System Tips for Hillsborough County, FL Homeowners","category":"Guide","excerpt":"Protect your water system during Florida winters. Tips from Jusi H2O for Hillsborough County homeowners.","date":"2026-03-07","author":"Jusi H2O Team","readTime":"4 min read","tags":["Winter Tips","Hillsborough County","Maintenance"],"content":"<h1>Winter Water System Tips for Hillsborough County, FL Homeowners</h1><p>Winter in Hillsborough County, FL brings unique challenges for water treatment systems. Cold temperatures can affect system performance, and freeze risk — even in mild climates — can cause expensive damage if you are not prepared. Jusi H2O shares the essential steps to protect your investment.</p><h2>Freeze Prevention for Water Treatment Systems</h2><p>Even in Hillsborough County, FL's relatively mild winters, overnight temperatures can drop low enough to freeze exposed pipes and system components. Insulate all exposed water lines, ensure your water softener is in a climate-controlled space, and know where your main water shut-off valve is located.</p><h2>Winter Maintenance Checklist</h2><p><strong>Check salt levels</strong> — Cold weather can cause salt to bridge more easily in your brine tank. Check monthly and break up any bridges.</p><p><strong>Test water quality</strong> — Winter changes in municipal water treatment can affect your system performance. Test hardness and TDS.</p><p><strong>Inspect for leaks</strong> — Temperature fluctuations stress fittings and connections. Check all visible connections for drips.</p><h2>When to Schedule Professional Service</h2><p>Jusi H2O recommends scheduling a professional system inspection before winter arrives. Our technicians check all connections, test system performance, and ensure your Hillsborough County, FL water treatment system is ready for the season.</p><h2>Schedule Seasonal Service with Jusi H2O</h2><a href=\"/contact\">Contact Jusi H2O</a> or call (813) 303-0515 to schedule seasonal water softener service in Hillsborough County, FL. Proactive maintenance saves money and prevents emergency situations."},
   {"slug":"summer-water-guide-hillsborough-county-fl","title":"Summer Water Quality Guide for Hillsborough County, FL Homeowners","category":"Guide","excerpt":"Summer water quality challenges in Hillsborough County and how to keep your water clean and safe.","date":"2026-03-18","author":"Jusi H2O Team","readTime":"5 min read","tags":["Summer Guide","Hillsborough County","Water Quality"],"content":"<h1>Summer Water Quality Guide for Hillsborough County, FL Homeowners</h1><p>Summer in Hillsborough County, FL means higher water usage, increased chlorine levels from the municipal supply, and greater demand on your water treatment system. Understanding these seasonal changes helps you maintain optimal water quality throughout the warmest months.</p><h2>Why Water Quality Changes in Summer</h2><p>Municipal water systems in Hillsborough County, FL typically increase disinfectant levels during summer because warmer water temperatures promote bacterial growth in distribution pipes. You may notice a stronger chlorine taste or smell — this is normal but can be addressed with proper filtration.</p><h2>Summer Maintenance for Your Water System</h2><p><strong>Increase salt checks</strong> — Higher water usage in summer means your softener works harder. Check salt levels every 2-3 weeks.</p><p><strong>Replace filters on schedule</strong> — Higher volume means filters reach capacity sooner. Consider early replacement if water quality drops.</p><p><strong>Monitor RO production</strong> — Warmer input water actually improves RO membrane performance, but higher demand may require a larger storage tank.</p><h2>Staying Hydrated with Clean Water</h2><p>Hillsborough County, FL summers demand proper hydration. A reverse osmosis system ensures your drinking water is pure and great-tasting, encouraging your family to drink more water. Jusi H2O can evaluate your current system and recommend upgrades to meet summer demand.</p><h2>Schedule Seasonal Service with Jusi H2O</h2><a href=\"/contact\">Contact Jusi H2O</a> or call (813) 303-0515 to schedule seasonal water softener service in Hillsborough County, FL. Proactive maintenance saves money and prevents emergency situations."},
   {"slug":"hard-water-guide-hillsborough-county","title":"Hard Water in Hillsborough County: A Complete Homeowner's Guide","category":"Water Quality","excerpt":"Learn how hard water affects your plumbing, appliances, and health in Hillsborough County, FL. Expert advice from Jusi H2O on testing and treatment options.","date":"2026-03-28","author":"Jusi H2O Team","readTime":"8 min read","tags":["Hard Water","Hillsborough County","Guide"],"content":"<h1>Hard Water in Hillsborough County: A Complete Homeowner's Guide</h1><p>If you live in Hillsborough County, FL, you are almost certainly dealing with hard water. The Tampa Bay area consistently ranks among the hardest water regions in Florida, with mineral concentrations that wreak havoc on plumbing, appliances, skin, and hair. This guide covers everything you need to know about hard water in Hillsborough County and your options for treating it.</p><h2>What Makes Hillsborough County Water So Hard?</h2><p>Hard water is water that contains elevated concentrations of dissolved minerals, primarily calcium and magnesium. In Hillsborough County, the water supply draws from the Floridan Aquifer, a limestone formation that naturally dissolves into the groundwater as it passes through. The result is water that typically measures between 150 and 300 milligrams per liter (mg/L) of hardness — well above the 120 mg/L threshold considered \"hard\" by water quality standards.</p><h2>Signs You Have Hard Water at Home</h2><p><strong>Scale buildup on fixtures</strong> — White or yellow deposits around faucets, showerheads, and toilet bowls are calcium scale left behind when hard water evaporates.</p><p><strong>Soap scum that won't rinse away</strong> — Hard water minerals react with soap to form insoluble curd, leaving a film on skin, shower walls, and bathtubs.</p><p><strong>Dingy laundry and faded colors</strong> — Minerals interfere with detergent performance, leaving clothes looking dull and feeling stiff even after washing.</p><p><strong>Spotty dishes and glassware</strong> — Even after a full dishwasher cycle, hard water leaves mineral deposits that cloud glasses and spot dishes.</p><p><strong>Reduced water pressure</strong> — Over time, scale accumulates inside pipes and reduces flow, particularly in older homes.</p><h2>How Hard Water Affects Your Appliances</h2><p>Scale deposits are not just cosmetic. They act as insulation inside water heaters, forcing the heating element to work harder and consume more energy. Studies by the Water Quality Research Foundation found that water heaters in hard water areas fail up to 30 percent sooner than those using soft water. Dishwashers, washing machines, and coffee makers are similarly impacted. Each appliance that processes water is slowly being degraded by mineral deposits accumulating inside it.</p><h2>Hard Water Treatment Options</h2><p><strong>Salt-based water softeners</strong> — The most effective solution for hard water. Ion exchange technology replaces calcium and magnesium with sodium, delivering genuinely soft water throughout your home. Jusi H2O installs professional-grade softeners sized specifically for your household water usage.</p><p><strong>Salt-free water conditioners</strong> — A maintenance-free alternative that neutralizes minerals without removing them. Conditioned water does not technically become soft, but scale formation is significantly reduced. A good option for households with sodium restrictions.</p><p><strong>Whole-house filtration systems</strong> — Often paired with a softener to also address chlorine, sediment, and other contaminants present in Hillsborough County tap water.</p><h2>Getting Your Water Tested</h2><p>Before recommending any system, Jusi H2O performs a comprehensive free water test at your home. We test for hardness, chlorine, pH, iron, total dissolved solids, and other parameters specific to Hillsborough County water. The results tell us exactly what your water needs and allow us to size a system correctly rather than guessing.</p><h2>Frequently Asked Questions</h2><h3>Is Hillsborough County water safe to drink?</h3><p>Yes, Hillsborough County water meets all EPA safety standards. Hard water is not a health hazard — it is primarily an aesthetic and appliance longevity issue. However, many homeowners prefer the taste and feel of treated water.</p><h3>How much does water softener installation cost in Hillsborough County?</h3><p>Most whole-home water softener installations in Hillsborough County range from $1,500 to $4,500, depending on system capacity and installation complexity. Jusi H2O provides detailed, no-obligation quotes after your free in-home water test.</p><h3>Will a water softener help with my skin and hair?</h3><p>Yes. Soft water rinses soap and shampoo away completely, which most customers notice immediately as skin feeling noticeably smoother and hair feeling softer and less brittle.</p><p><a href=\"/contact\">Request your free water test</a> or call <a href=\"tel:+18133030515\">(813) 303-0515</a>. Jusi H2O serves all of Hillsborough County, including Tampa, Brandon, Valrico, Riverview, and surrounding communities.</p>"},
+];
+
+  {
+    slug: "water-heater-installation-cost-tampa-bay",
+    title: "Water Heater Installation Cost in Tampa Bay, FL (2026 Guide)",
+    excerpt: "How much does water heater installation cost in Tampa Bay? Jusi H2O breaks down tankless vs. traditional costs, what affects pricing, and how to get the best value.",
+    date: "2026-04-19",
+    author: "Marquis Pendergrass",
+    category: "Cost Guide",
+    readTime: "7 min read",
+    tags: ["Water Heater", "Cost", "Tankless", "Tampa Bay"],
+    image: "/images/og-image.png",
+    content: `<p>Water heater installation in Tampa Bay typically costs <strong>$800 to $3,500</strong> depending on the unit type, fuel source, and installation complexity. Tankless water heaters cost more upfront but save 24–34% on water heating energy costs annually.</p><h2>Tankless vs. Traditional Water Heater</h2><p>Tankless water heaters provide unlimited hot water on demand, last 15–20 years, and save 24–34% on energy costs for average households. Traditional tank heaters cost less upfront and are a proven, reliable choice for smaller households.</p><p>Tampa Bay's hard water (15–25 GPG) shortens traditional tank water heater life significantly — scale deposits on heating elements reduce efficiency by up to 25%. Pairing a new water heater with a <a href="/services/water-softeners">water softener</a> protects your investment and maximizes efficiency.</p><h2>What Affects Installation Cost</h2><p>Unit size and capacity, fuel type (gas vs. electric), venting requirements, and permit fees all affect total cost. All Jusi H2O water heater installations include permits, haul-away of the old unit, and a written warranty.</p><p>Call <a href="tel:+18133030515">(813) 303-0515</a> or <a href="/contact">schedule online</a> for a free in-home assessment.</p>`,
+  },
+  {
+    slug: "best-water-softener-tampa-bay",
+    title: "Best Water Softener for Tampa Bay Homes (2026 Guide)",
+    excerpt: "What's the best water softener for Tampa Bay's extremely hard water? Jusi H2O explains what to look for, which systems perform best at 15–25 GPG, and how to choose.",
+    date: "2026-04-19",
+    author: "Marquis Pendergrass",
+    category: "Buying Guide",
+    readTime: "8 min read",
+    tags: ["Water Softener", "Buying Guide", "Tampa Bay", "NSF-44"],
+    image: "/images/og-image.png",
+    content: `<p>Tampa Bay water tests at <strong>15–25 grains per gallon (GPG)</strong> — among the hardest in Florida. Choosing the right water softener for Tampa Bay's specific water conditions protects thousands of dollars in appliances and plumbing.</p><h2>What to Look for in a Tampa Bay Water Softener</h2><p><strong>NSF-44 certification</strong> — Non-negotiable. NSF-44 independently verifies that the softener reduces hardness as claimed and that materials are safe.</p><p><strong>Capacity for Tampa Bay hardness</strong> — Most Tampa Bay homes (family of 4, 20 GPG) need a 32,000–48,000 grain system. Undersized systems exhaust their resin too quickly and waste salt.</p><p><strong>Demand-initiated regeneration</strong> — Regenerates based on actual usage, saving 25–30% on salt vs. timer-based systems.</p><h2>Get a Free Water Test Before Buying</h2><p>Every Tampa Bay home has slightly different water. A <a href="/services/water-testing">free Jusi H2O water test</a> gives you exact hardness, iron, and TDS readings — so you're not guessing at system size.</p><p>Call <a href="tel:+18133030515">(813) 303-0515</a> or <a href="/contact">schedule online</a>.</p>`,
+  },
+  {
+    slug: "commercial-water-treatment-tampa-bay",
+    title: "Commercial Water Treatment for Tampa Bay Restaurants & Businesses",
+    excerpt: "Hard water costs Tampa Bay businesses thousands in equipment repairs. Jusi H2O installs commercial water treatment systems for restaurants, offices, and medical facilities.",
+    date: "2026-04-19",
+    author: "Marquis Pendergrass",
+    category: "Commercial",
+    readTime: "6 min read",
+    tags: ["Commercial", "Restaurant", "Business", "Tampa Bay"],
+    image: "/images/og-image.png",
+    content: `<p>Tampa Bay's hard water at 15–25 GPG costs commercial operations significantly. For a restaurant operating espresso machines, ice makers, and steam equipment, untreated hard water can mean <strong>$2,000–$10,000 in annual equipment repairs</strong> that proper water treatment prevents.</p><h2>How Hard Water Affects Tampa Bay Businesses</h2><p>Scale buildup in espresso machines, ice makers, and dishwashers reduces performance, increases energy costs, and causes premature failure. Water heaters lose 25% efficiency within a few years of hard water exposure. Commercial RO systems produce crystal-clear ice and optimal coffee extraction.</p><h2>Commercial Water Treatment Options</h2><p>High-capacity softeners (10–50+ GPM), commercial reverse osmosis, UV disinfection, and custom multi-stage systems are available depending on your operation's water quality needs and flow rates.</p><p>Contact <a href="/services/commercial-plumbing">Jusi H2O's commercial team</a> or call <a href="tel:+18133030515">(813) 303-0515</a> to schedule a commercial water assessment.</p>`,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
