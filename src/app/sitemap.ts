@@ -106,7 +106,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: 'https://jusih2o.com/water-filtration', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: 'https://jusih2o.com/water-testing', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: 'https://jusih2o.com/water-treatment', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/well-water-treatment', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 }
+    { url: 'https://jusih2o.com/well-water-treatment', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://jusih2o.com/blog/tampa-bay-water-sources-whats-in-your-tap', lastModified: new Date('2026-04-21'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://jusih2o.com/blog/plant-city-rural-hillsborough-well-water', lastModified: new Date('2026-04-20'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://jusih2o.com/blog/brackish-wells-apollo-beach-ruskin-saltwater-intrusion', lastModified: new Date('2026-04-19'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://jusih2o.com/blog/restaurant-brewery-water-treatment-tampa-bay', lastModified: new Date('2026-04-18'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://jusih2o.com/blog/hard-water-tampa-water-heaters-tank-vs-tankless', lastModified: new Date('2026-04-17'), changeFrequency: 'monthly', priority: 0.8 }
   ];
 }
 
