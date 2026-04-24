@@ -23,7 +23,7 @@ export function CTASection() {
           loop
           muted
           playsInline
-          className="w-full h-full object-cover scale-110"
+          className="w-full h-full object-cover scale-110 object-center"
         >
           <source src="/videos/cta-water-flow.mp4" type="video/mp4" />
         </video>

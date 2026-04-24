@@ -451,7 +451,7 @@ export function WaterFiltrationContent() {
             loop
             muted
             playsInline
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover object-center"
           >
             <source src="/videos/water-surface-waves.mp4" type="video/mp4" />
           </video>

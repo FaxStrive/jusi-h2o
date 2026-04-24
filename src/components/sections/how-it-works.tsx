@@ -46,7 +46,7 @@ export function HowItWorks() {
           loop
           muted
           playsInline
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         >
           <source src="/videos/process.mp4" type="video/mp4" />
         </video>

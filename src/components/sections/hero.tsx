@@ -31,7 +31,7 @@ export function Hero() {
           loop
           muted
           playsInline
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
