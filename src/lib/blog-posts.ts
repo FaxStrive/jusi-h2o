@@ -466,7 +466,7 @@ export const blogPosts: BlogPost[] = [
     category: "Water Quality",
     readTime: "11 min read",
     tags: ["Tampa Bay Water", "desalination", "Floridan Aquifer", "chloramines"],
-    image: "/images/og-image.png",
+    image: "/images/ocean-aerial.jpeg",
     content: `<p>Tampa Bay Water (TBW) is the regional wholesale supplier for the City of Tampa, Hillsborough, Pinellas, and Pasco counties plus member cities. Unlike most Florida utilities that draw from a single groundwater source, TBW blends three categories of water — groundwater, surface water, and desalinated seawater — in ratios that shift with the season, rainfall, and demand. This article covers exactly what's in your tap, how the blend changes, and what it means for home treatment.</p>
 
 <h2>The Three Sources</h2>
@@ -530,7 +530,7 @@ export const blogPosts: BlogPost[] = [
     category: "Well Water",
     readTime: "10 min read",
     tags: ["Plant City", "well water", "nitrates", "Hillsborough County", "agriculture"],
-    image: "/images/og-image.png",
+    image: "/images/well-water-pipe.jpeg",
     content: `<p>Plant City, Florida bills itself as the "Winter Strawberry Capital of the World" — producing more than 75% of U.S. midwinter strawberries, along with citrus, nurseries, and row crops. That agricultural concentration shapes the water quality story for Plant City and the rural east and south portions of Hillsborough County. Fertilizer infiltration, septic systems on agricultural land, and a Floridan Aquifer that is locally unconfined beneath sandy soils create a pattern of well water contaminants that differs from urban Tampa Bay. This article covers what rural Hillsborough well owners should test for and why.</p>
 
 <h2>Plant City Municipal Supply</h2>
@@ -616,7 +616,7 @@ export const blogPosts: BlogPost[] = [
     category: "Well Water",
     readTime: "11 min read",
     tags: ["brackish water", "saltwater intrusion", "Apollo Beach", "Ruskin", "SWUCA"],
-    image: "/images/og-image.png",
+    image: "/images/clear-water-surface.jpeg",
     content: `<p>Coastal south Hillsborough County — Apollo Beach, Ruskin, Sun City Center, Wimauma — sits in one of Florida's most documented saltwater intrusion zones. The Southwest Florida Water Management District (SWFWMD) formally designates the area as part of the Southern Water Use Caution Area (SWUCA) and within the "Most Impacted Area" for saltwater intrusion into the Upper Floridan Aquifer. For private well owners, this translates to measurable chloride and TDS levels rising in affected wells over decades, ongoing regulatory limits on new groundwater withdrawals, and specific treatment technology (brackish water RO) that homeowners in other parts of Hillsborough County rarely need.</p>
 
 <h2>The SWUCA and Most Impacted Area</h2>
@@ -701,7 +701,7 @@ export const blogPosts: BlogPost[] = [
     category: "Commercial",
     readTime: "11 min read",
     tags: ["commercial", "restaurant", "brewery", "chloramines", "brewing water", "NSF"],
-    image: "/images/og-image.png",
+    image: "/images/glass-filtration-system.jpeg",
     content: `<p>Tampa Bay restaurants, cafés, and breweries face a specific water treatment problem that single-family homes don't: the combination of very hard water (10–17 gpg depending on TBW blend), chloraminated disinfection, and high-volume commercial usage that amplifies every water quality issue. Espresso shots taste off, ice machines clog, steam equipment scales shut, and the craft brewery down the street can't replicate a classic West Coast IPA profile because the water chemistry is fighting the recipe. This article covers what commercial operations need, which NSF standards apply, and what the brewing water profiles actually look like for different beer styles.</p>
 
 <h2>The Chloramine Problem for Commercial Kitchens</h2>
@@ -815,7 +815,7 @@ export const blogPosts: BlogPost[] = [
     category: "Water Heaters",
     readTime: "10 min read",
     tags: ["water heater", "tankless", "hard water", "warranty", "Tampa Bay"],
-    image: "/images/og-image.png",
+    image: "/images/water-heater-install.jpeg",
     content: `<p>Tampa Bay's 10–17 gpg water hardness sits squarely in the range where major tankless water heater manufacturers — Rinnai, Noritz, Navien — either strongly recommend or outright require water softening to keep warranty coverage in effect. For traditional tank water heaters, hard water accelerates scale buildup and energy cost enough to justify softening purely on economic grounds. This article covers what the manufacturers actually say, what the efficiency math looks like, and how to make the tank-vs-tankless decision in Tampa Bay's hard water conditions.</p>
 
 <h2>Tankless Warranty Thresholds</h2>
