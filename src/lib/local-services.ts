@@ -49,6 +49,14 @@ export type LocalCity = {
   ccr?: CcrData;
 };
 
+export type HeroCredit = {
+  title: string;
+  sourceUrl: string;
+  author: string;
+  license: string;
+  licenseUrl: string;
+};
+
 export type LocalService = {
   slug: string;
   name: string;
@@ -58,6 +66,7 @@ export type LocalService = {
   relatedServicePage: string;
   relatedPillar: string;
   heroImage: string;
+  heroCredit: HeroCredit;
 };
 
 export type LocalPage = {
@@ -375,6 +384,13 @@ export const services: LocalService[] = [
     relatedServicePage: "/services/water-softeners",
     relatedPillar: "/water-treatment/hard-water-tampa-bay",
     heroImage: "/images/service-hero/water-softener.jpg",
+    heroCredit: {
+      title: "Water softener",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Water_softener.jpg",
+      author: "రవిచంద్ర",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    },
   },
   {
     slug: "whole-house-filtration",
@@ -393,6 +409,13 @@ export const services: LocalService[] = [
     relatedServicePage: "/services/water-filtration",
     relatedPillar: "/water-treatment/hard-water-tampa-bay",
     heroImage: "/images/service-hero/whole-house-filtration.jpg",
+    heroCredit: {
+      title: "Water treatment plant",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Water_treatment_plant.jpg",
+      author: "NIOSH (US National Institute for Occupational Safety and Health)",
+      license: "Public domain",
+      licenseUrl: "",
+    },
   },
   {
     slug: "reverse-osmosis",
@@ -411,6 +434,13 @@ export const services: LocalService[] = [
     relatedServicePage: "/services/reverse-osmosis",
     relatedPillar: "/water-treatment/reverse-osmosis-drinking-water",
     heroImage: "/images/service-hero/reverse-osmosis.jpg",
+    heroCredit: {
+      title: "Reverse Osmosis System",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Reverse_Osmosis_System.jpg",
+      author: "Mas mufti",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    },
   },
   {
     slug: "well-water-treatment",
@@ -429,6 +459,13 @@ export const services: LocalService[] = [
     relatedServicePage: "/services/well-water",
     relatedPillar: "/water-treatment/florida-well-water",
     heroImage: "/images/service-hero/well-water-treatment.jpg",
+    heroCredit: {
+      title: "Water well",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Water_well.jpg",
+      author: "Oleg Kobets",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    },
   },
 ];
 

@@ -363,6 +363,17 @@ export default function LocalServicePage({
                 </a>
               </div>
             </section>
+
+            <p className="text-xs text-gray-500 mt-8 not-prose">
+              Social preview image: <a href={service.heroCredit.sourceUrl} className="underline" rel="nofollow">{service.heroCredit.title}</a>
+              {service.heroCredit.author ? <> by {service.heroCredit.author}</> : null}
+              {service.heroCredit.licenseUrl ? (
+                <>, <a href={service.heroCredit.licenseUrl} className="underline" rel="nofollow">{service.heroCredit.license}</a></>
+              ) : (
+                <>, {service.heroCredit.license}</>
+              )}
+              , via Wikimedia Commons.
+            </p>
           </div>
         </section>
       </main>

@@ -1062,7 +1062,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="/contact"><strong>Schedule your free water test</strong></a> or call <a href="tel:+18133030515">(813) 303-0515</a>. Serving Tampa, St. Petersburg, Clearwater, Brandon, Sarasota, Bradenton, Lakeland, and the rest of the Tampa Bay metro.</p>
 
-<p><em>Image: Tampa, Florida (Wikimedia Commons, CC).</em></p>`,
+<p><em>Image: <a href="https://commons.wikimedia.org/wiki/File:Tampa_Florida_November_2013-2b.jpg">Tampa, Florida</a> by Alvesgaspar, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons.</em></p>`,
   },
   {
     slug: "tampa-water-smells-chlorine-rotten-eggs",
@@ -1205,7 +1205,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>If you are not sure which smell category applies to your home, the cleanest fix is a 30-minute in-home water test. Free, no obligation, results explained on the spot. <a href="/contact"><strong>Schedule your test</strong></a> or call <a href="tel:+18133030515">(813) 303-0515</a>.</p>
 
-<p><em>Image: kitchen faucet (Wikimedia Commons, CC).</em></p>`,
+<p><em>Image: <a href="https://commons.wikimedia.org/wiki/File:Wasserhahn.jpg">Wasserhahn</a> by Matthew Bowden, Free Art License (Attribution), via Wikimedia Commons.</em></p>`,
   },
   {
     slug: "pfas-tampa-bay-drinking-water-2026",
@@ -1366,7 +1366,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>If you want a definitive answer about PFAS in your Tampa Bay home before 2029 utility compliance, the cleanest path is a free in-home consultation. We pull your specific utility data, walk through the options, and write a quote on the spot if treatment is the right call. No high-pressure sales. <a href="/contact"><strong>Schedule your consultation</strong></a> or call <a href="tel:+18133030515">(813) 303-0515</a>. Serving the entire Tampa Bay region: Hillsborough, Pinellas, Manatee, Sarasota, Pasco, and Polk counties.</p>
 
-<p><em>Image: Hillsborough River (Wikimedia Commons, CC).</em></p>`,
+<p><em>Image: <a href="https://commons.wikimedia.org/wiki/File:Hillsborough_river_from_watchtower.jpg">Hillsborough River from watchtower</a> by Ebeth.martin, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</em></p>`,
   },
 ];
 
