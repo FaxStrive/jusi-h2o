@@ -26,7 +26,7 @@ export default function BlogPage() {
       <PageHero
         badge="Water Knowledge"
         title="Tampa Bay Water Quality Blog"
-        subtitle="Expert guides and local insights on water filtration, hard water, well water, and everything in between — written for Tampa Bay homeowners."
+        subtitle="Expert guides and local insights on water filtration, hard water, well water, and everything in between, written for Tampa Bay homeowners."
       />
 
       <section className="py-16 bg-white">

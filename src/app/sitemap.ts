@@ -1,11 +1,36 @@
 import type { MetadataRoute } from "next";
+import { localPages } from "@/lib/local-services";
+import { pillars } from "@/lib/pillars";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://jusih2o.com";
-  const lastModified = new Date("2026-04-19");
+  const lastModified = new Date("2026-05-14");
   const older = new Date("2026-03-18");
 
+  const pillarUrls = pillars.map((p) => ({
+    url: `${baseUrl}/water-treatment/${p.slug}`,
+    lastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
+  const localUrls = localPages.map((p) => ({
+    url: `${baseUrl}/${p.slug}`,
+    lastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  const newBlogUrls = [
+    `${baseUrl}/blog/water-softener-cost-tampa-bay-2026`,
+    `${baseUrl}/blog/tampa-water-smells-chlorine-rotten-eggs`,
+    `${baseUrl}/blog/pfas-tampa-bay-drinking-water-2026`,
+  ].map((url) => ({ url, lastModified, changeFrequency: "monthly" as const, priority: 0.8 }));
+
   return [
+    ...pillarUrls,
+    ...localUrls,
+    ...newBlogUrls,
     // Core pages
     { url: baseUrl, lastModified, changeFrequency: "weekly", priority: 1 },
     { url: `${baseUrl}/services`, lastModified: older, changeFrequency: "monthly", priority: 0.9 },

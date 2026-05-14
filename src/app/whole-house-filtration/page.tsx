@@ -37,7 +37,7 @@ export default function WholeHouseFiltrationPage() {
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Whole-House Water Filtration for Tampa Bay Homes</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Clean, filtered water at every faucet, shower, and appliance in your home. Jusi H2O installs whole-house filtration systems designed for Tampa Bay water conditions — removing chlorine, sediment, and contaminants before they reach any fixture. Free in-home water test included.
+            Clean, filtered water at every faucet, shower, and appliance in your home. Jusi H2O installs whole-house filtration systems designed for Tampa Bay water conditions, removing chlorine, sediment, and contaminants before they reach any fixture. Free in-home water test included.
           </p>
           <address className="not-italic flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors">Schedule Free Consultation</Link>
@@ -52,13 +52,13 @@ export default function WholeHouseFiltrationPage() {
           <h2 id="about-heading" className="text-3xl font-bold text-center mb-6">Why Whole-House Filtration Is the Most Effective Approach</h2>
           <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
             <p>
-              A whole-house filtration system — also called a point-of-entry system — is installed on the main water line where it enters your home. Every gallon of water that flows through your plumbing passes through the filtration system first, so every faucet, showerhead, dishwasher, and washing machine receives filtered water. This is fundamentally different from point-of-use systems like under-sink filters or pitcher filters, which only treat water at a single location.
+              A whole-house filtration system, also called a point-of-entry system, is installed on the main water line where it enters your home. Every gallon of water that flows through your plumbing passes through the filtration system first, so every faucet, showerhead, dishwasher, and washing machine receives filtered water. This is fundamentally different from point-of-use systems like under-sink filters or pitcher filters, which only treat water at a single location.
             </p>
             <p>
-              For Tampa Bay homeowners, whole-house filtration is particularly valuable because the contaminants in municipal water affect more than just drinking water. Chlorine and chloramines in shower water are absorbed through your skin and inhaled as steam — exposure that a kitchen-only filter does nothing to address. Sediment in your water supply can damage washing machine valves, dishwasher spray arms, and water heater elements. A whole-house system eliminates these issues everywhere simultaneously.
+              For Tampa Bay homeowners, whole-house filtration is particularly valuable because the contaminants in municipal water affect more than just drinking water. Chlorine and chloramines in shower water are absorbed through your skin and inhaled as steam, exposure that a kitchen-only filter does nothing to address. Sediment in your water supply can damage washing machine valves, dishwasher spray arms, and water heater elements. A whole-house system eliminates these issues everywhere simultaneously.
             </p>
             <p>
-              Jusi H2O designs whole-house systems with multiple filtration stages tailored to your specific water test results. A typical Tampa Bay installation includes a sediment pre-filter to capture particles and protect downstream components, followed by a catalytic carbon filter sized specifically for chloramine removal — the disinfectant used throughout the Tampa Bay region. Additional stages for iron removal, pH adjustment, or specialty contaminants are added only when your water test indicates they are needed.
+              Jusi H2O designs whole-house systems with multiple filtration stages tailored to your specific water test results. A typical Tampa Bay installation includes a sediment pre-filter to capture particles and protect downstream components, followed by a catalytic carbon filter sized specifically for chloramine removal, the disinfectant used throughout the Tampa Bay region. Additional stages for iron removal, pH adjustment, or specialty contaminants are added only when your water test indicates they are needed.
             </p>
             <p>
               The result is noticeably better water everywhere in your home. Showers feel cleaner and your skin and hair are no longer stripped by chlorine. Laundry comes out brighter. Appliances last longer without sediment and chemical exposure. And the water from every tap in your home tastes and smells clean. For homeowners who also need hardness treatment, we pair whole-house filtration with a <Link href="/water-softener" className="text-blue-600 hover:underline">water softener</Link> to create a complete <Link href="/water-treatment" className="text-blue-600 hover:underline">water treatment</Link> solution.
@@ -72,7 +72,7 @@ export default function WholeHouseFiltrationPage() {
         <div className="max-w-5xl mx-auto">
           <h2 id="comparison-heading" className="text-3xl font-bold text-center mb-4">Whole-House vs. Point-of-Use Filtration</h2>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-10">
-            Understanding the difference helps you choose the right approach — or combination — for your home.
+            Understanding the difference helps you choose the right approach, or combination, for your home.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm">
@@ -108,7 +108,7 @@ export default function WholeHouseFiltrationPage() {
       <section className="py-16 px-4" aria-labelledby="benefits-heading">
         <div className="max-w-5xl mx-auto">
           <h2 id="benefits-heading" className="text-3xl font-bold text-center mb-4">Why Choose Jusi H2O for Whole-House Filtration</h2>
-          <p className="text-gray-600 text-center max-w-2xl mx-auto mb-12">Tampa Bay homeowners trust Jusi H2O because we design filtration systems based on actual water test data — not guesswork.</p>
+          <p className="text-gray-600 text-center max-w-2xl mx-auto mb-12">Tampa Bay homeowners trust Jusi H2O because we design filtration systems based on actual water test data, not guesswork.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Free Water Testing</h3>
@@ -116,7 +116,7 @@ export default function WholeHouseFiltrationPage() {
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Custom System Sizing</h3>
-              <p className="text-gray-600">We size every system based on your household&apos;s peak flow rate and daily water usage to ensure full filtration without any pressure loss — even when multiple fixtures are running.</p>
+              <p className="text-gray-600">We size every system based on your household&apos;s peak flow rate and daily water usage to ensure full filtration without any pressure loss, even when multiple fixtures are running.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Licensed Installation</h3>
@@ -124,11 +124,11 @@ export default function WholeHouseFiltrationPage() {
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Chloramine-Rated Media</h3>
-              <p className="text-gray-600">Tampa Bay uses chloramines, not just chlorine. We use catalytic carbon media specifically rated for chloramine removal — standard carbon filters are not effective against this disinfectant.</p>
+              <p className="text-gray-600">Tampa Bay uses chloramines, not just chlorine. We use catalytic carbon media specifically rated for chloramine removal, standard carbon filters are not effective against this disinfectant.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Filter Replacement Service</h3>
-              <p className="text-gray-600">Jusi H2O tracks your filter change schedule and offers automatic replacement service. We contact you when service is due and handle everything — no reminders needed on your end.</p>
+              <p className="text-gray-600">Jusi H2O tracks your filter change schedule and offers automatic replacement service. We contact you when service is due and handle everything, no reminders needed on your end.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Transparent Pricing</h3>
@@ -201,7 +201,7 @@ export default function WholeHouseFiltrationPage() {
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Does Installation Require Shutting Off Water?</h3>
-              <p className="text-gray-700">Yes, the water supply is shut off briefly during installation — typically for one to two hours while we connect the system to the main line. We schedule installation at a time that works for your household and complete the work as quickly as possible.</p>
+              <p className="text-gray-700">Yes, the water supply is shut off briefly during installation, typically for one to two hours while we connect the system to the main line. We schedule installation at a time that works for your household and complete the work as quickly as possible.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Does Jusi H2O Serve the Tampa Bay Area?</h3>
@@ -215,7 +215,7 @@ export default function WholeHouseFiltrationPage() {
       <section className="py-20 px-4 bg-blue-600 text-white" aria-labelledby="cta-heading">
         <div className="max-w-3xl mx-auto text-center">
           <h2 id="cta-heading" className="text-3xl font-bold mb-4">Get Clean Water at Every Faucet in Your Home</h2>
-          <p className="text-blue-100 text-lg mb-8">Schedule a free water test with Jusi H2O. We will test your water, design a whole-house filtration system for your home, and provide a detailed quote — all with no obligation.</p>
+          <p className="text-blue-100 text-lg mb-8">Schedule a free water test with Jusi H2O. We will test your water, design a whole-house filtration system for your home, and provide a detailed quote, all with no obligation.</p>
           <address className="not-italic flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-block bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors">Schedule Free Water Test</Link>
             <a href="tel:+18133030515" className="inline-block border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors">Call (813) 303-0515</a>

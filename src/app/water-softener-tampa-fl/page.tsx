@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Water Softener Installation Tampa, FL',
-  description: 'Jusi H2O installs water softeners in Tampa, FL. Tampa water measures 15–25 GPG — extremely hard. Free in-home water test. 2,500+ five-star reviews. Call (813) 303-0515.',
+  description: 'Jusi H2O installs water softeners in Tampa, FL. Tampa water measures 15–25 GPG, extremely hard. Free in-home water test. 2,500+ five-star reviews. Call (813) 303-0515.',
   alternates: {
     canonical: 'https://jusih2o.com/water-softener-tampa-fl',
   },
@@ -70,7 +70,7 @@ const faqSchema = {
       name: 'How quickly can Jusi H2O install a water softener in Tampa?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most water softener installations in Tampa are scheduled within 2–5 business days. Installation itself takes 2–4 hours. Same-day and next-day service is available in many cases — call (813) 303-0515 to check current availability.',
+        text: 'Most water softener installations in Tampa are scheduled within 2–5 business days. Installation itself takes 2–4 hours. Same-day and next-day service is available in many cases, call (813) 303-0515 to check current availability.',
       },
     },
   ],
@@ -111,7 +111,7 @@ export default function WaterSoftenerTampaPage() {
             Water Softener Installation in Tampa, FL
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mb-8">
-            Tampa water tests at 15–25 GPG — among the hardest in Florida. Jusi H2O installs NSF-certified water softeners for Tampa homeowners with a free in-home water test and no-obligation quote.
+            Tampa water tests at 15–25 GPG, among the hardest in Florida. Jusi H2O installs NSF-certified water softeners for Tampa homeowners with a free in-home water test and no-obligation quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-bold rounded-full hover:bg-accent-light transition-all duration-300 hover:scale-105">
@@ -138,7 +138,7 @@ export default function WaterSoftenerTampaPage() {
           <div className="mb-12">
             <h2 className="font-heading text-3xl font-bold text-text mb-6">Why Tampa Homeowners Need Water Softeners</h2>
             <p className="text-text-secondary text-lg leading-relaxed mb-4">
-              Tampa&apos;s water supply draws from the Hillsborough River and the Floridan Aquifer System — one of the world&apos;s most productive aquifer systems. As groundwater percolates through Florida&apos;s thick limestone formations, it dissolves calcium and magnesium carbonate minerals, resulting in water that tests 15–25 grains per gallon (GPG). The U.S. Geological Survey classifies anything above 10.5 GPG as &quot;very hard.&quot;
+              Tampa&apos;s water supply draws from the Hillsborough River and the Floridan Aquifer System, one of the world&apos;s most productive aquifer systems. As groundwater percolates through Florida&apos;s thick limestone formations, it dissolves calcium and magnesium carbonate minerals, resulting in water that tests 15–25 grains per gallon (GPG). The U.S. Geological Survey classifies anything above 10.5 GPG as &quot;very hard.&quot;
             </p>
             <p className="text-text-secondary text-lg leading-relaxed mb-4">
               At this hardness level, Tampa homeowners experience accelerated scale buildup in water heaters (reducing efficiency by up to 25%), shortened appliance lifespan (30–40% reduction according to the Water Quality Research Foundation), poor soap lathering requiring up to 75% more detergent, and the characteristic white deposits on faucets, showerheads, and glassware.
@@ -201,11 +201,11 @@ export default function WaterSoftenerTampaPage() {
               {[
                 {
                   q: 'How hard is the water in Tampa, FL?',
-                  a: 'Tampa water measures 15–25 grains per gallon (GPG) — classified as very hard to extremely hard by the U.S. Geological Survey. Most of Hillsborough County falls in this range due to the high mineral content of the Floridan Aquifer. This is significantly harder than the national average of 10 GPG and causes visible scale buildup, appliance damage, and dry skin and hair.'
+                  a: 'Tampa water measures 15–25 grains per gallon (GPG), classified as very hard to extremely hard by the U.S. Geological Survey. Most of Hillsborough County falls in this range due to the high mineral content of the Floridan Aquifer. This is significantly harder than the national average of 10 GPG and causes visible scale buildup, appliance damage, and dry skin and hair.'
                 },
                 {
                   q: 'How much does water softener installation cost in Tampa?',
-                  a: 'Water softener installation in Tampa typically costs $1,200–$3,500 for a standard residential system, depending on system capacity, brand, and installation complexity. Whole-home filtration bundles range from $2,500–$5,500. Jusi H2O provides a precise, no-obligation quote after your free in-home water test — no surprises.'
+                  a: 'Water softener installation in Tampa typically costs $1,200–$3,500 for a standard residential system, depending on system capacity, brand, and installation complexity. Whole-home filtration bundles range from $2,500–$5,500. Jusi H2O provides a precise, no-obligation quote after your free in-home water test, no surprises.'
                 },
                 {
                   q: 'How long does water softener installation take?',
@@ -213,7 +213,7 @@ export default function WaterSoftenerTampaPage() {
                 },
                 {
                   q: 'Is softened water safe to drink in Tampa?',
-                  a: 'Yes, softened water is safe to drink for most Tampa residents. The softening process adds a small amount of sodium — about 20–40 mg per 8 oz glass depending on your water\'s hardness level. Those on strict low-sodium diets may prefer a reverse osmosis system under the kitchen sink for drinking water, which removes the added sodium along with other contaminants.'
+                  a: 'Yes, softened water is safe to drink for most Tampa residents. The softening process adds a small amount of sodium, about 20–40 mg per 8 oz glass depending on your water\'s hardness level. Those on strict low-sodium diets may prefer a reverse osmosis system under the kitchen sink for drinking water, which removes the added sodium along with other contaminants.'
                 },
               ].map((item) => (
                 <div key={item.q} className="border-b border-border-light pb-6">
@@ -228,7 +228,7 @@ export default function WaterSoftenerTampaPage() {
           <div className="p-8 bg-gradient-to-br from-primary-50 to-secondary-50 rounded-2xl border border-primary/10">
             <h2 className="font-heading text-2xl font-bold text-text mb-3">Ready for Soft Water in Tampa?</h2>
             <p className="text-text-secondary mb-6">
-              Schedule your free in-home water test. Marquis Pendergrass and the Jusi H2O team have served Tampa Bay homeowners since 2011 — 2,500+ five-star reviews, WQA certified, NSF-certified systems, licensed and insured in Florida.
+              Schedule your free in-home water test. Marquis Pendergrass and the Jusi H2O team have served Tampa Bay homeowners since 2011, 2,500+ five-star reviews, WQA certified, NSF-certified systems, licensed and insured in Florida.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary-dark transition-all duration-300 hover:scale-105">
