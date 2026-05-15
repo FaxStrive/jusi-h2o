@@ -905,6 +905,169 @@ export const blogPosts: BlogPost[] = [
 
 <p>Jusi H2O installs tank and tankless water heaters throughout Tampa Bay — Hillsborough, Pinellas, Manatee, Sarasota, and Polk Counties. We handle the full stack: water testing, softener sizing, water heater selection, and installation with permits and warranty support. 14+ years. 2,500+ reviews. Call <a href="tel:+18133030515">(813) 303-0515</a>.</p>`,
   },
+  {
+    slug: "tampa-bay-whole-house-water-install-2026",
+    title: "Tampa Bay Whole-House Water Install 2026: Day-of Guide",
+    excerpt:
+      "Step-by-step whole-house water system installation in Tampa Bay. Free water test, equipment placement, 3-5 hour timeline, 30-day check, annual service.",
+    date: "2026-05-15",
+    author: "Marquis Pendergrass",
+    category: "Installation",
+    readTime: "11 min read",
+    tags: ["Whole-House", "Installation", "Tampa Bay", "Water Softener", "RO"],
+    image: "/images/blog-hero/tampa-bay-whole-house-water-install-2026.jpg",
+    content: `<p data-bluf>Tampa Bay whole-house installs run 3-5 hours of plumbing. Marquis Pendergrass and the Jusi H2O team bring NSF-certified equipment, run a comprehensive water test on arrival (hardness 11-18 gpg typical, chloramines, sediment), install at the main service line, and walk every homeowner through programming, bypass operation, and the 30-day follow-up before we leave the driveway.</p>
+
+<p>If you've scheduled a whole-house water treatment install with us, this article is what to expect from the truck pulling up to the final handshake. Every step is the same process we use across Hillsborough, Pinellas, Manatee, Sarasota, and Polk Counties, refined over 14+ years and 2,500+ reviews. Want pricing first? Visit our <a href="/pricing">transparent pricing page</a> before you read further.</p>
+
+<h2>Pre-Install: the Free In-Home Water Test (What We Measure)</h2>
+
+<p>Before we order equipment, a Jusi H2O technician runs a free in-home water test at your kitchen tap. The test takes 20-30 minutes and tells us exactly which configuration your home needs (not a guess from a brochure). Our <a href="/services/water-testing">water testing service</a> covers eight parameters:</p>
+
+<ul>
+<li><strong>Hardness</strong> (grains per gallon). Tampa Bay city water runs 11-18 gpg from the Floridan Aquifer; private wells can hit 25+ gpg.</li>
+<li><strong>Chlorine vs chloramine.</strong> Tampa, St. Petersburg, and Hillsborough County utilities each disinfect differently. The right carbon media depends on which one you have.</li>
+<li><strong>Total dissolved solids (TDS).</strong> Determines RO membrane sizing at the kitchen.</li>
+<li><strong>pH.</strong> Florida groundwater swings acidic in some wells and alkaline in others.</li>
+<li><strong>Iron and manganese.</strong> Common in Plant City, Brandon, and outlying well-water areas.</li>
+<li><strong>Sediment.</strong> Sand and rust shed from older galvanized service lines.</li>
+<li><strong>Hydrogen sulfide.</strong> The rotten-egg smell, especially in well water. See our <a href="/blog/tampa-water-smells-chlorine-rotten-eggs">guide to chlorine and rotten-egg odors</a>.</li>
+<li><strong>Bacteria screen</strong> (well systems only).</li>
+</ul>
+
+<p>You get a one-page printout before the technician leaves. If we recommend treatment, the quote is written, itemized, and good for 60 days. There's no obligation, no pressure, and no upcharge for the test. For deeper context on the Floridan Aquifer and why our hardness numbers run so high, read our <a href="/water-treatment/hard-water-tampa-bay">hard water Tampa Bay pillar</a>.</p>
+
+<h2>Equipment Selection: What Gets Installed</h2>
+
+<p>A Tampa Bay whole-house install almost always includes a water softener; most installs also include a chloramine-rated whole-house carbon filter; many add a reverse osmosis system at the kitchen. Each piece of equipment we install carries one or more independent certifications: NSF/ANSI 42 (aesthetic effects like chlorine and taste), NSF/ANSI 44 (water softener performance), NSF/ANSI 53 (health-related contaminants like lead, cysts, VOCs), NSF/ANSI 55 (UV disinfection), NSF/ANSI 58 (reverse osmosis), NSF/ANSI 401 (emerging contaminants), plus WQA Gold Seal certification on key product lines. Our full <a href="/certifications">certifications page</a> spells out which standard applies to which product.</p>
+
+<p><strong>Water softener tank</strong> (resin tank). Sized 32,000 to 80,000 grains based on family size and tested hardness. Tampa Bay's average household of four at 15 gpg needs a 48,000-grain system to regenerate every 5-7 days. Sizing the softener to the upper end of the hardness range (not the average) is critical, see our <a href="/blog/best-water-softener-tampa-bay">best water softener for Tampa Bay</a>.</p>
+
+<p><strong>Brine tank</strong> (salt storage). 200-pound capacity is standard. Refilling runs about every 6-8 weeks at typical Tampa Bay usage.</p>
+
+<p><strong>Optional whole-house carbon (catalytic carbon for chloramines).</strong> Tampa, Hillsborough, and most member utilities use chloramines as the secondary disinfectant. Standard granular activated carbon only removes chloramines at 40-65% efficiency; catalytic carbon hits 95%+ at residential flow rates.</p>
+
+<p><strong>Optional well-water staging for outlying counties.</strong> Wells in Polk, eastern Hillsborough, and rural Manatee often need a sediment pre-filter, an aeration or oxidizing filter for iron, and sometimes UV disinfection (NSF/ANSI 55). Our <a href="/services/well-water">well water treatment service</a> covers the staging in detail.</p>
+
+<p><strong>Reverse osmosis at the kitchen (NSF/ANSI 58).</strong> The four-stage RO sits under the kitchen sink with a dedicated faucet, removes TDS down to 5-15 ppm, and produces the bottled-water taste profile most families want at the drinking tap. See our <a href="/water-treatment/reverse-osmosis-drinking-water">RO drinking water pillar</a> for the full membrane breakdown.</p>
+
+<h2>The Install Timeline: 8 AM Arrival to 1 PM Handshake</h2>
+
+<p>A standard Tampa Bay whole-house install runs 3-5 hours start to finish. Here is the typical day, minute by minute, based on our shipped jobs:</p>
+
+<p><strong>8:00 AM.</strong> Two-technician crew arrives in a Jusi H2O truck. Walk the install location with the homeowner (usually the garage near the main service line, sometimes an outdoor side wall in newer Hillsborough builds). Confirm electrical outlet within 6 feet, drain access, and floor drainage for brine discharge.</p>
+
+<p><strong>8:15 AM.</strong> Shut off main water at the meter. Open every faucet to bleed pressure. Drain the existing system if one is present.</p>
+
+<p><strong>8:30 AM.</strong> Cut into the main service line. Install the bypass loop (this is critical: the bypass lets you isolate the softener for service or salt outages without losing house water). Solder, glue, or PEX-crimp the new tee fittings depending on the existing material.</p>
+
+<p><strong>9:15 AM.</strong> Set the resin tank and brine tank. Connect the inlet, outlet, drain line (to floor drain or laundry standpipe), and overflow. Connect electrical to the control valve. Pre-fill the brine tank with water and salt.</p>
+
+<p><strong>10:30 AM.</strong> If a whole-house carbon filter is part of the build, install upstream of the softener on a separate bypass.</p>
+
+<p><strong>11:30 AM.</strong> If RO is part of the install, drill the cold-water tap, drain saddle, and faucet hole at the kitchen. Mount the four-stage unit, connect tubing, set storage tank.</p>
+
+<p><strong>12:15 PM.</strong> Turn the main water back on slowly. Pressurize the system through the bypass first, then through the softener. Walk every fixture in the house for leaks. Tighten any compression weeps.</p>
+
+<p><strong>12:45 PM.</strong> Program the control valve: hardness setting, regeneration time (we set 2 AM by default), salt dose, and water meter calibration. Run a manual regeneration cycle to confirm the brine draw and rinse function.</p>
+
+<p><strong>1:00 PM.</strong> Walkthrough with the homeowner. Show how the bypass works. Explain salt refills, when the system will first regenerate, and how to read the display. Hand over the install paperwork, warranty card, and Jusi H2O direct line for questions.</p>
+
+<h2>Tampa Bay-Specific Considerations</h2>
+
+<p>Every region has install quirks. Tampa Bay has more than most:</p>
+
+<p><strong>Floridan Aquifer hardness.</strong> Sizing for the seasonal upper bound (17-18 gpg in dry-season groundwater-heavy months) prevents resin exhaustion in February through May when desal contribution is lowest.</p>
+
+<p><strong>Chloramine vs free chlorine by utility.</strong> Tampa and most member utilities run chloramines year-round. The City of Tampa does an annual chlorine burn (typically May) for about three weeks. Catalytic carbon handles both; standard GAC only handles the burn period reliably.</p>
+
+<p><strong>Older home retrofits in Hillsborough and Pinellas.</strong> Many pre-1985 homes have galvanized supply lines, copper risers, and sometimes polybutylene mains. Splicing into mixed materials requires the right transition fittings; we carry the full inventory on every truck so we don't make a return trip.</p>
+
+<p><strong>Stucco and CMU walls.</strong> Coastal Pinellas and Manatee homes often have block walls where the service line enters. We core or stub through with no damage and seal with sanded grout.</p>
+
+<p><strong>HOA garage placements.</strong> Newer Wesley Chapel, Lutz, and Brandon HOAs sometimes restrict outdoor equipment. We coordinate with HOA architectural review when needed.</p>
+
+<h2>Recommended Method: Tampa Bay Configuration by Water Profile</h2>
+
+<table>
+<thead>
+<tr><th>Tampa Bay Water Profile</th><th>Recommended Jusi H2O Configuration</th><th>Install Duration &amp; Cost Band</th></tr>
+</thead>
+<tbody>
+<tr><td>City water, 11-15 gpg, chloraminated (Tampa, Brandon, Riverview)</td><td>48,000-grain softener + catalytic carbon</td><td>3-4 hours / $1,800-$3,200</td></tr>
+<tr><td>City water, 15-18 gpg, chloraminated (St. Petersburg, Clearwater)</td><td>64,000-grain softener + catalytic carbon</td><td>4-5 hours / $2,200-$3,800</td></tr>
+<tr><td>City water + drinking water upgrade</td><td>Softener + catalytic carbon + four-stage RO at kitchen</td><td>4-5 hours / $3,200-$6,500</td></tr>
+<tr><td>Private well, low iron, no odor (rural Manatee, Sarasota)</td><td>Sediment pre-filter + 48,000-grain softener</td><td>3-4 hours / $1,800-$3,400</td></tr>
+<tr><td>Private well, iron above 0.3 ppm or sulfur smell (Plant City, eastern Hillsborough)</td><td>Sediment + air-injection iron filter + softener + UV</td><td>5-6 hours / $3,800-$6,500</td></tr>
+<tr><td>Brackish well, TDS above 800 ppm (Apollo Beach, Ruskin)</td><td>Whole-house RO staging + softener polish</td><td>6-8 hours / custom quote</td></tr>
+</tbody>
+</table>
+
+<p>For the full softener cost breakdown by configuration, read our <a href="/blog/water-softener-cost-tampa-bay-2026">water softener cost Tampa Bay 2026</a>. For PFAS-specific concerns, see our <a href="/blog/pfas-tampa-bay-drinking-water-2026">PFAS in Tampa Bay drinking water</a> guide.</p>
+
+<h2>Post-Install: the 30-Day Check and Annual Service</h2>
+
+<p>The install isn't the end of the relationship. We schedule a free 30-day check before the technician leaves. At the 30-day visit, we verify the system regenerated successfully at least once, confirm hardness post-softener reads 0-1 gpg at the kitchen, top off salt, and answer any questions that came up during the first month of use.</p>
+
+<p><strong>Annual service schedule.</strong> One yearly visit covers everything most Tampa Bay homes need:</p>
+
+<ul>
+<li><strong>Brine tank cleanout.</strong> Sludge accumulates at the bottom over 12 months. We empty and rinse.</li>
+<li><strong>Salt bridge inspection.</strong> Florida humidity causes salt to bridge in the upper tank; we break and refill.</li>
+<li><strong>Resin bed test.</strong> Capacity check confirms the resin still produces full softening. Resin typically lasts 10-15 years in Tampa Bay conditions.</li>
+<li><strong>Carbon media replacement schedule.</strong> Catalytic carbon runs 5-7 years before replacement; we monitor chloramine breakthrough annually.</li>
+<li><strong>RO membrane and pre/post filters.</strong> Pre and post filters annually; the RO membrane every 3-5 years depending on TDS.</li>
+<li><strong>UV bulb (if installed).</strong> Annual replacement, the lamp output degrades long before visible failure.</li>
+</ul>
+
+<p>Annual service is offered through our <a href="/services/water-softeners">JusiCare</a> maintenance plan. Self-service is welcome; many of our customers handle their own salt refills and call us only for resin or membrane work.</p>
+
+<h2>Call a Professional If...</h2>
+
+<p>Some installs are not weekend projects. Call Jusi H2O (or any qualified water-treatment installer) if any of the following apply:</p>
+
+<ul>
+<li><strong>You're on well water</strong> and the test shows iron, sulfur, or coliform bacteria. Well staging requires sequencing that DIY guides routinely get wrong.</li>
+<li><strong>Your home has more than one zone</strong> (multi-floor, pool loop, detached guest house). Bypass routing needs to be designed, not assumed.</li>
+<li><strong>HOA approval is required.</strong> We handle the architectural review packet for HOAs that require it.</li>
+<li><strong>Structural retrofit needed.</strong> Garages with no nearby drain, no outlet within reach, or no clear access to the main line need plumbing modifications first.</li>
+<li><strong>Lead pipe risk in a pre-1986 home.</strong> Older homes in central Tampa, Ybor City, and St. Petersburg may still have lead solder or service lines. We test before cutting in, and our <a href="/services/whole-house-filtration">whole-house filtration</a> includes NSF/ANSI 53 stages that address lead at the entry point.</li>
+<li><strong>You need an FDOH permit.</strong> Florida well permits and connection permits for some county jurisdictions are easier with a licensed contractor on file.</li>
+<li><strong>The existing plumbing is corroded or fragile.</strong> Cutting into 40-year-old copper or galvanized pipe without a backup plan ends in flooded garages.</li>
+</ul>
+
+<p>Read our <a href="/about">company background</a> and <a href="/water-treatment/florida-well-water">Florida well water pillar</a> for more context on when professional install is non-negotiable. Service-area coverage is on our <a href="/service-area">service area map</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How long does the installation actually take?</h3>
+<p>A standard city-water install with softener and carbon runs 3-4 hours. Add an under-sink RO and you're at 4-5 hours. Well-water staging with iron filter and UV runs 5-6 hours. We schedule one job per day per crew so we never rush a finish.</p>
+
+<h3>Do I need to be home for the install?</h3>
+<p>Yes for the start (to walk the install location and confirm placement) and the finish (the programming walkthrough). The middle 2-3 hours of plumbing are fine to leave the techs to it. Most customers run errands during the middle window.</p>
+
+<h3>Will my water be off the whole time?</h3>
+<p>Water is off for 2-3 hours during the main plumbing cut-in. Once we tee in the bypass, we can put the house back on city water through the bypass while we finish the equipment work, so most installs only have a hard shutoff window of 2-3 hours.</p>
+
+<h3>Do you handle permits and HOA paperwork?</h3>
+<p>Yes. We pull plumbing permits in jurisdictions that require them (most don't for a water softener install on existing service lines), and we file HOA architectural review packets at no extra charge in Hillsborough, Pinellas, and Manatee.</p>
+
+<h3>What if something leaks after you leave?</h3>
+<p>Call us. Every Jusi H2O install carries a workmanship warranty on all plumbing joints we touched. We come back same-day or next-day, no charge, no diagnostic fee. Our number is on the system label and on the paperwork left at the install.</p>
+
+<h3>Can I install it myself and have you connect it?</h3>
+<p>We don't do hookup-only work on equipment we didn't supply, because we can't warranty equipment we didn't certify on arrival. We're happy to consult on DIY installs by the hour, but the full-service install (with warranty) is our standard offering.</p>
+
+<h3>Do you offer financing on whole-house installs?</h3>
+<p>Yes. Financing options for qualified Tampa Bay homeowners cover the full system (softener, carbon, RO) with promotional rates on approved credit. We'll walk you through the application during the in-home test. There's no penalty for paying off early, and the financing decision is independent of the equipment quote. Visit our <a href="/pricing">pricing page</a> for current promotional terms.</p>
+
+<h3>What's the warranty on the equipment?</h3>
+<p>Equipment warranties vary by product line: most softener resin tanks and brine tanks carry 10-year manufacturer warranties; control valves run 5-7 years; RO membranes 2 years; UV lamps 1 year on the bulb. Jusi H2O's workmanship warranty is separate and covers every plumbing joint, fitting, and electrical connection we touched, for as long as you own the home.</p>
+
+<h2>Schedule Your Free In-Home Water Test</h2>
+
+<p>Every Tampa Bay whole-house install starts with the free water test. No obligation, no pressure, no upsell. The technician shows up, tests your water at the kitchen tap, and gives you a written quote good for 60 days. Call <a href="tel:+18133030515">(813) 303-0515</a> or visit our <a href="/contact">contact page</a> to schedule. We serve Hillsborough, Pinellas, Manatee, Sarasota, and Polk Counties out of our central Tampa Bay location. 14+ years. 2,500+ reviews. 5.0 stars average. 10+ trained technicians. <a href="/faq">Read our FAQ</a> for more answers, or check <a href="/water-softener-tampa-fl">water softener service in Tampa</a>, <a href="/water-softener-st-petersburg-fl">St. Petersburg</a>, <a href="/water-softener-clearwater-fl">Clearwater</a>, <a href="/water-softener-brandon-fl">Brandon</a>, or <a href="/water-softener-sarasota-fl">Sarasota</a>.</p>`,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
