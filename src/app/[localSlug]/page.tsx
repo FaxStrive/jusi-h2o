@@ -143,8 +143,10 @@ export default function LocalServicePage({
   const title = `${service.name} in ${city.name}, FL`;
   const faqs = buildFaqs(city, service);
 
-  const siblingCity = cities.find((c) => c.slug !== city.slug)!;
-  const siblingService = services.find((s) => s.slug !== service.slug)!;
+  const cityIdx = cities.findIndex((c) => c.slug === city.slug);
+  const siblingCity = cities[(cityIdx + 1) % cities.length];
+  const serviceIdx = services.findIndex((s) => s.slug === service.slug);
+  const siblingService = services[(serviceIdx + 1) % services.length];
   const siblingCityPage = `/${service.slug}-${siblingCity.slug}-fl`;
   const siblingServicePage = `/${siblingService.slug}-${city.slug}-fl`;
 

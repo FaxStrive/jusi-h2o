@@ -231,14 +231,18 @@ export default function WholeHouseFiltrationPage() {
             <li><Link href="/reverse-osmosis" className="text-blue-600 hover:underline">Reverse Osmosis Drinking Water</Link></li>
           </ul>
         </nav>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guide">
+          <h2 className="text-lg font-semibold mb-3">Read our complete guide</h2>
+          <p className="text-gray-700"><Link href="/water-treatment/hard-water-tampa-bay" className="text-blue-600 hover:underline">Hard Water in Tampa Bay: A Complete Treatment Guide</Link>, including chloramine removal and catalytic carbon sizing for Tampa Bay flow rates.</p>
+        </nav>
         <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
-          <h2 className="text-lg font-semibold mb-3">Whole-House Filtration by Area</h2>
+          <h2 className="text-lg font-semibold mb-3">Whole-House Filtration by City</h2>
           <ul className="space-y-2">
-            <li><Link href="/whole-house-filtration-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Whole-House Filtration in Hillsborough County, FL</Link></li>
-            <li><Link href="/whole-house-filtration-in-pinellas-county-fl" className="text-blue-600 hover:underline">Whole-House Filtration in Pinellas County, FL</Link></li>
-            <li><Link href="/whole-house-filtration-in-sarasota-county-fl" className="text-blue-600 hover:underline">Whole-House Filtration in Sarasota County, FL</Link></li>
-            <li><Link href="/whole-house-filtration-in-tampa-bay-fl" className="text-blue-600 hover:underline">Whole-House Filtration in Tampa Bay, FL</Link></li>
-            <li><Link href="/whole-house-filtration-in-florida" className="text-blue-600 hover:underline">Whole-House Filtration in Florida</Link></li>
+            <li><Link href="/whole-house-filtration-tampa-fl" className="text-blue-600 hover:underline">Whole-House Filtration in Tampa, FL</Link></li>
+            <li><Link href="/whole-house-filtration-st-petersburg-fl" className="text-blue-600 hover:underline">Whole-House Filtration in St. Petersburg, FL</Link></li>
+            <li><Link href="/whole-house-filtration-clearwater-fl" className="text-blue-600 hover:underline">Whole-House Filtration in Clearwater, FL</Link></li>
+            <li><Link href="/whole-house-filtration-brandon-fl" className="text-blue-600 hover:underline">Whole-House Filtration in Brandon, FL</Link></li>
+            <li><Link href="/whole-house-filtration-sarasota-fl" className="text-blue-600 hover:underline">Whole-House Filtration in Sarasota, FL</Link></li>
           </ul>
         </nav>
     </main>

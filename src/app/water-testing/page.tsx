@@ -230,14 +230,12 @@ export default function WaterTestingPage() {
             <li><Link href="/water-filtration" className="text-blue-600 hover:underline">Water Filtration Systems</Link></li>
           </ul>
         </nav>
-        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
-          <h2 className="text-lg font-semibold mb-3">Water Testing by Area</h2>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guides">
+          <h2 className="text-lg font-semibold mb-3">Read our complete guides</h2>
           <ul className="space-y-2">
-            <li><Link href="/water-testing-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Water Testing in Hillsborough County, FL</Link></li>
-            <li><Link href="/water-testing-in-pinellas-county-fl" className="text-blue-600 hover:underline">Water Testing in Pinellas County, FL</Link></li>
-            <li><Link href="/water-testing-in-sarasota-county-fl" className="text-blue-600 hover:underline">Water Testing in Sarasota County, FL</Link></li>
-            <li><Link href="/water-testing-in-tampa-bay-fl" className="text-blue-600 hover:underline">Water Testing in Tampa Bay, FL</Link></li>
-            <li><Link href="/water-testing-in-florida" className="text-blue-600 hover:underline">Water Testing in Florida</Link></li>
+            <li><Link href="/water-treatment/hard-water-tampa-bay" className="text-blue-600 hover:underline">Hard Water in Tampa Bay: A Complete Treatment Guide</Link></li>
+            <li><Link href="/water-treatment/florida-well-water" className="text-blue-600 hover:underline">Florida Well Water Treatment: Tampa Bay Region Guide</Link></li>
+            <li><Link href="/service-areas" className="text-blue-600 hover:underline">View all Jusi H2O service areas</Link></li>
           </ul>
         </nav>
     </main>

@@ -123,7 +123,7 @@ export const pillars: Pillar[] = [
         heading: "What our install looks like",
         paragraphs: [
           "Most Tampa Bay softener installs take two to four hours. Our technician shuts off the main, plumbs in a bypass loop so future service is easy, mounts the resin tank and brine tank, runs a drain line to your nearest standard plumbing drain or laundry standpipe, programs the head to your tested hardness, and verifies zero hardness at a tested fixture before leaving. Permitting is included where required by your municipality.",
-          "Pricing for a standard installed cation-exchange softener in Tampa Bay falls in the $1,800 to $3,800 range for residential. A whole-house carbon and softener combination runs $3,200 to $6,500. These ranges are typical industry pricing for installed systems with a manufacturer warranty; we provide a precise written quote after a free in-home water test.",
+          "Pricing for a standard installed cation-exchange softener in Tampa Bay falls in the $1,800 to $3,800 range for residential. A whole-house carbon and softener combination runs $3,200 to $6,500. These ranges are typical industry pricing for installed systems with a manufacturer warranty; we provide a precise written quote after a free in-home water test. For city-specific install notes see our [Tampa](/water-softener-tampa-fl), [St. Petersburg](/water-softener-st-petersburg-fl), [Clearwater](/water-softener-clearwater-fl), [Brandon](/water-softener-brandon-fl), and [Sarasota](/water-softener-sarasota-fl) service pages.",
           "Maintenance is light. Add salt every four to eight weeks (Jusi H2O can deliver and load it as part of [JusiCare+](/services/jusicare)). The resin itself typically lasts 12 to 20 years on Tampa Bay water, with a longer service life when chlorinated municipal water passes through a carbon stage first.",
         ],
       },
@@ -142,9 +142,17 @@ export const pillars: Pillar[] = [
         ],
       },
       {
+        heading: "How Tampa, Pinellas, and Hillsborough County water sources differ",
+        paragraphs: [
+          "Tampa Bay water hardness varies more than most homeowners realize. The Tampa Water Department draws primarily from the Hillsborough River with seasonal groundwater supplements from the Floridan Aquifer; finished water typically tests in the 200 to 240 mg/L range. Pinellas County Utilities (serving Largo, Palm Harbor, Pinellas Park, Seminole, and most unincorporated Pinellas) is a wholesale customer of [Tampa Bay Water](https://www.tampabaywater.org), the regional supplier that blends Hillsborough River surface water, Tampa Bypass Canal water, Alafia River water, and Floridan Aquifer wells. The blended product runs 180 to 240 mg/L for most Pinellas homes.",
+          "Hillsborough County Public Utilities serves Brandon, Riverview, FishHawk, and surrounding unincorporated areas. Hillsborough also takes wholesale supply from Tampa Bay Water but distributes through its own treatment and storage network. Brandon and Riverview tap water frequently tests in the 200 to 250 mg/L range. Sarasota, by contrast, treats Floridan Aquifer water with reverse osmosis at the [Verna Wellfield](https://www.sarasotafl.gov/government/public-works/utilities) and delivers finished water in the 100 to 180 mg/L range, noticeably softer than the rest of Tampa Bay.",
+          "On the disinfection side, the entire Tampa Bay distribution loop uses chloramines (chlorine bonded to ammonia) for residual disinfection rather than free chlorine. Chloramines persist longer in pipes, which is the right tradeoff at utility scale but it also means standard pitcher and refrigerator filters do not remove them effectively. The standard Tampa Bay configuration pairs a [whole-house catalytic carbon filter](/services/water-filtration) ahead of the softener for chloramine removal, then RO at the [kitchen tap](/services/reverse-osmosis) for drinking water.",
+        ],
+      },
+      {
         heading: "When to call a professional",
         paragraphs: [
-          "Most homeowners can handle salt refills and basic salt-bridge breakup. Anything that touches the control valve, the resin, or the plumbing should go to a certified installer.",
+          "Most homeowners can handle salt refills and basic salt-bridge breakup. Anything that touches the control valve, the resin, or the plumbing should go to a certified installer. Free in-home water tests are available through [our contact page](/contact) or by calling (813) 303-0515. For pricing transparency see our [published pricing page](/pricing); for credentials see our [certifications page](/certifications).",
         ],
       },
     ],
@@ -285,9 +293,18 @@ export const pillars: Pillar[] = [
         ],
       },
       {
+        heading: "Iron and sulfur sequencing: why stage order makes or breaks a well system",
+        paragraphs: [
+          "The single biggest failure mode on Tampa Bay regional wells is bad stage order. A homeowner sees a softener at the hardware store, installs it on a well with 4 ppm iron and 1 ppm hydrogen sulfide, and three months later the resin is permanently fouled and the brine tank smells like rotten eggs. The softener was the wrong first tool, and the resin warranty does not cover iron damage.",
+          "The correct order on iron-heavy wells is oxidation first, then softening. The oxidation stage converts dissolved (clear) iron into oxidized (ferric) iron, which is then trapped in the catalytic media bed. Water leaving the iron filter is essentially iron-free and contains no dissolved sulfide. That softened-but-iron-free water reaches the resin tank in the condition the resin was designed for: low iron, low oxidizer load, predictable hardness only.",
+          "Hydrogen sulfide complicates the picture. At concentrations under 1 ppm, catalytic carbon alone can handle sulfide on Floridan Aquifer wells. Between 1 and 4 ppm, air-injection oxidation is the standard fix because it simultaneously addresses iron. Above 4 ppm, we sometimes stage chemical injection (chlorine or hydrogen peroxide) ahead of a contact tank, then carbon filtration to catch the residual oxidant. The chemistry depends on the actual tested numbers; we never specify a system from a verbal description.",
+          "pH is the third variable that changes the sequencing. Wells below pH 6.8 corrode copper plumbing slowly and can dissolve into the calcite media of a neutralization tank too quickly if calcite is not sized correctly. Calcite raises pH gradually as the water moves through; on very acidic wells (pH below 6.4) we sometimes pair calcite with magnesium oxide media for a faster pH lift. Either way, neutralization sits before the softener so the resin sees pH-balanced water. For a deeper look at how this connects to [whole-house carbon filtration](/services/water-filtration) and [point-of-use RO](/services/reverse-osmosis), see the related pillars.",
+        ],
+      },
+      {
         heading: "When to call a professional",
         paragraphs: [
-          "DIY well treatment is genuinely tempting in Florida; the equipment is available online and the plumbing looks straightforward. We see the failures often enough to have a clear opinion: any system that touches your pressure tank or your potable water plumbing should be installed and commissioned by a licensed contractor.",
+          "DIY well treatment is genuinely tempting in Florida; the equipment is available online and the plumbing looks straightforward. We see the failures often enough to have a clear opinion: any system that touches your pressure tank or your potable water plumbing should be installed and commissioned by a licensed contractor. We service well-water clients across the region, including [Plant City](/well-water-treatment-plant-city-fl), [Brandon](/well-water-treatment-brandon-fl), [Wesley Chapel](/well-water-treatment-wesley-chapel-fl), [Sarasota](/well-water-treatment-sarasota-fl), and [Lakeland](/well-water-treatment-lakeland-fl). Pricing is published on our [pricing page](/pricing); credentials are on our [certifications page](/certifications). Free water tests are available through our [contact page](/contact).",
         ],
       },
     ],
@@ -424,9 +441,24 @@ export const pillars: Pillar[] = [
         ],
       },
       {
+        heading: "PFAS, the 2024 EPA final rule, and what it means for Tampa Bay homes",
+        paragraphs: [
+          "In April 2024 the EPA finalized the first nationwide enforceable drinking-water standards for PFAS, setting Maximum Contaminant Levels of 4 parts per trillion for PFOA and PFOS individually, plus action levels for four additional PFAS compounds. The rule gives utilities until 2027 to begin compliance monitoring and 2029 to comply. For Tampa Bay residents in 2026 the practical upshot is that finished water from your utility may still contain detectable PFAS at parts-per-trillion levels until the 2029 enforcement deadline, and the only way to guarantee sub-MCL water at your kitchen tap today is point-of-use reverse osmosis certified to NSF/ANSI 58 P473 (the PFAS-specific protocol).",
+          "The good news for Tampa Bay specifically: Tampa Bay Water's source mix (Hillsborough River, Tampa Bypass Canal, Alafia River, and Floridan Aquifer) does not have the high-PFAS history that some northeastern and midwestern utilities are working through. UCMR 5 results published incrementally since 2023 show variable but mostly modest PFAS detections across Tampa Bay member utilities. We track the data and reflect it in our recommendations on the [PFAS in Tampa Bay drinking water article](/blog/pfas-tampa-bay-drinking-water-2026).",
+          "What this means for a residential RO purchase decision: any system certified to NSF/ANSI 58 P473 will deliver water below 4 ppt PFOA and PFOS at the dedicated faucet, regardless of what arrives at your meter. The certification adds roughly $100 to $250 to the installed price of a standard 4-stage system in 2026. For households with pregnant occupants, infants, or immune-compromised members, this is the configuration we recommend by default rather than as an upgrade.",
+        ],
+      },
+      {
+        heading: "How RO interacts with chloramines and the Tampa Bay TDS profile",
+        paragraphs: [
+          "Two Tampa-specific details matter when sizing an RO system: chloramines and TDS. Chloramines (chlorine bonded to ammonia) are more persistent than free chlorine, which is why the regional utility uses them, but they also stress RO membranes harder than free chlorine. The standard countermeasure is two carbon pre-filters rather than one, with at least one specifically rated for chloramines. We size for catalytic carbon at the pre-filter stage on every Tampa Bay install.",
+          "Tampa Bay TDS commonly runs 300 to 500 mg/L on municipal supply, well above the U.S. metro median. RO membranes reject 95 to 99 percent of TDS at residential operating pressure, so a 400 mg/L feed produces 4 to 20 mg/L treated water. That is the bottled-water-grade taste profile many residents notice on the first glass. Membrane life on softened Tampa Bay supply runs three to five years; on raw municipal supply without an upstream [water softener](/services/water-softeners), membrane life drops sharply to twelve to twenty-four months. Pair RO with a softener whenever possible.",
+        ],
+      },
+      {
         heading: "When to call a professional",
         paragraphs: [
-          "Filter replacement is genuinely DIY-friendly. Membrane replacement and system commissioning are not.",
+          "Filter replacement is genuinely DIY-friendly. Membrane replacement and system commissioning are not. We install RO across the Tampa Bay metro, including [Tampa](/reverse-osmosis-tampa-fl), [St. Petersburg](/reverse-osmosis-st-petersburg-fl), [Clearwater](/reverse-osmosis-clearwater-fl), [Brandon](/reverse-osmosis-brandon-fl), and [Sarasota](/reverse-osmosis-sarasota-fl). Pricing is published on our [pricing page](/pricing); credentials are on our [certifications page](/certifications). Free water tests are available through our [contact page](/contact).",
         ],
       },
     ],

@@ -289,14 +289,20 @@ export default function WaterSoftenerPage() {
             <li><Link href="/whole-house-filtration" className="text-blue-600 hover:underline">Whole-House Filtration</Link></li>
           </ul>
         </nav>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guide">
+          <h2 className="text-lg font-semibold mb-3">Read our complete guide</h2>
+          <p className="text-gray-700"><Link href="/water-treatment/hard-water-tampa-bay" className="text-blue-600 hover:underline">Hard Water in Tampa Bay: A Complete Treatment Guide</Link>, the regional context and treatment decision rubric behind our softener installs.</p>
+        </nav>
         <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
           <h2 className="text-lg font-semibold mb-3">Water Softener by Area</h2>
           <ul className="space-y-2">
+            <li><Link href="/water-softener-tampa-fl" className="text-blue-600 hover:underline">Water Softener in Tampa, FL</Link></li>
+            <li><Link href="/water-softener-st-petersburg-fl" className="text-blue-600 hover:underline">Water Softener in St. Petersburg, FL</Link></li>
+            <li><Link href="/water-softener-clearwater-fl" className="text-blue-600 hover:underline">Water Softener in Clearwater, FL</Link></li>
+            <li><Link href="/water-softener-brandon-fl" className="text-blue-600 hover:underline">Water Softener in Brandon, FL</Link></li>
+            <li><Link href="/water-softener-sarasota-fl" className="text-blue-600 hover:underline">Water Softener in Sarasota, FL</Link></li>
             <li><Link href="/water-softener-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Water Softener in Hillsborough County, FL</Link></li>
             <li><Link href="/water-softener-in-pinellas-county-fl" className="text-blue-600 hover:underline">Water Softener in Pinellas County, FL</Link></li>
-            <li><Link href="/water-softener-in-sarasota-county-fl" className="text-blue-600 hover:underline">Water Softener in Sarasota County, FL</Link></li>
-            <li><Link href="/water-softener-in-tampa-bay-fl" className="text-blue-600 hover:underline">Water Softener in Tampa Bay, FL</Link></li>
-            <li><Link href="/water-softener-in-florida" className="text-blue-600 hover:underline">Water Softener in Florida</Link></li>
           </ul>
         </nav>
     </main>

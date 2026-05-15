@@ -116,7 +116,7 @@ Branch: `phase3-local-2026-05-14`
   - `/blog/water-softener-cost-tampa-bay-2026`
   - `/blog/tampa-water-smells-chlorine-rotten-eggs`
   - `/blog/pfas-tampa-bay-drinking-water-2026`
-- **75 dynamic local pages** at `/{service-slug}-{city-slug}-fl` rendered from `src/lib/local-services.ts` + `src/app/[localSlug]/page.tsx`. 4 services x 20 Tampa Bay cities, with SKIP_SLUGS excluding the 5 existing static water-softener city pages and 2 county pages.
+- **73 dynamic local pages** at `/{service-slug}-{city-slug}-fl` rendered from `src/lib/local-services.ts` + `src/app/[localSlug]/page.tsx`. 4 services x 20 Tampa Bay cities = 80, minus 7 SKIP_SLUGS that are covered by static water-softener city and county pages. Net: 73.
 - **Org schema upgrade** in `src/components/seo/schema-markup.tsx`: `@type` array `["HomeAndConstructionBusiness","Plumber"]`, `@id` set to `https://jusih2o.com/#organization`, speakable spec added, areaServed expanded to all 20 cities. All Service schemas now reference org `@id` via `provider`.
 - **Blog detail page upgrade**: Article + FAQPage + BreadcrumbList schemas with Person author and `worksFor.@id` linking to org. FAQPage extracted automatically from h3/p pairs under the "Frequently Asked Questions" h2.
 - **Sitemap**: now imports `localPages` and `pillars` to auto-generate URLs.
@@ -137,3 +137,36 @@ Tier 2 (follow-up PR): use `pdftotext -layout` on Tampa Bay utility CCR PDFs to 
 
 ### Strategy docs
 New `seo-strategy/` directory: INDEX, content roadmap, technical, local, GEO, entity. Concise per-area state for resuming work.
+
+## Phase 3 Remediation Pass 2026-05-14
+
+Branch: `phase3-local-2026-05-14` (same PR #1)
+
+### What landed
+- **Sitemap cleanup**: Removed ~45 phantom entries (the `/articles/...` slugs and the `*-in-{county}-fl` + `*-in-florida` patterns that never resolved against `[localSlug]`'s 73 generated paths). Sitemap now matches the actual filesystem plus dynamic-route output.
+- **Dead-link sweep on service hub pages**: `/water-softener`, `/water-filtration`, `/whole-house-filtration`, `/reverse-osmosis`, `/well-water-treatment`, `/water-testing`, `/water-treatment`, and `/service-areas` were all linking out to non-existent `{service}-in-{county}-fl` and `/service-areas/{slug}` paths. Replaced with real local-grid slugs (`{service}-{city}-fl`) plus pillar CTAs. `service-areas/page.tsx` now generates its grid from the canonical `localPages` data source.
+- **Sibling-link rotation fix** in `src/app/[localSlug]/page.tsx`: replaced `cities.find((c) => c.slug !== city.slug)` with index-based modulo rotation so each local page links to a unique neighboring city and service rather than always Tampa+softener.
+- **Pillar expansion**:
+  - `hard-water-tampa-bay`: 1894w → 2200w; 12 internal links → 22; added "How Tampa, Pinellas, and Hillsborough County water sources differ" section covering utility blends, source water, chloramine vs free chlorine.
+  - `florida-well-water`: 1680w → 2049w; 9 links → 19; added "Iron and sulfur sequencing" section detailing AIO stage order, pH calcite sizing, and chemical-injection thresholds.
+  - `reverse-osmosis-drinking-water`: 1638w → 2134w; 9 links → 19; added two new sections covering PFAS 2024 EPA final-rule specifics (4 ppt MCL, NSF/ANSI 58 P473) and Tampa Bay chloramine + TDS profile.
+- **Blog article expansion**:
+  - `water-softener-cost-tampa-bay-2026`: 1910w → 2240w; added financing-options section linking to `/pricing` and a Tampa/Pinellas/Hillsborough utility detail section.
+  - `tampa-water-smells-chlorine-rotten-eggs`: 1993w → 2331w; added Tampa Bay Water chloramine residual reporting section and an equipment-comparison section (pitcher vs under-sink carbon vs whole-house catalytic carbon).
+- **Nav and footer**: Added "Guides" entry to desktop and mobile primary nav linking to `/water-treatment`. Added "Guides" footer column listing the hub plus the 3 pillar URLs.
+- **Service-page pillar CTAs**: Each service hub page now opens its outbound links section with a "Read our complete guide" CTA pointing to the matching pillar.
+- **Water-treatment hub page**: Replaced the dead "Water Treatment by Area" county-pattern list with a "Featured Water Treatment Guides" section linking the 3 pillars plus a "Popular Service Areas" block linking real static and dynamic city pages.
+- **Local count corrected**: 75 → 73 throughout this file.
+
+### Hero image reuse: template-deviation decision
+Template requires dedicated 1200x630 hero per pillar. The 3 pillars currently reuse service-hero images (`whole-house-filtration.jpg`, `well-water-treatment.jpg`, `reverse-osmosis.jpg`). Decision for this PR: accept the deviation rather than ship hero images without verified Wikimedia license + artist credit. Follow-up task: source 3 dedicated pillar heroes from Wikimedia Commons, capture license + artist, mirror to `~/Desktop/seoman-image-library/jusi-h2o/`, update manifest, and update the `heroImage` fields in `src/lib/pillars.ts`. Tracked as item 8 in the next phase.
+
+### Verification gates passed
+- `npx tsc --noEmit` clean
+- `npm run build` succeeds
+- Zero em-dashes added (grep clean across `src/`)
+- Zero AI-detection phrases in added content (grep clean for tapestry, delve, realm of, ever-evolving, cutting-edge, elevate, unleash, leverage, seamless, robust, in conclusion, embark on)
+- Pillar word counts: 2200 / 2049 / 2134 (all above 1800w floor)
+- New blog article word counts: 2240 / 2331 / 2353 (all above 2200w template floor; PFAS unchanged)
+- Pillar internal-link counts: 22 / 19 / 19 (all above 15+ template target)
+- Sibling-link rotation verified by reading the modulo expression in `[localSlug]/page.tsx`

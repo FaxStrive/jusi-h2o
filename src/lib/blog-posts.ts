@@ -1030,6 +1030,18 @@ export const blogPosts: BlogPost[] = [
 
 <p>For the full schedule and seasonal habits, see our <a href="/blog/winter-water-tips-hillsborough-county-fl">winter water tips for Hillsborough County</a> and <a href="/blog/summer-water-guide-hillsborough-county-fl">summer water guide</a>.</p>
 
+<h2>Financing options through Jusi H2O</h2>
+
+<p>For Tampa Bay homeowners who would rather spread the install cost out, financing is available through our standard partner lenders. The typical structure is a 60-month term at fixed monthly payments, with no prepayment penalty if you decide to pay the balance off early. A $2,500 install lands around $50 to $75 per month at standard rates; a $3,500 install lands around $70 to $100. Most households break even on monthly soft-water savings (lower detergent, lower water-heater energy, fewer appliance repairs) within the same window the financing is running.</p>
+
+<p>Approval generally takes minutes during the in-home consultation. We do not require any payment up front beyond the standard service visit fee, which is refunded when you proceed with the install. See our <a href="/pricing">pricing page</a> for a detailed breakdown of equipment, labor, and financing options.</p>
+
+<h2>How Tampa, Pinellas, and Hillsborough utility water differs at the meter</h2>
+
+<p>One detail that affects softener sizing is which utility's water reaches your home. The <a href="https://www.tampa.gov/water" target="_blank" rel="noopener noreferrer">Tampa Water Department</a> draws primarily from the Hillsborough River with seasonal Floridan Aquifer supplements; finished water typically tests in the 200 to 240 mg/L hardness range. <a href="https://pinellas.gov/water-quality/" target="_blank" rel="noopener noreferrer">Pinellas County Utilities</a> serves most of unincorporated Pinellas plus Largo and several beach communities; finished water comes from <a href="https://www.tampabaywater.org" target="_blank" rel="noopener noreferrer">Tampa Bay Water</a>, the regional wholesale supplier that blends Hillsborough River, Tampa Bypass Canal, Alafia River, and Floridan Aquifer sources. <a href="https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/utilities" target="_blank" rel="noopener noreferrer">Hillsborough County Public Utilities</a> serves Brandon, Riverview, and surrounding unincorporated areas; also a Tampa Bay Water wholesale customer, distributed through county facilities.</p>
+
+<p>Disinfection is consistent across the loop: chloramines (chlorine bonded to ammonia) for residual disinfection rather than free chlorine. Chloramines persist longer in pipes and require <a href="/services/water-filtration">catalytic carbon filtration</a> rather than the standard granular activated carbon used for free chlorine. Most Tampa Bay homes pair a softener with a whole-house carbon stage for this reason; the combined system runs $3,200 to $6,500 installed.</p>
+
 <h2>Tampa Bay rebates and incentives in 2026</h2>
 
 <p>Tampa Bay Water and the individual member utilities have run various rebate programs over the past decade. As of May 2026, no broad regional softener rebate is active. The Hillsborough, Pinellas, and Manatee county utility commissions do publish water-efficiency rebates for irrigation upgrades and high-efficiency toilets; these are independent of softener purchases.</p>
@@ -1168,6 +1180,18 @@ export const blogPosts: BlogPost[] = [
 <p>If the self-diagnosis is inconclusive, our technician performs an on-site water test at three points: the inlet (closest to the main shutoff or well pressure tank), the kitchen cold tap, and the kitchen hot tap. We test for chlorine and chloramine, hydrogen sulfide, iron, hardness, pH, and total dissolved solids. The test takes about 30 minutes; results are explained on the spot.</p>
 
 <p>If treatment is needed, we write a quote on the spot with itemized equipment, labor, and warranty terms. No high-pressure sales. If treatment is not needed (sometimes the answer is just "flush the water heater"), we say so and there is no charge for the visit.</p>
+
+<h2>What Tampa Bay Water reports for chloramine residual</h2>
+
+<p>If you want a measured number for the chloramine smell you are noticing, your utility publishes one. <a href="https://www.tampabaywater.org" target="_blank" rel="noopener noreferrer">Tampa Bay Water</a> (the regional wholesale supplier) reports finished-water chloramine residual in its annual water quality report, typically around 3.0 to 3.8 milligrams per liter as a system average. Individual member utilities then report their own at-the-tap numbers in their Consumer Confidence Reports. The <a href="https://www.tampa.gov/water" target="_blank" rel="noopener noreferrer">Tampa Water Department</a>, <a href="https://www.stpete.org/government/city_departments/water_resources.php" target="_blank" rel="noopener noreferrer">St. Petersburg Water Resources</a>, <a href="https://pinellas.gov/water-quality/" target="_blank" rel="noopener noreferrer">Pinellas County Utilities</a>, and <a href="https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/utilities" target="_blank" rel="noopener noreferrer">Hillsborough County Public Utilities</a> all publish their CCRs annually on their public utility pages.</p>
+
+<p>The EPA Maximum Residual Disinfectant Level for chloramines is 4 mg/L. Tampa Bay system averages run well below that, but seasonal residual at your tap can edge higher in summer when warmer pipe temperatures speed disinfectant decay. If your smell complaint sharpens between June and September, that is the most likely explanation.</p>
+
+<h2>Equipment options compared: pitcher, under-sink carbon, and whole-house catalytic carbon</h2>
+
+<p>For chloramine specifically, equipment choice matters more than for free chlorine. Pitcher and faucet-mount filters using standard granular activated carbon will reduce chloramine by perhaps 15 to 30 percent at typical contact time, far less than for free chlorine. Under-sink dedicated carbon blocks rated for chloramines (look for NSF/ANSI 42 or 53 certification specifically listing chloramines) reduce 80 to 95 percent at the kitchen tap. A whole-house catalytic carbon tank sized for your home's peak flow reduces 90 to 99 percent at every fixture, including showers (where dermal and respiratory chloramine exposure matters most for sensitive households).</p>
+
+<p>For Tampa Bay homes with sensitive skin, eczema, or respiratory issues, the standard recommendation is whole-house catalytic carbon. For homes that just want better-tasting water at the kitchen and ice maker, an under-sink certified carbon block or a <a href="/services/reverse-osmosis">reverse osmosis system</a> is the cheaper path. See our <a href="/water-treatment/hard-water-tampa-bay">complete Tampa Bay water treatment guide</a> for the full picture on pairing carbon with a softener.</p>
 
 <h2>Maintenance habits that prevent water smells</h2>
 
