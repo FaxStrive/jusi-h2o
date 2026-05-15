@@ -22,7 +22,6 @@ const schemas = [
     address: { '@type': 'PostalAddress', streetAddress: '7901 4th St N Ste 300', addressLocality: 'St. Petersburg', addressRegion: 'FL', postalCode: '33702', addressCountry: 'US' },
     geo: { '@type': 'GeoCoordinates', latitude: 27.3364, longitude: -82.5307 },
     areaServed: { '@type': 'City', name: 'Sarasota, FL' },
-    aggregateRating: { '@type': 'AggregateRating', ratingValue: 5.0, reviewCount: 2500, bestRating: 5 },
   },
   {
     '@context': 'https://schema.org', '@type': 'FAQPage',

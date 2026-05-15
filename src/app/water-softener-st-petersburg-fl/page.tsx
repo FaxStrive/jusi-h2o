@@ -31,7 +31,6 @@ const localBusinessSchema = {
   },
   geo: { '@type': 'GeoCoordinates', latitude: 27.7676, longitude: -82.6403 },
   areaServed: { '@type': 'City', name: 'St. Petersburg, FL' },
-  aggregateRating: { '@type': 'AggregateRating', ratingValue: 5.0, reviewCount: 2500, bestRating: 5 },
 }
 
 const faqSchema = {

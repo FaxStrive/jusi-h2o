@@ -7,6 +7,39 @@ const BUSINESS_NAME = 'Jusi H2O'
 const SCHEMA_TYPE: string[] = ['HomeAndConstructionBusiness', 'Plumber']
 const DATE_MODIFIED = '2026-05-14'
 const ORG_ID = `${SITE_URL}/#organization`
+const PERSON_ID = `${SITE_URL}/#marquis-pendergrass`
+
+// TODO (Luke): Provide the following to populate Person.sameAs and improve entity disambiguation:
+//   1. Marquis Pendergrass LinkedIn profile URL
+//   2. Jusi H2O LinkedIn company page URL
+//   3. Marquis Pendergrass YouTube channel URL (or Jusi H2O channel) once created
+//   4. Wikidata Q-id once a Wikidata entry exists for Jusi H2O and/or Marquis Pendergrass
+//   5. Wikipedia article URL if/when published
+//   6. Real numeric Google Business Profile cid (look up in GBP dashboard) to replace the removed google.com/maps?cid= URL
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': PERSON_ID,
+  name: 'Marquis Pendergrass',
+  givenName: 'Marquis',
+  familyName: 'Pendergrass',
+  jobTitle: 'Founder & Master Installer',
+  description:
+    'Marquis Pendergrass founded Jusi H2O in 2011 and has spent the last decade-plus installing water treatment systems across the Tampa Bay region.',
+  url: `${SITE_URL}/about`,
+  image: `${SITE_URL}/images/og-image.png`,
+  worksFor: { '@id': ORG_ID },
+  knowsAbout: [
+    'water softening',
+    'reverse osmosis',
+    'well water treatment',
+    'PFAS',
+    'chloramines',
+    'Floridan Aquifer',
+    'Tampa Bay water quality',
+  ],
+}
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
@@ -63,8 +96,20 @@ const localBusinessSchema = {
   ],
   speakable: {
     '@type': 'SpeakableSpecification',
-    cssSelector: ['h1', 'h2', '.speakable', '[data-speakable]', '[data-bluf]'],
+    cssSelector: ['h1', '[data-bluf]', '.faq-answer'],
   },
+  founder: { '@id': PERSON_ID },
+  foundingDate: '2011',
+  numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 10 },
+  award: [
+    'NSF/ANSI 42 Certified Components',
+    'NSF/ANSI 44 Certified Components',
+    'NSF/ANSI 53 Certified Components',
+    'NSF/ANSI 55 Certified Components',
+    'NSF/ANSI 58 Certified Components',
+    'NSF/ANSI 401 Certified Components',
+    'WQA Member Company',
+  ],
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
@@ -93,10 +138,12 @@ const localBusinessSchema = {
     bestRating: 5,
     worstRating: 1,
   },
+  // TODO (Luke): Re-add Google Business Profile URL once the real numeric cid is
+  // looked up in the GBP dashboard. The prior 'google.com/maps?cid=jusih2o' URL
+  // was invalid (cid must be numeric, e.g. cid=1234567890123456789).
   sameAs: [
     'https://www.facebook.com/profile.php?id=61578123391295',
     'https://www.instagram.com/jusih2o/',
-    'https://www.google.com/maps?cid=jusih2o',
     'https://www.yelp.com/biz/jusi-h2o',
     'https://www.bbb.org/us/fl/st-petersburg/profile/water-filtration',
   ],
@@ -522,7 +569,7 @@ function getSpeakableSchema(pathname: string) {
     '@type': 'WebPage',
     speakable: {
       '@type': 'SpeakableSpecification',
-      cssSelector: ['h1', 'h2', '.speakable', '[data-speakable]'],
+      cssSelector: ['h1', '[data-bluf]', '.faq-answer'],
     },
     url: `${SITE_URL}${pathname === '/' ? '' : pathname}`,
   }
@@ -577,9 +624,14 @@ export default function SchemaMarkup() {
   const pathname = usePathname()
   const schemas: object[] = []
 
-  // Homepage: LocalBusiness + WebSite
+  // Homepage: LocalBusiness + WebSite + Person (founder entity anchor)
   if (pathname === '/') {
-    schemas.push(localBusinessSchema, websiteSchema)
+    schemas.push(localBusinessSchema, websiteSchema, personSchema)
+  }
+
+  // About page: emit Person schema so the founder entity is anchored on /about as well
+  if (pathname === '/about' || pathname === '/about/') {
+    schemas.push(personSchema)
   }
 
   // All interior pages: BreadcrumbList

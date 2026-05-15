@@ -81,6 +81,38 @@ const faqStructuredData = {
     },
     {
       "@type": "Question",
+      name: "Will the system affect my water pressure?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Modern filtration systems are designed to maintain your home's water pressure. Properly sized systems have minimal impact on flow rate. We ensure the system we recommend is appropriate for your home's plumbing.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What brands do you carry?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We work with top brands including Kinetico, Culligan, Pentair, Fleck, SpringWell, Aquasana, WaterBoss, Halo, and US Water Systems. We recommend the best brand and model for your specific water conditions.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer warranties?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, all systems come with manufacturer warranties. Specific warranty terms vary by brand and system type. Our team will explain all warranty coverage during the consultation.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer financing?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, we offer financing options to help make water filtration affordable for every household. Ask about our payment plans during your consultation.",
+      },
+    },
+    {
+      "@type": "Question",
       name: "How much does a water filtration system cost?",
       acceptedAnswer: {
         "@type": "Answer",

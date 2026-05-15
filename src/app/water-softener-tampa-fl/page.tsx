@@ -34,7 +34,6 @@ const localBusinessSchema = {
   },
   geo: { '@type': 'GeoCoordinates', latitude: 27.9506, longitude: -82.4572 },
   areaServed: { '@type': 'City', name: 'Tampa, FL' },
-  aggregateRating: { '@type': 'AggregateRating', ratingValue: 5.0, reviewCount: 2500, bestRating: 5 },
 }
 
 const faqSchema = {

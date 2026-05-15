@@ -43,6 +43,7 @@ export default function BlogPostPage({
   const nextPost = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
 
   const ORG_ID = "https://jusih2o.com/#organization";
+  const PERSON_ID = "https://jusih2o.com/#marquis-pendergrass";
   const heroImage = post.image
     ? `https://jusih2o.com${post.image}`
     : "https://jusih2o.com/images/og-image.png";
@@ -56,12 +57,7 @@ export default function BlogPostPage({
     image: heroImage,
     datePublished: post.date,
     dateModified: post.date,
-    author: {
-      "@type": "Person",
-      name: post.author,
-      jobTitle: "Founder, Jusi H2O",
-      worksFor: { "@id": ORG_ID },
-    },
+    author: { "@id": PERSON_ID },
     publisher: { "@id": ORG_ID },
     mainEntityOfPage: {
       "@type": "WebPage",
