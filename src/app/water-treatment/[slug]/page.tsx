@@ -5,6 +5,7 @@ import { pillars, getPillar, type Pillar } from "@/lib/pillars";
 
 const SITE = "https://jusih2o.com";
 const ORG_ID = `${SITE}/#organization`;
+const PERSON_ID = `${SITE}/#marquis-pendergrass`;
 const AUTHOR_NAME = "Marquis Pendergrass";
 const AUTHOR_ROLE = "Founder, Jusi H2O";
 
@@ -217,12 +218,7 @@ export default function PillarPage({
     image: `${SITE}${pillar.heroImage}`,
     datePublished: "2026-05-14",
     dateModified: pillar.lastUpdated,
-    author: {
-      "@type": "Person",
-      name: AUTHOR_NAME,
-      jobTitle: AUTHOR_ROLE,
-      worksFor: { "@id": ORG_ID },
-    },
+    author: { "@id": PERSON_ID },
     publisher: { "@id": ORG_ID },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
   };

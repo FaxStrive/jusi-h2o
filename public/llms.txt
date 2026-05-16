@@ -54,7 +54,61 @@ Getting started is simple: call or submit the online contact form to schedule a 
 
 ## All Pages
 
-- [Home](https://jusih2o.com): Tampa Bay's trusted water filtration specialists. Water softeners, reverse osmosis, whole-house filtration, and free in-home water testing. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.
+### Core Pages
+
+- [Home](https://jusih2o.com): Tampa Bay's trusted water filtration specialists. Water softeners, reverse osmosis, whole-house filtration, and free in-home water testing.
+- [About](https://jusih2o.com/about): Company history, founder Marquis Pendergrass, certifications, and Tampa Bay service team.
+- [Contact](https://jusih2o.com/contact): Phone, email, and free in-home water test booking form.
+- [Pricing](https://jusih2o.com/pricing): Transparent pricing ranges for water softeners, reverse osmosis, whole-house filtration, well water treatment, and water heater installation.
+- [Certifications](https://jusih2o.com/certifications): NSF/ANSI 42, 44, 53, 55, 58, 401 component certifications and WQA membership details.
+- [FAQ](https://jusih2o.com/faq): Answers to common questions about water testing, filtration systems, installation, pricing, and JusiCare+.
+
+### Service Pages
+
+- [Water Softeners](https://jusih2o.com/services/water-softeners)
+- [Whole-House Water Filtration](https://jusih2o.com/services/water-filtration)
+- [Reverse Osmosis Systems](https://jusih2o.com/services/reverse-osmosis)
+- [Free In-Home Water Testing](https://jusih2o.com/services/water-testing)
+- [Well Water Treatment](https://jusih2o.com/services/well-water)
+- [Water Heater Installation](https://jusih2o.com/services/water-heater-installation)
+- [Leak Detection and Repair](https://jusih2o.com/services/leak-repair)
+- [Commercial Plumbing and Water Treatment](https://jusih2o.com/services/commercial-plumbing)
+- [JusiCare+ Protection Plan](https://jusih2o.com/services/jusicare)
+
+### Pillar Guides
+
+- [Hard Water in Tampa Bay (Complete Guide)](https://jusih2o.com/water-treatment/hard-water-tampa-bay): Tampa Bay hardness levels, source water, treatment options, sizing.
+- [Florida Well Water Treatment](https://jusih2o.com/water-treatment/florida-well-water): Iron, sulfur, tannin, bacteria treatment for Florida wells.
+- [Reverse Osmosis Drinking Water](https://jusih2o.com/water-treatment/reverse-osmosis-drinking-water): PFAS removal, chloramine, TDS, NSF/ANSI 58 P473 selection.
+
+### Blog Articles
+
+- [Hard Water Tampa Bay Guide](https://jusih2o.com/blog/hard-water-tampa-bay-guide)
+- [Well Water Treatment Hillsborough County](https://jusih2o.com/blog/well-water-treatment-hillsborough-county)
+- [Water Heater Scale in Tampa Bay](https://jusih2o.com/blog/water-heater-scale-tampa-bay)
+- [Reverse Osmosis Benefits in Tampa Bay](https://jusih2o.com/blog/reverse-osmosis-benefits-tampa-bay)
+- [Water Testing Guide for Tampa Bay](https://jusih2o.com/blog/water-testing-guide-tampa-bay)
+- [Water Heater Installation Cost in Tampa Bay](https://jusih2o.com/blog/water-heater-installation-cost-tampa-bay)
+- [Best Water Softener for Tampa Bay](https://jusih2o.com/blog/best-water-softener-tampa-bay)
+- [Commercial Water Treatment Tampa Bay](https://jusih2o.com/blog/commercial-water-treatment-tampa-bay)
+- [Tampa Bay Water Sources, What's in Your Tap](https://jusih2o.com/blog/tampa-bay-water-sources-whats-in-your-tap)
+- [Plant City and Rural Hillsborough Well Water](https://jusih2o.com/blog/plant-city-rural-hillsborough-well-water)
+- [Brackish Wells in Apollo Beach and Ruskin](https://jusih2o.com/blog/brackish-wells-apollo-beach-ruskin-saltwater-intrusion)
+- [Restaurant and Brewery Water Treatment Tampa Bay](https://jusih2o.com/blog/restaurant-brewery-water-treatment-tampa-bay)
+- [Hard Water and Tank vs Tankless Water Heaters](https://jusih2o.com/blog/hard-water-tampa-water-heaters-tank-vs-tankless)
+- [Water Softener Cost in Tampa Bay 2026](https://jusih2o.com/blog/water-softener-cost-tampa-bay-2026)
+- [Tampa Water Smells Like Chlorine or Rotten Eggs](https://jusih2o.com/blog/tampa-water-smells-chlorine-rotten-eggs)
+- [PFAS in Tampa Bay Drinking Water 2026](https://jusih2o.com/blog/pfas-tampa-bay-drinking-water-2026)
+
+### Local Service Areas (Representative)
+
+- [Water Softener Tampa, FL](https://jusih2o.com/water-softener-tampa-fl)
+- [Water Softener St. Petersburg, FL](https://jusih2o.com/water-softener-st-petersburg-fl)
+- [Water Softener Clearwater, FL](https://jusih2o.com/water-softener-clearwater-fl)
+- [Water Softener Brandon, FL](https://jusih2o.com/water-softener-brandon-fl)
+- [Water Softener Sarasota, FL](https://jusih2o.com/water-softener-sarasota-fl)
+- [Water Softener in Hillsborough County, FL](https://jusih2o.com/water-softener-in-hillsborough-county-fl)
+- [Water Softener in Pinellas County, FL](https://jusih2o.com/water-softener-in-pinellas-county-fl)
 
 ## Machine-Readable Versions
 
