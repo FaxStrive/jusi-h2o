@@ -27,7 +27,7 @@ const schemas = [
   {
     '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: [
-      { '@type': 'Question', name: 'How hard is the water in Brandon, FL?', acceptedAnswer: { '@type': 'Answer', text: 'Brandon is part of Hillsborough County and receives water that tests at 15–25 GPG — extremely hard by U.S. Geological Survey standards. Brandon\'s location in inland Hillsborough County means its water draws heavily from the Floridan Aquifer, which has very high mineral content. This causes rapid scale buildup in water heaters, dishwashers, and plumbing.' } },
+      { '@type': 'Question', name: 'How hard is the water in Brandon, FL?', acceptedAnswer: { '@type': 'Answer', text: 'Brandon is part of Hillsborough County and receives water that tests at 15–25 GPG, extremely hard by U.S. Geological Survey standards. Brandon\'s location in inland Hillsborough County means its water draws heavily from the Floridan Aquifer, which has very high mineral content. This causes rapid scale buildup in water heaters, dishwashers, and plumbing.' } },
       { '@type': 'Question', name: 'Does Jusi H2O serve Valrico, Riverview, and surrounding Brandon areas?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Jusi H2O serves all of the Brandon, FL area including Valrico, Riverview, Seffner, Lithia, and throughout eastern Hillsborough County. We cover the full area within our 50-mile service radius of St. Petersburg.' } },
     ],
   },
@@ -57,7 +57,7 @@ export default function WaterSoftenerBrandonPage() {
             <span className="text-white">Brandon, FL</span>
           </nav>
           <h1 className="font-heading text-4xl md:text-5xl font-bold text-white leading-tight mb-4">Water Softener Installation in Brandon, FL</h1>
-          <p className="text-xl text-primary-100 max-w-2xl mb-8">Brandon water tests at 15–25 GPG — among the hardest in Hillsborough County. Jusi H2O provides free in-home water testing and NSF-certified water softener installation for Brandon homeowners.</p>
+          <p className="text-xl text-primary-100 max-w-2xl mb-8">Brandon water tests at 15–25 GPG, among the hardest in Hillsborough County. Jusi H2O provides free in-home water testing and NSF-certified water softener installation for Brandon homeowners.</p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-bold rounded-full hover:bg-accent-light transition-all duration-300 hover:scale-105">Get Free Water Test</Link>
             <a href="tel:+18133030515" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 text-white font-semibold rounded-full hover:bg-white/20 transition-colors">Call (813) 303-0515</a>
@@ -75,9 +75,9 @@ export default function WaterSoftenerBrandonPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <h2 className="font-heading text-3xl font-bold text-text mb-6">Why Brandon Homeowners Need Water Softeners</h2>
-            <p className="text-text-secondary text-lg leading-relaxed mb-4">Brandon, FL sits in eastern Hillsborough County, drawing its water from one of the highest-mineral aquifer regions in the state. Brandon area water tests at 15–25 grains per gallon (GPG) — the U.S. Geological Survey classifies anything above 10.5 GPG as &quot;very hard.&quot; Many Brandon homes test even higher depending on their specific neighborhood and water source.</p>
+            <p className="text-text-secondary text-lg leading-relaxed mb-4">Brandon, FL sits in eastern Hillsborough County, drawing its water from one of the highest-mineral aquifer regions in the state. Brandon area water tests at 15–25 grains per gallon (GPG), the U.S. Geological Survey classifies anything above 10.5 GPG as &quot;very hard.&quot; Many Brandon homes test even higher depending on their specific neighborhood and water source.</p>
             <p className="text-text-secondary text-lg leading-relaxed mb-4">At this hardness level, calcium and magnesium minerals coat the inside of your water heater at a rate that reduces efficiency by up to 25% within the first few years. The same minerals clog showerheads, leave white deposits on fixtures, cause soap to lather poorly, and scratch glassware in the dishwasher. Many Brandon homeowners first call us after noticing their water heater or dishwasher failing prematurely.</p>
-            <p className="text-text-secondary text-lg leading-relaxed">A Jusi H2O water softener removes these minerals at the point of entry to your home&apos;s plumbing — before they can cause damage. We size every system to your home&apos;s specific hardness level and water usage, so you get the right capacity without overpaying.</p>
+            <p className="text-text-secondary text-lg leading-relaxed">A Jusi H2O water softener removes these minerals at the point of entry to your home&apos;s plumbing, before they can cause damage. We size every system to your home&apos;s specific hardness level and water usage, so you get the right capacity without overpaying.</p>
           </div>
 
           <div className="mb-12">
@@ -93,7 +93,7 @@ export default function WaterSoftenerBrandonPage() {
             <h2 className="font-heading text-2xl font-bold text-text mb-6">Frequently Asked Questions</h2>
             <div className="space-y-6">
               {[
-                { q: 'How hard is the water in Brandon, FL?', a: 'Brandon water typically tests at 15–25 GPG — classified as very hard to extremely hard. Brandon\'s location in inland Hillsborough County means the water draws heavily from the Floridan Aquifer with very high mineral content. This causes rapid scale buildup in pipes, water heaters, and appliances.' },
+                { q: 'How hard is the water in Brandon, FL?', a: 'Brandon water typically tests at 15–25 GPG, classified as very hard to extremely hard. Brandon\'s location in inland Hillsborough County means the water draws heavily from the Floridan Aquifer with very high mineral content. This causes rapid scale buildup in pipes, water heaters, and appliances.' },
                 { q: 'Does Jusi H2O serve Valrico, Riverview, and Seffner?', a: 'Yes. Jusi H2O serves all of the greater Brandon area including Valrico, Riverview, Seffner, Lithia, Fishhawk, Bloomingdale, and throughout eastern Hillsborough County.' },
                 { q: 'How long does water softener installation take in Brandon?', a: 'Most water softener installations in Brandon take 2–4 hours. Our technician installs the system, programs it to your home\'s exact hardness level, tests the output water, and walks you through operation before leaving.' },
               ].map((item) => (

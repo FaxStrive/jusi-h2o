@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'NSF & WQA Certifications | Jusi H2O Tampa Bay',
-  description: 'Jusi H2O holds 7 NSF certifications and WQA certification — the highest standards in water treatment. Learn what each certification means for your home\'s water quality.',
+  description: 'Jusi H2O holds 7 NSF certifications and WQA certification, the highest standards in water treatment. Learn what each certification means for your home\'s water quality.',
   alternates: { canonical: 'https://jusih2o.com/certifications' },
   openGraph: {
     title: 'NSF & WQA Certifications | Jusi H2O Tampa Bay',
@@ -22,7 +22,7 @@ const certificationSchema = {
     {
       '@type': 'Question',
       name: 'What is NSF certification for water treatment?',
-      acceptedAnswer: { '@type': 'Answer', text: 'NSF International is an independent, accredited public health and safety organization that tests and certifies water treatment products. NSF certification verifies that a product\'s materials are safe, that it reduces the contaminants it claims to reduce, and that it performs as advertised under real-world conditions. NSF-certified systems are validated by third-party testing — not just manufacturer claims.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'NSF International is an independent, accredited public health and safety organization that tests and certifies water treatment products. NSF certification verifies that a product\'s materials are safe, that it reduces the contaminants it claims to reduce, and that it performs as advertised under real-world conditions. NSF-certified systems are validated by third-party testing, not just manufacturer claims.' },
     },
     {
       '@type': 'Question',
@@ -32,7 +32,7 @@ const certificationSchema = {
     {
       '@type': 'Question',
       name: 'Why does NSF certification matter?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Without NSF certification, a water treatment system\'s performance claims are unverified. NSF testing confirms that the system actually reduces the contaminants it claims to, that the materials won\'t leach harmful chemicals into your water, and that the system performs consistently under real household conditions. When you choose NSF-certified equipment, you\'re choosing verified performance — not marketing claims.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Without NSF certification, a water treatment system\'s performance claims are unverified. NSF testing confirms that the system actually reduces the contaminants it claims to, that the materials won\'t leach harmful chemicals into your water, and that the system performs consistently under real household conditions. When you choose NSF-certified equipment, you\'re choosing verified performance, not marketing claims.' },
     },
   ],
 }
@@ -42,13 +42,13 @@ const certs = [
     name: 'WQA Certified',
     full: 'Water Quality Association',
     what: 'Industry certification for water treatment professionals',
-    means: 'Our technicians are trained and tested by the Water Quality Association — the leading professional body for water treatment specialists in the U.S. WQA certification requires ongoing education to maintain, ensuring our team stays current with the latest water treatment technologies and standards.',
+    means: 'Our technicians are trained and tested by the Water Quality Association, the leading professional body for water treatment specialists in the U.S. WQA certification requires ongoing education to maintain, ensuring our team stays current with the latest water treatment technologies and standards.',
     applies: 'All Jusi H2O technicians and service personnel',
     logo: 'WQA',
   },
   {
     name: 'NSF-42',
-    full: 'NSF/ANSI 42 — Aesthetic Effects',
+    full: 'NSF/ANSI 42, Aesthetic Effects',
     what: 'Reduction of taste, odor, and chlorine',
     means: 'NSF-42 certified systems are independently verified to reduce chlorine taste and odor, sediment, and other aesthetic contaminants that affect water taste and smell. This certification applies to our whole-house carbon filtration systems and reverse osmosis post-filters.',
     applies: 'Whole-house filtration, RO post-filters',
@@ -56,7 +56,7 @@ const certs = [
   },
   {
     name: 'NSF-44',
-    full: 'NSF/ANSI 44 — Cation Exchange Water Softeners',
+    full: 'NSF/ANSI 44, Cation Exchange Water Softeners',
     what: 'Water softener performance and material safety',
     means: 'NSF-44 is the specific certification for residential cation exchange water softeners. It verifies that the softener reduces hardness to the level it claims, that the resin and brine tank materials are safe and won\'t contaminate your water, and that the system\'s salt efficiency meets performance standards. This is the most important certification for water softeners.',
     applies: 'All Jusi H2O water softener systems',
@@ -64,15 +64,15 @@ const certs = [
   },
   {
     name: 'NSF-53',
-    full: 'NSF/ANSI 53 — Health Effects',
+    full: 'NSF/ANSI 53, Health Effects',
     what: 'Reduction of health-concern contaminants',
-    means: 'NSF-53 certifies that a filtration system reduces specific health-concern contaminants including lead, cysts (Giardia, Cryptosporidium), PFAS, and other contaminants with established health effects. This is one of the most rigorous NSF standards — systems must demonstrate verified reduction of contaminants at the levels claimed under real household flow conditions.',
+    means: 'NSF-53 certifies that a filtration system reduces specific health-concern contaminants including lead, cysts (Giardia, Cryptosporidium), PFAS, and other contaminants with established health effects. This is one of the most rigorous NSF standards, systems must demonstrate verified reduction of contaminants at the levels claimed under real household flow conditions.',
     applies: 'Whole-house filtration with health-effect reduction claims',
     logo: 'NSF 53',
   },
   {
     name: 'NSF-55',
-    full: 'NSF/ANSI 55 — Ultraviolet Microbiological Water Treatment Systems',
+    full: 'NSF/ANSI 55, Ultraviolet Microbiological Water Treatment Systems',
     what: 'UV disinfection system performance',
     means: 'NSF-55 certifies ultraviolet (UV) water treatment systems for their ability to inactivate bacteria, viruses, and other microorganisms. Class A systems achieve a minimum 3-log (99.9%) reduction of bacteria and 4-log (99.99%) reduction of viruses. This certification applies to our well water UV disinfection systems.',
     applies: 'UV disinfection systems for well water treatment',
@@ -80,7 +80,7 @@ const certs = [
   },
   {
     name: 'NSF-58',
-    full: 'NSF/ANSI 58 — Reverse Osmosis Drinking Water Treatment Systems',
+    full: 'NSF/ANSI 58, Reverse Osmosis Drinking Water Treatment Systems',
     what: 'RO system performance and material safety',
     means: 'NSF-58 is the specific certification for reverse osmosis systems. It verifies that the membrane and filtration stages reduce contaminants to the levels claimed (including lead, arsenic, nitrates, fluoride, chromium, and dissolved solids), that all materials in contact with drinking water are safe, and that the system performs consistently. All Jusi H2O RO systems carry NSF-58 certification.',
     applies: 'All Jusi H2O reverse osmosis systems',
@@ -88,9 +88,9 @@ const certs = [
   },
   {
     name: 'NSF-401',
-    full: 'NSF/ANSI 401 — Emerging Contaminants',
+    full: 'NSF/ANSI 401, Emerging Contaminants',
     what: 'Reduction of emerging contaminants',
-    means: 'NSF-401 certifies systems for reducing emerging contaminants — a category that includes prescription drugs, over-the-counter medications, herbicides, pesticides, and PFAS chemicals that aren\'t yet regulated under Safe Drinking Water Act standards but are increasingly found in water supplies. This certification reflects our commitment to addressing the newest water quality concerns, not just traditional contaminants.',
+    means: 'NSF-401 certifies systems for reducing emerging contaminants, a category that includes prescription drugs, over-the-counter medications, herbicides, pesticides, and PFAS chemicals that aren\'t yet regulated under Safe Drinking Water Act standards but are increasingly found in water supplies. This certification reflects our commitment to addressing the newest water quality concerns, not just traditional contaminants.',
     applies: 'Advanced filtration systems with emerging contaminant reduction claims',
     logo: 'NSF 401',
   },
@@ -116,7 +116,7 @@ export default function CertificationsPage() {
             Our Certifications & Standards
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mb-6">
-            Jusi H2O holds 7 NSF certifications and WQA certification — the highest independently verified standards in residential water treatment. Here&apos;s what each one means for your home.
+            Jusi H2O holds 7 NSF certifications and WQA certification, the highest independently verified standards in residential water treatment. Here&apos;s what each one means for your home.
           </p>
           <div className="flex flex-wrap gap-3">
             {['WQA', 'NSF-42', 'NSF-44', 'NSF-53', 'NSF-55', 'NSF-58', 'NSF-401'].map((cert) => (
@@ -131,10 +131,10 @@ export default function CertificationsPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="font-heading text-2xl font-bold text-text mb-4">Why Certifications Matter</h2>
           <p className="text-text-secondary text-lg leading-relaxed mb-4">
-            The water treatment industry is largely unregulated at the federal level. Any company can claim their system &quot;removes 99% of contaminants&quot; without independent verification. NSF certification changes that — it requires third-party testing that verifies a system actually performs as claimed, that materials are safe, and that performance is consistent under real household conditions.
+            The water treatment industry is largely unregulated at the federal level. Any company can claim their system &quot;removes 99% of contaminants&quot; without independent verification. NSF certification changes that, it requires third-party testing that verifies a system actually performs as claimed, that materials are safe, and that performance is consistent under real household conditions.
           </p>
           <p className="text-text-secondary text-lg leading-relaxed">
-            When you choose Jusi H2O, you&apos;re choosing systems whose performance is verified by NSF International — an independent, accredited public health organization. Not manufacturer claims. Not marketing materials. Independent testing.
+            When you choose Jusi H2O, you&apos;re choosing systems whose performance is verified by NSF International, an independent, accredited public health organization. Not manufacturer claims. Not marketing materials. Independent testing.
           </p>
         </div>
       </section>
@@ -167,9 +167,9 @@ export default function CertificationsPage() {
             <div className="space-y-6">
               {[
                 { q: 'What is NSF certification?', a: 'NSF International is an independent, accredited public health and safety organization that tests and certifies water treatment products. NSF certification verifies that a product reduces the contaminants it claims to, that its materials are safe, and that it performs consistently under real-world conditions.' },
-                { q: 'What is WQA certification?', a: 'The Water Quality Association (WQA) is the leading industry organization for water treatment professionals. WQA certification requires technicians to demonstrate knowledge of water chemistry, treatment technologies, and professional standards — and to maintain that knowledge through ongoing education.' },
-                { q: 'Why does NSF certification matter?', a: 'Without NSF certification, a system\'s performance claims are unverified. NSF testing provides independent confirmation that a system works as advertised. When you choose NSF-certified equipment, you\'re choosing verified performance — not marketing claims.' },
-                { q: 'Are all Jusi H2O systems NSF certified?', a: 'Yes. Every system Jusi H2O installs uses NSF-certified components appropriate for its function — NSF-44 for water softeners, NSF-58 for reverse osmosis, NSF-42/53 for filtration systems, and NSF-55 for UV disinfection.' },
+                { q: 'What is WQA certification?', a: 'The Water Quality Association (WQA) is the leading industry organization for water treatment professionals. WQA certification requires technicians to demonstrate knowledge of water chemistry, treatment technologies, and professional standards, and to maintain that knowledge through ongoing education.' },
+                { q: 'Why does NSF certification matter?', a: 'Without NSF certification, a system\'s performance claims are unverified. NSF testing provides independent confirmation that a system works as advertised. When you choose NSF-certified equipment, you\'re choosing verified performance, not marketing claims.' },
+                { q: 'Are all Jusi H2O systems NSF certified?', a: 'Yes. Every system Jusi H2O installs uses NSF-certified components appropriate for its function, NSF-44 for water softeners, NSF-58 for reverse osmosis, NSF-42/53 for filtration systems, and NSF-55 for UV disinfection.' },
               ].map((item) => (
                 <div key={item.q} className="border-b border-border-light pb-6">
                   <h3 className="font-heading font-semibold text-text mb-2">{item.q}</h3>

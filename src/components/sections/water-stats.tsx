@@ -10,7 +10,7 @@ const stats = [
     source: "U.S. Geological Survey",
     sourceUrl: "https://www.usgs.gov/special-topics/water-science-school/science/hardness-water",
     description:
-      "Tampa Bay area water is among the hardest in Florida, averaging 150-300 mg/L — well above the 60 mg/L threshold for 'hard' water.",
+      "Tampa Bay area water is among the hardest in Florida, averaging 150-300 mg/L, well above the 60 mg/L threshold for 'hard' water.",
   },
   {
     figure: "99%",
@@ -34,7 +34,7 @@ const stats = [
     source: "Water Quality Association",
     sourceUrl: "https://www.wqa.org/",
     description:
-      "A water softener can extend appliance life by 30-50%, reduce detergent use by up to 75%, and lower water heating costs — saving hundreds per year.",
+      "A water softener can extend appliance life by 30-50%, reduce detergent use by up to 75%, and lower water heating costs, saving hundreds per year.",
   },
 ];
 
