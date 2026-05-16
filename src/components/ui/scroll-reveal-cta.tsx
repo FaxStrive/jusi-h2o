@@ -67,7 +67,7 @@ export function ScrollRevealCTA() {
 
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 md:gap-6 pr-6">
               <p className="text-white font-semibold text-base md:text-lg text-center md:text-left">
-                Tampa Bay&apos;s water has hidden contaminants — Get your <span className="underline decoration-2">FREE</span> water test now!
+                Tampa Bay&apos;s water has hidden contaminants, Get your <span className="underline decoration-2">FREE</span> water test now!
               </p>
 
               <div className="flex items-center gap-3 shrink-0">

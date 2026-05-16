@@ -37,7 +37,7 @@ export default function WaterTreatmentPage() {
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Complete Water Treatment Solutions for Tampa Bay</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Comprehensive water treatment systems that address every water quality challenge in your home. Jusi H2O designs custom solutions combining softening, filtration, and purification — tailored to Tampa Bay&apos;s unique water conditions. Free in-home water testing and consultation.
+            Comprehensive water treatment systems that address every water quality challenge in your home. Jusi H2O designs custom solutions combining softening, filtration, and purification, tailored to Tampa Bay&apos;s unique water conditions. Free in-home water testing and consultation.
           </p>
           <address className="not-italic flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors">Schedule Free Consultation</Link>
@@ -61,7 +61,7 @@ export default function WaterTreatmentPage() {
               A comprehensive water treatment approach accounts for this variability. Rather than installing a single system that addresses only one issue, Jusi H2O evaluates the full spectrum of your water quality and designs a multi-stage solution. This might include a sediment pre-filter to protect downstream equipment, a carbon filter to remove chlorine and organic compounds, a water softener to eliminate hardness, and a <Link href="/reverse-osmosis" className="text-blue-600 hover:underline">reverse osmosis system</Link> at your kitchen sink for the purest possible drinking water.
             </p>
             <p>
-              The result is water that is clean, soft, great-tasting, and safe throughout your entire home — not just at one faucet. Every component works together as an integrated system, and each stage is sized and configured based on your specific water test results and household usage patterns.
+              The result is water that is clean, soft, great-tasting, and safe throughout your entire home, not just at one faucet. Every component works together as an integrated system, and each stage is sized and configured based on your specific water test results and household usage patterns.
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function WaterTreatmentPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Extreme Water Hardness</h3>
-              <p className="text-gray-600">Tampa Bay water hardness levels frequently exceed 15 GPG and can reach 25 GPG or higher in some neighborhoods. This causes rapid scale accumulation in water heaters, dishwashers, and pipes — reducing efficiency and shortening equipment lifespan.</p>
+              <p className="text-gray-600">Tampa Bay water hardness levels frequently exceed 15 GPG and can reach 25 GPG or higher in some neighborhoods. This causes rapid scale accumulation in water heaters, dishwashers, and pipes, reducing efficiency and shortening equipment lifespan.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Chloramine Disinfection</h3>
@@ -138,7 +138,7 @@ export default function WaterTreatmentPage() {
               <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" aria-label="Step 1">1</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Comprehensive Water Testing</h3>
-                <p className="text-gray-600">We test your water at the source — whether municipal supply or <Link href="/well-water-treatment" className="text-blue-600 hover:underline">private well</Link> — for hardness, chlorine, iron, pH, TDS, sulfur, bacteria, and other relevant parameters.</p>
+                <p className="text-gray-600">We test your water at the source, whether municipal supply or <Link href="/well-water-treatment" className="text-blue-600 hover:underline">private well</Link>, for hardness, chlorine, iron, pH, TDS, sulfur, bacteria, and other relevant parameters.</p>
               </div>
             </li>
             <li className="flex gap-6">
@@ -152,7 +152,7 @@ export default function WaterTreatmentPage() {
               <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" aria-label="Step 3">3</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Professional Multi-Stage Installation</h3>
-                <p className="text-gray-600">Our technicians install each treatment component in the correct sequence — pre-filtration, softening, post-filtration, and point-of-use purification — ensuring optimal performance of the entire system.</p>
+                <p className="text-gray-600">Our technicians install each treatment component in the correct sequence, pre-filtration, softening, post-filtration, and point-of-use purification, ensuring optimal performance of the entire system.</p>
               </div>
             </li>
             <li className="flex gap-6">
@@ -206,7 +206,7 @@ export default function WaterTreatmentPage() {
       <section className="py-20 px-4 bg-blue-600 text-white" aria-labelledby="cta-heading">
         <div className="max-w-3xl mx-auto text-center">
           <h2 id="cta-heading" className="text-3xl font-bold mb-4">Get a Complete Water Treatment Solution for Your Home</h2>
-          <p className="text-blue-100 text-lg mb-8">Start with a free in-home water test. Jusi H2O will identify every issue in your water and design a treatment system that solves them all — with transparent pricing and no obligation.</p>
+          <p className="text-blue-100 text-lg mb-8">Start with a free in-home water test. Jusi H2O will identify every issue in your water and design a treatment system that solves them all, with transparent pricing and no obligation.</p>
           <address className="not-italic flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-block bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors">Schedule Free Water Test</Link>
             <a href="tel:+18133030515" className="inline-block border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors">Call (813) 303-0515</a>
@@ -222,14 +222,23 @@ export default function WaterTreatmentPage() {
             <li><Link href="/well-water-treatment" className="text-blue-600 hover:underline">Well Water Treatment</Link></li>
           </ul>
         </nav>
-        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
-          <h2 className="text-lg font-semibold mb-3">Water Treatment by Area</h2>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guides">
+          <h2 className="text-lg font-semibold mb-3">Featured Water Treatment Guides</h2>
           <ul className="space-y-2">
-            <li><Link href="/water-treatment-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Water Treatment in Hillsborough County, FL</Link></li>
-            <li><Link href="/water-treatment-in-pinellas-county-fl" className="text-blue-600 hover:underline">Water Treatment in Pinellas County, FL</Link></li>
-            <li><Link href="/water-treatment-in-sarasota-county-fl" className="text-blue-600 hover:underline">Water Treatment in Sarasota County, FL</Link></li>
-            <li><Link href="/water-treatment-in-tampa-bay-fl" className="text-blue-600 hover:underline">Water Treatment in Tampa Bay, FL</Link></li>
-            <li><Link href="/water-treatment-in-florida" className="text-blue-600 hover:underline">Water Treatment in Florida</Link></li>
+            <li><Link href="/water-treatment/hard-water-tampa-bay" className="text-blue-600 hover:underline">Hard Water in Tampa Bay: A Complete Treatment Guide</Link></li>
+            <li><Link href="/water-treatment/florida-well-water" className="text-blue-600 hover:underline">Florida Well Water Treatment: Tampa Bay Region Guide</Link></li>
+            <li><Link href="/water-treatment/reverse-osmosis-drinking-water" className="text-blue-600 hover:underline">Reverse Osmosis Drinking Water in Tampa Bay</Link></li>
+          </ul>
+        </nav>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
+          <h2 className="text-lg font-semibold mb-3">Popular Service Areas</h2>
+          <ul className="space-y-2">
+            <li><Link href="/water-softener-tampa-fl" className="text-blue-600 hover:underline">Water Softener in Tampa, FL</Link></li>
+            <li><Link href="/water-softener-st-petersburg-fl" className="text-blue-600 hover:underline">Water Softener in St. Petersburg, FL</Link></li>
+            <li><Link href="/water-softener-clearwater-fl" className="text-blue-600 hover:underline">Water Softener in Clearwater, FL</Link></li>
+            <li><Link href="/water-softener-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Water Softener in Hillsborough County, FL</Link></li>
+            <li><Link href="/water-softener-in-pinellas-county-fl" className="text-blue-600 hover:underline">Water Softener in Pinellas County, FL</Link></li>
+            <li><Link href="/service-areas" className="text-blue-600 hover:underline">View all service areas</Link></li>
           </ul>
         </nav>
     </main>

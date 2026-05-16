@@ -26,7 +26,7 @@ export default function WaterSoftenerPage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How Much Does Water Softener Cost?","acceptedAnswer":{"@type":"Answer","text":"Water Softener costs vary based on your home's specific needs, existing infrastructure, and system specifications. Jusi H2O provides free in-home assessments with detailed written quotes — so you know exactly what you'll pay before committing to anything."}},{"@type":"Question","name":"How Long Does Water Softener Take?","acceptedAnswer":{"@type":"Answer","text":"Most residential water softener projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Jusi H2O, we'll give you a specific timeline for your Tampa project."}},{"@type":"Question","name":"Do I Need a Permit for Water Softener?","acceptedAnswer":{"@type":"Answer","text":"Permit requirements depend on the specific work being done and local municipal regulations. Jusi H2O handles all required local permits as part of our service — we're familiar with Tampa Bay requirements and manage the paperwork on your behalf."}},{"@type":"Question","name":"What Warranty Does Jusi H2O Provide for Water Softener?","acceptedAnswer":{"@type":"Answer","text":"Jusi H2O provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."}},{"@type":"Question","name":"Does Jusi H2O Provide Water Softener in Tampa?","acceptedAnswer":{"@type":"Answer","text":"Yes, Jusi H2O serves Tampa and surrounding communities. Call (813) 303-0515 to confirm service availability in your specific neighborhood."}}]}` }}
+        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How Much Does Water Softener Cost?","acceptedAnswer":{"@type":"Answer","text":"Water Softener costs vary based on your home's specific needs, existing infrastructure, and system specifications. Jusi H2O provides free in-home assessments with detailed written quotes, so you know exactly what you'll pay before committing to anything."}},{"@type":"Question","name":"How Long Does Water Softener Take?","acceptedAnswer":{"@type":"Answer","text":"Most residential water softener projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Jusi H2O, we'll give you a specific timeline for your Tampa project."}},{"@type":"Question","name":"Do I Need a Permit for Water Softener?","acceptedAnswer":{"@type":"Answer","text":"Permit requirements depend on the specific work being done and local municipal regulations. Jusi H2O handles all required local permits as part of our service, we're familiar with Tampa Bay requirements and manage the paperwork on your behalf."}},{"@type":"Question","name":"What Warranty Does Jusi H2O Provide for Water Softener?","acceptedAnswer":{"@type":"Answer","text":"Jusi H2O provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."}},{"@type":"Question","name":"Does Jusi H2O Provide Water Softener in Tampa?","acceptedAnswer":{"@type":"Answer","text":"Yes, Jusi H2O serves Tampa and surrounding communities. Call (813) 303-0515 to confirm service availability in your specific neighborhood."}}]}` }}
       />
 
       {/* Hero */}
@@ -37,7 +37,7 @@ export default function WaterSoftenerPage() {
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Water Softener Installation and Service</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Professional water softener installation and maintenance from Jusi H2O — serving Tampa Bay, Hillsborough County, Pinellas County, and surrounding Florida communities.
+            Professional water softener installation and maintenance from Jusi H2O, serving Tampa Bay, Hillsborough County, Pinellas County, and surrounding Florida communities.
             Free in-home water testing and consultation. Licensed and insured.
           </p>
           <address className="not-italic flex flex-col sm:flex-row gap-4 justify-center">
@@ -63,7 +63,7 @@ export default function WaterSoftenerPage() {
           <h2 id="about-heading" className="text-3xl font-bold text-center mb-6">What Is a Water Softener and Why Do Tampa Bay Homes Need One?</h2>
           <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
             <p>
-              A water softener is a whole-home filtration system that removes calcium, magnesium, and other dissolved minerals from your household water supply through a process called ion exchange. Tampa Bay&apos;s municipal water is sourced primarily from surface reservoirs and the Floridan Aquifer, both of which carry elevated mineral concentrations that make the region&apos;s water among the hardest in Florida. Water hardness levels in Hillsborough and Pinellas counties regularly measure between 12 and 25 grains per gallon — well above the 7 GPG threshold where the Water Quality Association recommends softening.
+              A water softener is a whole-home filtration system that removes calcium, magnesium, and other dissolved minerals from your household water supply through a process called ion exchange. Tampa Bay&apos;s municipal water is sourced primarily from surface reservoirs and the Floridan Aquifer, both of which carry elevated mineral concentrations that make the region&apos;s water among the hardest in Florida. Water hardness levels in Hillsborough and Pinellas counties regularly measure between 12 and 25 grains per gallon, well above the 7 GPG threshold where the Water Quality Association recommends softening.
             </p>
             <p>
               Hard water leaves visible white scale deposits on faucets, showerheads, and glass surfaces. Over time, that same mineral buildup accumulates inside water heaters, dishwashers, and washing machines, reducing their efficiency and shortening their operational lifespan. The U.S. Department of Energy estimates that just a quarter inch of scale buildup inside a water heater can increase energy consumption by up to 29 percent. For Tampa Bay homeowners running their water heater year-round, that translates to a measurable increase in monthly utility bills.
@@ -88,7 +88,7 @@ export default function WaterSoftenerPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">White Crusty Buildup on Fixtures</h3>
-              <p className="text-gray-600">Chalky white or greenish deposits around faucets, showerheads, and drain openings are calcium and magnesium scale — a direct result of hard water evaporating and leaving minerals behind.</p>
+              <p className="text-gray-600">Chalky white or greenish deposits around faucets, showerheads, and drain openings are calcium and magnesium scale, a direct result of hard water evaporating and leaving minerals behind.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Dry Skin and Flat Hair After Showering</h3>
@@ -124,7 +124,7 @@ export default function WaterSoftenerPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Free In-Home Assessment</h3>
-              <p className="text-gray-600">We evaluate your specific needs before recommending anything. No pressure, no obligation — just honest, expert advice about the right water softener solution for your home.</p>
+              <p className="text-gray-600">We evaluate your specific needs before recommending anything. No pressure, no obligation, just honest, expert advice about the right water softener solution for your home.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Licensed & Insured</h3>
@@ -136,7 +136,7 @@ export default function WaterSoftenerPage() {
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Transparent Pricing</h3>
-              <p className="text-gray-600">You receive a detailed written estimate before any work begins. No hidden fees, no surprise charges, and no pressure tactics — ever.</p>
+              <p className="text-gray-600">You receive a detailed written estimate before any work begins. No hidden fees, no surprise charges, and no pressure tactics, ever.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Local Expertise</h3>
@@ -144,7 +144,7 @@ export default function WaterSoftenerPage() {
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Quality Equipment</h3>
-              <p className="text-gray-600">We use professional-grade, manufacturer-warranted equipment — not the entry-level systems found at big-box stores. Better equipment means better performance and longer service life.</p>
+              <p className="text-gray-600">We use professional-grade, manufacturer-warranted equipment, not the entry-level systems found at big-box stores. Better equipment means better performance and longer service life.</p>
             </article>
           </div>
         </div>
@@ -161,7 +161,7 @@ export default function WaterSoftenerPage() {
               </div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Free Consultation & Assessment</h3>
-                <p className="text-gray-600">A certified Jusi H2O specialist visits your home, evaluates your specific situation, and answers your questions. We test, measure, and assess — then explain your options clearly with no sales pressure.</p>
+                <p className="text-gray-600">A certified Jusi H2O specialist visits your home, evaluates your specific situation, and answers your questions. We test, measure, and assess, then explain your options clearly with no sales pressure.</p>
               </div>
             </li>
             <li className="flex gap-6">
@@ -170,7 +170,7 @@ export default function WaterSoftenerPage() {
               </div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Custom Recommendation & Transparent Quote</h3>
-                <p className="text-gray-600">Based on the assessment, we provide a written recommendation tailored to your home&apos;s needs. Your quote includes all equipment, installation labor, and applicable permits — no hidden costs.</p>
+                <p className="text-gray-600">Based on the assessment, we provide a written recommendation tailored to your home&apos;s needs. Your quote includes all equipment, installation labor, and applicable permits, no hidden costs.</p>
               </div>
             </li>
             <li className="flex gap-6">
@@ -213,7 +213,7 @@ export default function WaterSoftenerPage() {
               Not every home requires the same type of water softener. Jusi H2O evaluates your water quality, household size, plumbing configuration, and budget to recommend the most effective solution. We install and service several categories of softening systems across the Tampa Bay area.
             </p>
             <p>
-              <strong>Salt-based ion exchange softeners</strong> are the most common and effective option for Tampa Bay&apos;s hard water. These systems use resin beads charged with sodium ions to swap out calcium and magnesium as water passes through the tank. The resin regenerates automatically using a brine solution, keeping the system operating without manual intervention. Salt-based systems are ideal for homes with hardness levels above 10 GPG — which includes most of Hillsborough and Pinellas County.
+              <strong>Salt-based ion exchange softeners</strong> are the most common and effective option for Tampa Bay&apos;s hard water. These systems use resin beads charged with sodium ions to swap out calcium and magnesium as water passes through the tank. The resin regenerates automatically using a brine solution, keeping the system operating without manual intervention. Salt-based systems are ideal for homes with hardness levels above 10 GPG, which includes most of Hillsborough and Pinellas County.
             </p>
             <p>
               <strong>Salt-free water conditioners</strong> use template-assisted crystallization to change the structure of hardness minerals so they do not adhere to surfaces. These systems do not technically remove minerals from the water, so they are best suited for homes with moderate hardness or homeowners who prefer to avoid sodium in their water supply. They require no electricity, produce no wastewater, and need minimal maintenance.
@@ -239,7 +239,7 @@ export default function WaterSoftenerPage() {
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">How Long Does Water Softener Installation Take?</h3>
-              <p className="text-gray-700">Most residential water softener installations are completed in two to four hours. If additional plumbing work is needed — such as rerouting pipes or adding a dedicated drain line — installation may take a full day. We schedule a specific window during your free consultation so you know exactly when to expect us.</p>
+              <p className="text-gray-700">Most residential water softener installations are completed in two to four hours. If additional plumbing work is needed, such as rerouting pipes or adding a dedicated drain line, installation may take a full day. We schedule a specific window during your free consultation so you know exactly when to expect us.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">How Often Does a Water Softener Need Maintenance?</h3>
@@ -247,7 +247,7 @@ export default function WaterSoftenerPage() {
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Will a Water Softener Make My Water Taste Salty?</h3>
-              <p className="text-gray-700">No. The amount of sodium added during the ion exchange process is very small — typically 12 to 30 milligrams per 8-ounce glass, depending on hardness level. That is well below the threshold most people can taste. If sodium is a dietary concern, we can install a potassium chloride system or add a <Link href="/reverse-osmosis" className="text-blue-600 hover:underline">reverse osmosis system</Link> at your kitchen sink for drinking water.</p>
+              <p className="text-gray-700">No. The amount of sodium added during the ion exchange process is very small, typically 12 to 30 milligrams per 8-ounce glass, depending on hardness level. That is well below the threshold most people can taste. If sodium is a dietary concern, we can install a potassium chloride system or add a <Link href="/reverse-osmosis" className="text-blue-600 hover:underline">reverse osmosis system</Link> at your kitchen sink for drinking water.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Does Jusi H2O Service Existing Water Softeners?</h3>
@@ -289,14 +289,20 @@ export default function WaterSoftenerPage() {
             <li><Link href="/whole-house-filtration" className="text-blue-600 hover:underline">Whole-House Filtration</Link></li>
           </ul>
         </nav>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guide">
+          <h2 className="text-lg font-semibold mb-3">Read our complete guide</h2>
+          <p className="text-gray-700"><Link href="/water-treatment/hard-water-tampa-bay" className="text-blue-600 hover:underline">Hard Water in Tampa Bay: A Complete Treatment Guide</Link>, the regional context and treatment decision rubric behind our softener installs.</p>
+        </nav>
         <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
           <h2 className="text-lg font-semibold mb-3">Water Softener by Area</h2>
           <ul className="space-y-2">
+            <li><Link href="/water-softener-tampa-fl" className="text-blue-600 hover:underline">Water Softener in Tampa, FL</Link></li>
+            <li><Link href="/water-softener-st-petersburg-fl" className="text-blue-600 hover:underline">Water Softener in St. Petersburg, FL</Link></li>
+            <li><Link href="/water-softener-clearwater-fl" className="text-blue-600 hover:underline">Water Softener in Clearwater, FL</Link></li>
+            <li><Link href="/water-softener-brandon-fl" className="text-blue-600 hover:underline">Water Softener in Brandon, FL</Link></li>
+            <li><Link href="/water-softener-sarasota-fl" className="text-blue-600 hover:underline">Water Softener in Sarasota, FL</Link></li>
             <li><Link href="/water-softener-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Water Softener in Hillsborough County, FL</Link></li>
             <li><Link href="/water-softener-in-pinellas-county-fl" className="text-blue-600 hover:underline">Water Softener in Pinellas County, FL</Link></li>
-            <li><Link href="/water-softener-in-sarasota-county-fl" className="text-blue-600 hover:underline">Water Softener in Sarasota County, FL</Link></li>
-            <li><Link href="/water-softener-in-tampa-bay-fl" className="text-blue-600 hover:underline">Water Softener in Tampa Bay, FL</Link></li>
-            <li><Link href="/water-softener-in-florida" className="text-blue-600 hover:underline">Water Softener in Florida</Link></li>
           </ul>
         </nav>
     </main>

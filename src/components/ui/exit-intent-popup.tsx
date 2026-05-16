@@ -125,7 +125,7 @@ export function ExitIntentPopup() {
                 </svg>
               </div>
               <h3 className="font-heading text-2xl font-bold mb-1">
-                Wait — Get Your Free Water Test!
+                Wait, Get Your Free Water Test!
               </h3>
               <p className="text-white/80 text-sm">
                 Find out what is really in your Tampa Bay water
@@ -135,7 +135,7 @@ export function ExitIntentPopup() {
             {/* Body */}
             <div className="px-6 py-6">
               <p className="text-sm text-center mb-5" style={{ color: "var(--color-text-secondary)" }}>
-                Our certified water specialists will test your water on-site and show you exactly what&apos;s in it — completely free.
+                Our certified water specialists will test your water on-site and show you exactly what&apos;s in it, completely free.
               </p>
 
               {/* CTA Button */}

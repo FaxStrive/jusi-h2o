@@ -1,11 +1,36 @@
 import type { MetadataRoute } from "next";
+import { localPages } from "@/lib/local-services";
+import { pillars } from "@/lib/pillars";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://jusih2o.com";
-  const lastModified = new Date("2026-04-19");
+  const lastModified = new Date("2026-05-14");
   const older = new Date("2026-03-18");
 
+  const pillarUrls = pillars.map((p) => ({
+    url: `${baseUrl}/water-treatment/${p.slug}`,
+    lastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
+  const localUrls = localPages.map((p) => ({
+    url: `${baseUrl}/${p.slug}`,
+    lastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  const newBlogUrls = [
+    `${baseUrl}/blog/water-softener-cost-tampa-bay-2026`,
+    `${baseUrl}/blog/tampa-water-smells-chlorine-rotten-eggs`,
+    `${baseUrl}/blog/pfas-tampa-bay-drinking-water-2026`,
+  ].map((url) => ({ url, lastModified, changeFrequency: "monthly" as const, priority: 0.8 }));
+
   return [
+    ...pillarUrls,
+    ...localUrls,
+    ...newBlogUrls,
     // Core pages
     { url: baseUrl, lastModified, changeFrequency: "weekly", priority: 1 },
     { url: `${baseUrl}/services`, lastModified: older, changeFrequency: "monthly", priority: 0.9 },
@@ -55,51 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/water-softener-vs-water-conditioner`, lastModified: older, changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/blog/winter-water-tips-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.6 },
     { url: `${baseUrl}/blog/summer-water-guide-hillsborough-county-fl`, lastModified: older, changeFrequency: "monthly", priority: 0.6 },
-  
-    { url: 'https://jusih2o.com/articles/water-softener-cost-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: 'https://jusih2o.com/articles/whole-house-filtration-cost-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: 'https://jusih2o.com/articles/reverse-osmosis-cost-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: 'https://jusih2o.com/articles/water-filtration-cost-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: 'https://jusih2o.com/articles/water-testing-cost-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: 'https://jusih2o.com/articles/water-treatment-cost-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: 'https://jusih2o.com/articles/water-softener-vs-water-conditioner', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: 'https://jusih2o.com/articles/winter-water-tips-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: 'https://jusih2o.com/articles/summer-water-guide-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: 'https://jusih2o.com/water-softener-in-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-softener-in-pinellas-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-softener-in-sarasota-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-softener-in-tampa-bay-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-softener-in-florida', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/whole-house-filtration-in-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/whole-house-filtration-in-pinellas-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/whole-house-filtration-in-sarasota-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/whole-house-filtration-in-tampa-bay-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/whole-house-filtration-in-florida', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/reverse-osmosis-in-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/reverse-osmosis-in-pinellas-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/reverse-osmosis-in-sarasota-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/reverse-osmosis-in-tampa-bay-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/reverse-osmosis-in-florida', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-filtration-in-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-filtration-in-pinellas-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-filtration-in-sarasota-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-filtration-in-tampa-bay-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-filtration-in-florida', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-testing-in-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-testing-in-pinellas-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-testing-in-sarasota-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-testing-in-tampa-bay-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-testing-in-florida', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-treatment-in-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-treatment-in-pinellas-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-treatment-in-sarasota-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-treatment-in-tampa-bay-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/water-treatment-in-florida', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/well-water-treatment-in-hillsborough-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/well-water-treatment-in-pinellas-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/well-water-treatment-in-sarasota-county-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/well-water-treatment-in-tampa-bay-fl', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: 'https://jusih2o.com/well-water-treatment-in-florida', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    // Service hub pages
     { url: 'https://jusih2o.com/water-softener', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: 'https://jusih2o.com/whole-house-filtration', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: 'https://jusih2o.com/reverse-osmosis', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },

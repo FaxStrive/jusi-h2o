@@ -52,10 +52,10 @@ export default function WellWaterTreatmentPage() {
           <h2 id="about-heading" className="text-3xl font-bold text-center mb-6">Why Florida Well Water Requires Specialized Treatment</h2>
           <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
             <p>
-              Private well water in the Tampa Bay region comes from the Floridan Aquifer — a massive underground limestone formation that stretches beneath most of Florida. As groundwater moves through this porous rock, it dissolves minerals and picks up naturally occurring contaminants that create a unique set of water quality challenges. Unlike municipal water, well water is not treated by a utility before it reaches your home. The homeowner is entirely responsible for testing, treating, and maintaining water quality.
+              Private well water in the Tampa Bay region comes from the Floridan Aquifer, a massive underground limestone formation that stretches beneath most of Florida. As groundwater moves through this porous rock, it dissolves minerals and picks up naturally occurring contaminants that create a unique set of water quality challenges. Unlike municipal water, well water is not treated by a utility before it reaches your home. The homeowner is entirely responsible for testing, treating, and maintaining water quality.
             </p>
             <p>
-              The most common well water issues in the Tampa Bay area include elevated iron levels that stain fixtures, laundry, and surfaces orange or rust-colored; hydrogen sulfide gas that produces a strong rotten egg smell; extreme hardness from dissolved calcium and magnesium that exceeds 20 GPG in many locations; and bacterial contamination that can occur from surface water infiltration, aging well casings, or seasonal water table changes. Some wells also contain tannins — naturally occurring organic compounds that give water a yellow or brown tint and a musty taste.
+              The most common well water issues in the Tampa Bay area include elevated iron levels that stain fixtures, laundry, and surfaces orange or rust-colored; hydrogen sulfide gas that produces a strong rotten egg smell; extreme hardness from dissolved calcium and magnesium that exceeds 20 GPG in many locations; and bacterial contamination that can occur from surface water infiltration, aging well casings, or seasonal water table changes. Some wells also contain tannins, naturally occurring organic compounds that give water a yellow or brown tint and a musty taste.
             </p>
             <p>
               Jusi H2O specializes in well water treatment systems designed for Florida&apos;s specific groundwater chemistry. We begin every project with a comprehensive well water test that goes beyond the basic parameters used for municipal water. Our well water panel tests for iron (both ferrous and ferric), hydrogen sulfide, hardness, pH, tannins, bacteria, nitrates, and total dissolved solids. These results drive every recommendation we make, ensuring you invest only in treatment stages that address contaminants actually present in your well water.
@@ -82,7 +82,7 @@ export default function WellWaterTreatmentPage() {
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Extreme Hardness</h3>
-              <p className="text-gray-600">Well water in the Tampa Bay area often measures 20 to 35 GPG or higher — far beyond the threshold for severe scale buildup. A properly sized <Link href="/water-softener" className="text-blue-600 hover:underline">water softener</Link> removes calcium and magnesium before they damage your plumbing, appliances, and fixtures.</p>
+              <p className="text-gray-600">Well water in the Tampa Bay area often measures 20 to 35 GPG or higher, far beyond the threshold for severe scale buildup. A properly sized <Link href="/water-softener" className="text-blue-600 hover:underline">water softener</Link> removes calcium and magnesium before they damage your plumbing, appliances, and fixtures.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Bacterial Contamination</h3>
@@ -108,7 +108,7 @@ export default function WellWaterTreatmentPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Comprehensive Well Water Testing</h3>
-              <p className="text-gray-600">Our well water test panel goes beyond basic parameters. We test for iron types, sulfur, bacteria, tannins, pH, hardness, nitrates, and TDS — giving us the complete picture needed to design an effective treatment system.</p>
+              <p className="text-gray-600">Our well water test panel goes beyond basic parameters. We test for iron types, sulfur, bacteria, tannins, pH, hardness, nitrates, and TDS, giving us the complete picture needed to design an effective treatment system.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Florida Well Water Expertise</h3>
@@ -116,7 +116,7 @@ export default function WellWaterTreatmentPage() {
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Multi-Stage System Design</h3>
-              <p className="text-gray-600">Well water rarely has just one problem. We design integrated systems where each treatment stage works together — oxidation, filtration, softening, and disinfection in the correct sequence for maximum effectiveness.</p>
+              <p className="text-gray-600">Well water rarely has just one problem. We design integrated systems where each treatment stage works together, oxidation, filtration, softening, and disinfection in the correct sequence for maximum effectiveness.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Licensed and Insured</h3>
@@ -124,7 +124,7 @@ export default function WellWaterTreatmentPage() {
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Annual Well Water Monitoring</h3>
-              <p className="text-gray-600">Well water quality can change over time as aquifer conditions shift. We offer annual testing services to monitor your water and adjust treatment as needed — an important safeguard for well water homes.</p>
+              <p className="text-gray-600">Well water quality can change over time as aquifer conditions shift. We offer annual testing services to monitor your water and adjust treatment as needed, an important safeguard for well water homes.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Transparent Pricing</h3>
@@ -157,7 +157,7 @@ export default function WellWaterTreatmentPage() {
               <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" aria-label="Step 3">3</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Professional Installation</h3>
-                <p className="text-gray-600">Our licensed technicians install the complete treatment system — from the well head through your plumbing. We position equipment in the correct treatment sequence and configure each component for your specific water chemistry.</p>
+                <p className="text-gray-600">Our licensed technicians install the complete treatment system, from the well head through your plumbing. We position equipment in the correct treatment sequence and configure each component for your specific water chemistry.</p>
               </div>
             </li>
             <li className="flex gap-6">
@@ -185,11 +185,11 @@ export default function WellWaterTreatmentPage() {
           <div className="space-y-6">
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">How Often Should I Test My Well Water?</h3>
-              <p className="text-gray-700">The Florida Department of Health recommends testing private well water at least annually for bacteria and nitrates. We recommend a more comprehensive test every year that includes iron, sulfur, hardness, pH, and TDS — since these parameters can change as aquifer conditions shift seasonally or after heavy rain events.</p>
+              <p className="text-gray-700">The Florida Department of Health recommends testing private well water at least annually for bacteria and nitrates. We recommend a more comprehensive test every year that includes iron, sulfur, hardness, pH, and TDS, since these parameters can change as aquifer conditions shift seasonally or after heavy rain events.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Can Well Water Be Made as Clean as Municipal Water?</h3>
-              <p className="text-gray-700">Yes — and often cleaner. With the right treatment system, well water can be free of iron, sulfur, hardness, bacteria, and sediment. Adding a <Link href="/reverse-osmosis" className="text-blue-600 hover:underline">reverse osmosis system</Link> at the kitchen sink produces drinking water that exceeds the purity of most bottled water brands.</p>
+              <p className="text-gray-700">Yes, and often cleaner. With the right treatment system, well water can be free of iron, sulfur, hardness, bacteria, and sediment. Adding a <Link href="/reverse-osmosis" className="text-blue-600 hover:underline">reverse osmosis system</Link> at the kitchen sink produces drinking water that exceeds the purity of most bottled water brands.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">My Well Water Smells Like Rotten Eggs. What Causes This?</h3>
@@ -211,7 +211,7 @@ export default function WellWaterTreatmentPage() {
       <section className="py-20 px-4 bg-blue-600 text-white" aria-labelledby="cta-heading">
         <div className="max-w-3xl mx-auto text-center">
           <h2 id="cta-heading" className="text-3xl font-bold mb-4">Get Your Well Water Tested for Free</h2>
-          <p className="text-blue-100 text-lg mb-8">Jusi H2O provides comprehensive well water testing at no cost. We will identify every contaminant in your well water and design a treatment system that eliminates them — with transparent pricing and no obligation.</p>
+          <p className="text-blue-100 text-lg mb-8">Jusi H2O provides comprehensive well water testing at no cost. We will identify every contaminant in your well water and design a treatment system that eliminates them, with transparent pricing and no obligation.</p>
           <address className="not-italic flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-block bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors">Schedule Free Well Water Test</Link>
             <a href="tel:+18133030515" className="inline-block border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors">Call (813) 303-0515</a>
@@ -227,14 +227,18 @@ export default function WellWaterTreatmentPage() {
             <li><Link href="/water-testing" className="text-blue-600 hover:underline">Water Testing</Link></li>
           </ul>
         </nav>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guide">
+          <h2 className="text-lg font-semibold mb-3">Read our complete guide</h2>
+          <p className="text-gray-700"><Link href="/water-treatment/florida-well-water" className="text-blue-600 hover:underline">Florida Well Water Treatment: Tampa Bay Region Guide</Link>, including iron, sulfide, and pH staging for Floridan Aquifer wells.</p>
+        </nav>
         <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
-          <h2 className="text-lg font-semibold mb-3">Well Water Treatment by Area</h2>
+          <h2 className="text-lg font-semibold mb-3">Well Water Treatment by City</h2>
           <ul className="space-y-2">
-            <li><Link href="/well-water-treatment-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Well Water Treatment in Hillsborough County, FL</Link></li>
-            <li><Link href="/well-water-treatment-in-pinellas-county-fl" className="text-blue-600 hover:underline">Well Water Treatment in Pinellas County, FL</Link></li>
-            <li><Link href="/well-water-treatment-in-sarasota-county-fl" className="text-blue-600 hover:underline">Well Water Treatment in Sarasota County, FL</Link></li>
-            <li><Link href="/well-water-treatment-in-tampa-bay-fl" className="text-blue-600 hover:underline">Well Water Treatment in Tampa Bay, FL</Link></li>
-            <li><Link href="/well-water-treatment-in-florida" className="text-blue-600 hover:underline">Well Water Treatment in Florida</Link></li>
+            <li><Link href="/well-water-treatment-tampa-fl" className="text-blue-600 hover:underline">Well Water Treatment in Tampa, FL</Link></li>
+            <li><Link href="/well-water-treatment-plant-city-fl" className="text-blue-600 hover:underline">Well Water Treatment in Plant City, FL</Link></li>
+            <li><Link href="/well-water-treatment-brandon-fl" className="text-blue-600 hover:underline">Well Water Treatment in Brandon, FL</Link></li>
+            <li><Link href="/well-water-treatment-sarasota-fl" className="text-blue-600 hover:underline">Well Water Treatment in Sarasota, FL</Link></li>
+            <li><Link href="/well-water-treatment-lakeland-fl" className="text-blue-600 hover:underline">Well Water Treatment in Lakeland, FL</Link></li>
           </ul>
         </nav>
     </main>

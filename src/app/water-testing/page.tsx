@@ -37,7 +37,7 @@ export default function WaterTestingPage() {
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Free Professional Water Testing in Tampa Bay</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Find out exactly what is in your water. Jusi H2O provides free in-home water testing throughout Tampa Bay — measuring hardness, chlorine, pH, iron, TDS, and more. Same-day results, clear explanations, and zero obligation. The first step to better water starts with knowing what you are working with.
+            Find out exactly what is in your water. Jusi H2O provides free in-home water testing throughout Tampa Bay, measuring hardness, chlorine, pH, iron, TDS, and more. Same-day results, clear explanations, and zero obligation. The first step to better water starts with knowing what you are working with.
           </p>
           <address className="not-italic flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors">Schedule Free Water Test</Link>
@@ -52,16 +52,16 @@ export default function WaterTestingPage() {
           <h2 id="about-heading" className="text-3xl font-bold text-center mb-6">Why You Should Test Your Tampa Bay Water</h2>
           <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
             <p>
-              Most Tampa Bay homeowners have never had their water professionally tested. They know it tastes like chlorine, they see the scale on their fixtures, and they notice the spots on their glasses — but they do not know exactly what is causing these issues or how severe the levels are. A professional water test replaces guesswork with data, giving you the specific measurements needed to make informed decisions about water treatment.
+              Most Tampa Bay homeowners have never had their water professionally tested. They know it tastes like chlorine, they see the scale on their fixtures, and they notice the spots on their glasses, but they do not know exactly what is causing these issues or how severe the levels are. A professional water test replaces guesswork with data, giving you the specific measurements needed to make informed decisions about water treatment.
             </p>
             <p>
-              Municipal water in Tampa Bay meets federal Safe Drinking Water Act standards, but meeting minimum safety thresholds does not mean the water is free of issues that affect comfort, taste, and appliance longevity. Chloramine disinfection residuals, elevated hardness from the Floridan Aquifer, and seasonal fluctuations in total dissolved solids are all common in Tampa Bay water — and none of these are captured by a simple taste test or visual inspection.
+              Municipal water in Tampa Bay meets federal Safe Drinking Water Act standards, but meeting minimum safety thresholds does not mean the water is free of issues that affect comfort, taste, and appliance longevity. Chloramine disinfection residuals, elevated hardness from the Floridan Aquifer, and seasonal fluctuations in total dissolved solids are all common in Tampa Bay water, and none of these are captured by a simple taste test or visual inspection.
             </p>
             <p>
               For homes on private wells, testing is even more critical. Well water is not monitored or treated by any utility. The homeowner is solely responsible for water quality, and conditions can change over time as aquifer levels fluctuate, nearby land use changes, or well components age. The Florida Department of Health recommends annual testing for bacteria and nitrates at minimum, with more comprehensive testing if you notice any changes in taste, odor, or appearance.
             </p>
             <p>
-              Jusi H2O&apos;s free water test gives you a clear picture of your water quality — whether you are on municipal water or a private well. We test at your home, explain every result in plain language, and discuss what treatment options would address any issues found. There is absolutely no obligation to purchase anything. Many homeowners schedule a test simply to confirm their water is fine — and that is a perfectly valid reason to call us.
+              Jusi H2O&apos;s free water test gives you a clear picture of your water quality, whether you are on municipal water or a private well. We test at your home, explain every result in plain language, and discuss what treatment options would address any issues found. There is absolutely no obligation to purchase anything. Many homeowners schedule a test simply to confirm their water is fine, and that is a perfectly valid reason to call us.
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function WaterTestingPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Water Hardness</h3>
-              <p className="text-gray-600">Measures the concentration of calcium and magnesium in grains per gallon. Tampa Bay water typically tests between 12 and 25 GPG — well into the &quot;very hard&quot; range. Hardness above 7 GPG warrants <Link href="/water-softener" className="text-blue-600 hover:underline">water softening</Link>.</p>
+              <p className="text-gray-600">Measures the concentration of calcium and magnesium in grains per gallon. Tampa Bay water typically tests between 12 and 25 GPG, well into the &quot;very hard&quot; range. Hardness above 7 GPG warrants <Link href="/water-softener" className="text-blue-600 hover:underline">water softening</Link>.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Chlorine and Chloramines</h3>
@@ -93,7 +93,7 @@ export default function WaterTestingPage() {
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Total Dissolved Solids (TDS)</h3>
-              <p className="text-gray-600">Measures the total concentration of dissolved substances in your water — minerals, salts, metals, and organic compounds. TDS affects taste and is a general indicator of overall water quality. Lower TDS generally means cleaner, better-tasting water.</p>
+              <p className="text-gray-600">Measures the total concentration of dissolved substances in your water, minerals, salts, metals, and organic compounds. TDS affects taste and is a general indicator of overall water quality. Lower TDS generally means cleaner, better-tasting water.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Hydrogen Sulfide (Well Water)</h3>
@@ -160,14 +160,14 @@ export default function WaterTestingPage() {
               <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" aria-label="Step 3">3</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">We Explain Your Results</h3>
-                <p className="text-gray-600">We walk you through each measurement — what it means, how it compares to recommended levels, and whether it indicates a problem that would benefit from treatment. We answer every question you have.</p>
+                <p className="text-gray-600">We walk you through each measurement, what it means, how it compares to recommended levels, and whether it indicates a problem that would benefit from treatment. We answer every question you have.</p>
               </div>
             </li>
             <li className="flex gap-6">
               <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" aria-label="Step 4">4</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Receive Treatment Recommendations (If Needed)</h3>
-                <p className="text-gray-600">If your water test indicates issues that would benefit from treatment, we explain which systems would address them — <Link href="/water-softener" className="text-blue-600 hover:underline">softening</Link>, <Link href="/water-filtration" className="text-blue-600 hover:underline">filtration</Link>, <Link href="/reverse-osmosis" className="text-blue-600 hover:underline">reverse osmosis</Link>, or a combination. If your water is fine, we will tell you that too.</p>
+                <p className="text-gray-600">If your water test indicates issues that would benefit from treatment, we explain which systems would address them, <Link href="/water-softener" className="text-blue-600 hover:underline">softening</Link>, <Link href="/water-filtration" className="text-blue-600 hover:underline">filtration</Link>, <Link href="/reverse-osmosis" className="text-blue-600 hover:underline">reverse osmosis</Link>, or a combination. If your water is fine, we will tell you that too.</p>
               </div>
             </li>
             <li className="flex gap-6">
@@ -188,15 +188,15 @@ export default function WaterTestingPage() {
           <div className="space-y-6">
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Is the Water Test Really Free?</h3>
-              <p className="text-gray-700">Yes. There is no cost for the water test, no hidden fees, and absolutely no obligation to purchase anything. We provide the test as a service to Tampa Bay homeowners because an informed customer makes better decisions — and many of those homeowners eventually choose Jusi H2O when they are ready to improve their water quality.</p>
+              <p className="text-gray-700">Yes. There is no cost for the water test, no hidden fees, and absolutely no obligation to purchase anything. We provide the test as a service to Tampa Bay homeowners because an informed customer makes better decisions, and many of those homeowners eventually choose Jusi H2O when they are ready to improve their water quality.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">How Long Does the Water Test Take?</h3>
-              <p className="text-gray-700">The entire visit — including testing, explanation of results, and answering your questions — takes approximately 30 to 45 minutes. Most individual tests produce results within minutes using our on-site equipment.</p>
+              <p className="text-gray-700">The entire visit, including testing, explanation of results, and answering your questions, takes approximately 30 to 45 minutes. Most individual tests produce results within minutes using our on-site equipment.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Should I Test City Water or Only Well Water?</h3>
-              <p className="text-gray-700">Both benefit from testing. While city water meets federal safety standards, it often contains elevated hardness, chloramine residuals, and TDS levels that affect taste, comfort, and appliance longevity. Testing reveals the specific levels in your home — which can differ from your neighbor&apos;s depending on your plumbing age and distance from the treatment plant.</p>
+              <p className="text-gray-700">Both benefit from testing. While city water meets federal safety standards, it often contains elevated hardness, chloramine residuals, and TDS levels that affect taste, comfort, and appliance longevity. Testing reveals the specific levels in your home, which can differ from your neighbor&apos;s depending on your plumbing age and distance from the treatment plant.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">What If My Water Tests Fine?</h3>
@@ -204,7 +204,7 @@ export default function WaterTestingPage() {
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Does Jusi H2O Test Water Throughout Tampa Bay?</h3>
-              <p className="text-gray-700">Yes. We provide free water testing across Hillsborough County, Pinellas County, Sarasota County, and surrounding Tampa Bay communities — for both municipal water and private wells. Call <a href="tel:+18133030515" className="text-blue-600 hover:underline">(813) 303-0515</a> to schedule your appointment.</p>
+              <p className="text-gray-700">Yes. We provide free water testing across Hillsborough County, Pinellas County, Sarasota County, and surrounding Tampa Bay communities, for both municipal water and private wells. Call <a href="tel:+18133030515" className="text-blue-600 hover:underline">(813) 303-0515</a> to schedule your appointment.</p>
             </div>
           </div>
         </div>
@@ -230,14 +230,12 @@ export default function WaterTestingPage() {
             <li><Link href="/water-filtration" className="text-blue-600 hover:underline">Water Filtration Systems</Link></li>
           </ul>
         </nav>
-        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
-          <h2 className="text-lg font-semibold mb-3">Water Testing by Area</h2>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guides">
+          <h2 className="text-lg font-semibold mb-3">Read our complete guides</h2>
           <ul className="space-y-2">
-            <li><Link href="/water-testing-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Water Testing in Hillsborough County, FL</Link></li>
-            <li><Link href="/water-testing-in-pinellas-county-fl" className="text-blue-600 hover:underline">Water Testing in Pinellas County, FL</Link></li>
-            <li><Link href="/water-testing-in-sarasota-county-fl" className="text-blue-600 hover:underline">Water Testing in Sarasota County, FL</Link></li>
-            <li><Link href="/water-testing-in-tampa-bay-fl" className="text-blue-600 hover:underline">Water Testing in Tampa Bay, FL</Link></li>
-            <li><Link href="/water-testing-in-florida" className="text-blue-600 hover:underline">Water Testing in Florida</Link></li>
+            <li><Link href="/water-treatment/hard-water-tampa-bay" className="text-blue-600 hover:underline">Hard Water in Tampa Bay: A Complete Treatment Guide</Link></li>
+            <li><Link href="/water-treatment/florida-well-water" className="text-blue-600 hover:underline">Florida Well Water Treatment: Tampa Bay Region Guide</Link></li>
+            <li><Link href="/service-areas" className="text-blue-600 hover:underline">View all Jusi H2O service areas</Link></li>
           </ul>
         </nav>
     </main>
