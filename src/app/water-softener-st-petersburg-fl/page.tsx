@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://jusih2o.com/water-softener-st-petersburg-fl' },
   openGraph: {
     title: 'Water Softener Installation St. Petersburg, FL | Jusi H2O',
-    description: 'Professional water softener installation in St. Petersburg. Free in-home water test. WQA & NSF certified. Headquartered in St. Pete — your local experts.',
+    description: 'Professional water softener installation in St. Petersburg. Free in-home water test. WQA & NSF certified. Headquartered in St. Pete, your local experts.',
     url: 'https://jusih2o.com/water-softener-st-petersburg-fl',
     siteName: 'Jusi H2O',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Jusi H2O Water Softener St. Petersburg FL' }],

@@ -5,9 +5,9 @@ import { AboutContent } from "@/components/sections/about-content";
 import { CTASection } from "@/components/sections/cta-section";
 
 export const metadata: Metadata = {
-  title: "About Us - Tampa Bay Water Filtration Experts",
+  title: "About Jusi H2O, Tampa Bay Water Filtration Since 2011",
   description:
-    "Jusi H2O has 15+ years of experience providing professional water testing and filtration for Tampa Bay homeowners. Meet our team, mission, and values.",
+    "Founded in 2011 by Marquis Pendergrass, Jusi H2O serves Tampa Bay homeowners with water testing, softeners, and filtration. 2,500 five-star reviews, WQA and NSF certified.",
   alternates: { canonical: "/about" },
 };
 

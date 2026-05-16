@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Water Softener Installation Hillsborough County FL',
-  description: 'Jusi H2O provides professional water softener installation in Hillsborough County, FL. Eliminate hard water scale and protect your appliances. Free in-home water test.',
+  description: 'Water softener installation across Hillsborough County, FL including Tampa, Brandon, Riverview, and Plant City. Jusi H2O is WQA and NSF certified with 2,500 five-star reviews.',
   alternates: {
     canonical: 'https://jusih2o.com/water-softener-in-hillsborough-county-fl',
   },
   openGraph: {
     title: 'Water Softener Installation Hillsborough County FL | Jusi H2O',
-    description: 'Jusi H2O provides professional water softener services in Hillsborough County, FL. Free consultation and expert service from locally trusted specialists.',
+    description: 'Hillsborough County water softener installation covering Tampa, Brandon, Riverview, and Plant City. Free in-home water test from WQA and NSF certified specialists.',
     url: 'https://jusih2o.com/water-softener-in-hillsborough-county-fl',
     siteName: 'Jusi H2O',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Jusi H2O Water Filtration Services Tampa Bay' }],

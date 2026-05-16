@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Water Softener Installation Tampa, FL',
-  description: 'Jusi H2O installs water softeners in Tampa, FL. Tampa water measures 15–25 GPG — extremely hard. Free in-home water test. 2,500+ five-star reviews. Call (813) 303-0515.',
+  description: 'Jusi H2O installs water softeners in Tampa, FL. Tampa water measures 15–25 GPG, extremely hard. Free in-home water test. 2,500+ five-star reviews. Call (813) 303-0515.',
   alternates: {
     canonical: 'https://jusih2o.com/water-softener-tampa-fl',
   },

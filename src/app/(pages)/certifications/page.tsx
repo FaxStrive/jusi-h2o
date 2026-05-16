@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'NSF & WQA Certifications | Jusi H2O Tampa Bay',
-  description: 'Jusi H2O holds 7 NSF certifications and WQA certification — the highest standards in water treatment. Learn what each certification means for your home\'s water quality.',
+  description: 'Jusi H2O holds 7 NSF certifications and WQA certification, the highest standards in water treatment. Learn what each certification means for your home\'s water quality.',
   alternates: { canonical: 'https://jusih2o.com/certifications' },
   openGraph: {
     title: 'NSF & WQA Certifications | Jusi H2O Tampa Bay',
