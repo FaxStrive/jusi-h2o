@@ -1,0 +1,111 @@
+{
+  "site": "jusi-h2o",
+  "url": "https://jusih2o.com",
+  "captured_at": "2026-05-15T23:18:19.870709+00:00",
+  "captured_by": "SEOMAN /seo drift baseline",
+  "method": "curl + python parse (drift_baseline.py SQLite skipped \u2014 file-based output preferred)",
+  "skip_cwv": true,
+  "status": "ok",
+  "robots_txt": "User-agent: *\nAllow: /\n\nSitemap: https://jusih2o.com/sitemap.xml\n\n# AI training data crawlers \u2014 block\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nAllow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\nUser-agent: Applebot-Extended\nAllow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\n# AI search index builders \u2014 allow (these can send traffic)\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: Claude-SearchBot\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\n# User-triggered AI fetches \u2014 allow\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: Claude-User\nAllow: /\n\nUser-agent: Perplexity-User\nAllow: /\n# LLM content discovery\n# https://jusih2o.com/llms.txt\n# https://jusih2o.com/llms-full.txt\n# https://jusih2o.com/llms-qa.json\n\n",
+  "sitemap_url_count": 98,
+  "llms_txt": {
+    "present": true,
+    "size_bytes": 5142
+  },
+  "ai_crawlers": {
+    "GPTBot": "disallow",
+    "ChatGPT-User": "allow",
+    "ClaudeBot": "disallow",
+    "Claude-Web": "unspecified",
+    "anthropic-ai": "disallow",
+    "PerplexityBot": "allow",
+    "Google-Extended": "allow",
+    "Applebot-Extended": "allow",
+    "Bytespider": "unspecified",
+    "CCBot": "disallow",
+    "FacebookBot": "unspecified",
+    "OAI-SearchBot": "allow",
+    "cohere-ai": "disallow",
+    "DuckAssistBot": "unspecified"
+  },
+  "pages": [
+    {
+      "url": "https://www.jusih2o.com/",
+      "title": "Water Filtration &amp; Softener Experts Tampa Bay | Jusi H2O",
+      "meta_description": "Jusi H2O is Tampa Bay&#x27;s trusted water specialist. Free in-home water testing, water softeners, reverse osmosis, and whole-house filtration. Serving 5 counties.",
+      "meta_description_length": 164,
+      "canonical": "https://jusih2o.com",
+      "robots_meta": "index, follow",
+      "h1": "Your Water.Tested. Treated. Trusted.",
+      "h1_count": 1,
+      "h2_count": 8,
+      "schema_types": [
+        "AdministrativeArea",
+        "AggregateRating",
+        "City",
+        "ContactPoint",
+        "EducationalOccupationalCredential",
+        "GeoCoordinates",
+        "ItemList",
+        "ListItem",
+        "Offer",
+        "OpeningHoursSpecification",
+        "Plumber",
+        "PostalAddress",
+        "SearchAction",
+        "Service",
+        "SpeakableSpecification",
+        "WebPage",
+        "WebSite"
+      ],
+      "og_present": true,
+      "og_count": 10,
+      "word_count": 996,
+      "status_code": 200,
+      "requested_url": "https://jusih2o.com"
+    },
+    {
+      "url": "https://www.jusih2o.com/services",
+      "title": "Water Filtration &amp; Treatment Services Tampa Bay | Jusi H2O",
+      "meta_description": "Tampa Bay water filtration services: whole-house filters, reverse osmosis, water softeners, well water treatment, and JusiCare+ maintenance plans. Free quotes.",
+      "meta_description_length": 159,
+      "canonical": "https://jusih2o.com/services",
+      "robots_meta": "index, follow",
+      "h1": "Water Filtration Solutions for Every Home",
+      "h1_count": 1,
+      "h2_count": 10,
+      "schema_types": [
+        "BreadcrumbList",
+        "ListItem"
+      ],
+      "og_present": true,
+      "og_count": 10,
+      "word_count": 1081,
+      "status_code": 200,
+      "requested_url": "https://jusih2o.com/services"
+    },
+    {
+      "url": "https://www.jusih2o.com/pricing",
+      "title": "Water Softener &amp; Filtration Pricing Tampa Bay | Jusi H2O",
+      "meta_description": "Transparent pricing for water softeners, whole-house filtration, and reverse osmosis in Tampa Bay. Jusi H2O provides upfront quotes after your free in-home water test.",
+      "meta_description_length": 167,
+      "canonical": "https://jusih2o.com/pricing",
+      "robots_meta": "index, follow",
+      "h1": "Transparent Water Treatment Pricing",
+      "h1_count": 1,
+      "h2_count": 9,
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "FAQPage",
+        "ListItem",
+        "Question"
+      ],
+      "og_present": true,
+      "og_count": 9,
+      "word_count": 751,
+      "status_code": 200,
+      "requested_url": "https://jusih2o.com/pricing"
+    }
+  ]
+}

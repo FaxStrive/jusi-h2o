@@ -108,7 +108,7 @@ export default function PricingPage() {
             Transparent Water Treatment Pricing
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mb-6">
-            We believe you should know what things cost before you invite us into your home. These are real price ranges — not bait-and-switch estimates. Your final price depends on your specific situation, which is why every quote starts with a free in-home water test.
+            We believe you should know what things cost before you invite us into your home. These are real price ranges, not bait-and-switch estimates. Your final price depends on your specific situation, which is why every quote starts with a free in-home water test.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-bold rounded-full hover:bg-accent-light transition-all duration-300 hover:scale-105">
@@ -126,7 +126,7 @@ export default function PricingPage() {
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <div className="mb-10">
             <p className="text-text-secondary text-lg leading-relaxed">
-              Every Jusi H2O installation begins with a <strong>free in-home water test</strong> — we measure your water&apos;s actual hardness, chlorine, pH, iron, and TDS levels, then recommend the right system for your home. No generic packages, no pressure. Just honest water treatment.
+              Every Jusi H2O installation begins with a <strong>free in-home water test</strong>, we measure your water&apos;s actual hardness, chlorine, pH, iron, and TDS levels, then recommend the right system for your home. No generic packages, no pressure. Just honest water treatment.
             </p>
           </div>
 
@@ -173,8 +173,8 @@ export default function PricingPage() {
                 'Professional installation by WQA-certified technicians',
                 'System programming to your home\'s exact water hardness',
                 'Output water test verification after installation',
-                'Homeowner walkthrough — we explain how everything works',
-                'Licensed and insured — all work fully documented',
+                'Homeowner walkthrough, we explain how everything works',
+                'Licensed and insured, all work fully documented',
                 'Same-day service available in most Tampa Bay areas',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2">
@@ -191,9 +191,9 @@ export default function PricingPage() {
             <div className="space-y-6">
               {[
                 { q: 'Do you offer financing?', a: 'Yes. Jusi H2O offers financing options for qualified customers. Ask about available plans when scheduling your free water test.' },
-                { q: 'Are there any hidden fees?', a: 'No. Your written quote covers the complete job — equipment, installation, programming, and post-install water testing. The only additional cost would be if unexpected plumbing issues are discovered during installation, which we\'ll explain before proceeding.' },
+                { q: 'Are there any hidden fees?', a: 'No. Your written quote covers the complete job, equipment, installation, programming, and post-install water testing. The only additional cost would be if unexpected plumbing issues are discovered during installation, which we\'ll explain before proceeding.' },
                 { q: 'Do prices include permits?', a: 'Yes. Jusi H2O handles all required permits for water treatment installations in Tampa Bay. We pull permits, schedule inspections, and provide documentation.' },
-                { q: 'Is the free water test really free?', a: 'Absolutely. Our in-home water test is free with no obligation. We test your water, explain the results in plain language, and provide a written quote. You decide if you want to proceed — zero pressure either way.' },
+                { q: 'Is the free water test really free?', a: 'Absolutely. Our in-home water test is free with no obligation. We test your water, explain the results in plain language, and provide a written quote. You decide if you want to proceed, zero pressure either way.' },
               ].map((item) => (
                 <div key={item.q} className="border-b border-border-light pb-6">
                   <h3 className="font-heading font-semibold text-text mb-2">{item.q}</h3>

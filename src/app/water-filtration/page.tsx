@@ -62,7 +62,7 @@ export default function WaterFiltrationPage() {
           <h2 id="about-heading" className="text-3xl font-bold text-center mb-6">How Water Filtration Works and Why Tampa Bay Homes Benefit</h2>
           <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
             <p>
-              Water filtration systems use physical barriers, chemical processes, or biological methods to remove impurities from your tap water. Tampa Bay&apos;s municipal water supply is treated with chlorine and chloramines to kill bacteria during distribution, but those same disinfectants remain in the water when it reaches your faucets. The result is water that smells and tastes like a swimming pool — something most Tampa Bay residents notice immediately when filling a glass from the kitchen tap.
+              Water filtration systems use physical barriers, chemical processes, or biological methods to remove impurities from your tap water. Tampa Bay&apos;s municipal water supply is treated with chlorine and chloramines to kill bacteria during distribution, but those same disinfectants remain in the water when it reaches your faucets. The result is water that smells and tastes like a swimming pool, something most Tampa Bay residents notice immediately when filling a glass from the kitchen tap.
             </p>
             <p>
               Beyond chlorine taste and odor, Tampa Bay water can contain sediment, dissolved organic compounds, and trace levels of contaminants that pass through municipal treatment. Homes built before the 1980s may have older galvanized or copper pipes that contribute additional particles and metals to the water flowing through them. Even newer homes connected to municipal water benefit from filtration because water quality can fluctuate seasonally as source water conditions change.
@@ -143,7 +143,7 @@ export default function WaterFiltrationPage() {
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Professional-Grade Equipment</h3>
-              <p className="text-gray-600">We install manufacturer-warranted filtration systems built for reliability and performance — not the entry-level units found at big-box stores that need replacement every few years.</p>
+              <p className="text-gray-600">We install manufacturer-warranted filtration systems built for reliability and performance, not the entry-level units found at big-box stores that need replacement every few years.</p>
             </article>
           </div>
         </div>
@@ -202,10 +202,10 @@ export default function WaterFiltrationPage() {
               Many Tampa Bay homeowners ask whether they need a <Link href="/water-softener" className="text-blue-600 hover:underline">water softener</Link>, a water filtration system, or both. The answer depends on what is in your water and which problems you are experiencing. These are two different systems that address two different categories of water quality issues.
             </p>
             <p>
-              <strong>Water filtration</strong> removes contaminants — chlorine, sediment, organic compounds, and dissolved metals — that affect taste, odor, appearance, and safety. If your water smells like chlorine, tastes off, looks cloudy, or stains surfaces orange or black, you have a filtration issue.
+              <strong>Water filtration</strong> removes contaminants, chlorine, sediment, organic compounds, and dissolved metals, that affect taste, odor, appearance, and safety. If your water smells like chlorine, tastes off, looks cloudy, or stains surfaces orange or black, you have a filtration issue.
             </p>
             <p>
-              <strong>Water softening</strong> removes hardness minerals — calcium and magnesium — that cause scale buildup on fixtures, leave spots on glass, and reduce soap lathering. If you see white crusty deposits on faucets and showerheads, your water is hard and needs softening.
+              <strong>Water softening</strong> removes hardness minerals, calcium and magnesium, that cause scale buildup on fixtures, leave spots on glass, and reduce soap lathering. If you see white crusty deposits on faucets and showerheads, your water is hard and needs softening.
             </p>
             <p>
               Many homes in Tampa Bay benefit from both systems working together. A <Link href="/whole-house-filtration" className="text-blue-600 hover:underline">whole-house filtration system</Link> removes chlorine, sediment, and contaminants, while a water softener addresses hardness minerals. Jusi H2O designs combined systems that work efficiently together, and our free water test identifies exactly which issues your home has so you invest only in what you actually need.
@@ -248,7 +248,7 @@ export default function WaterFiltrationPage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 id="cta-heading" className="text-3xl font-bold mb-4">Find Out What Is in Your Tampa Bay Water</h2>
           <p className="text-blue-100 text-lg mb-8">
-            Schedule a free in-home water test with Jusi H2O. We will test your water, explain the results, and recommend a filtration solution tailored to your home — with no obligation.
+            Schedule a free in-home water test with Jusi H2O. We will test your water, explain the results, and recommend a filtration solution tailored to your home, with no obligation.
           </p>
           <address className="not-italic flex flex-col sm:flex-row gap-4 justify-center">
             <Link

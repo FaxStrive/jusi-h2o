@@ -372,7 +372,7 @@ const SERVICE_SCHEMA_MAP: Record<
   },
 }
 
-// HowTo rich results were deprecated Sept 2023 — replaced with ItemList process schema
+// HowTo rich results were deprecated Sept 2023, replaced with ItemList process schema
 const PROCESS_SCHEMA_MAP: Record<string, { name: string; description: string; steps: Array<{ name: string; text: string }> }> = {
   '/': {
     name: 'How to Get Better Water in 3 Simple Steps',
