@@ -52,13 +52,13 @@ export default function ReverseOsmosisPage() {
           <h2 id="about-heading" className="text-3xl font-bold text-center mb-6">How Reverse Osmosis Works</h2>
           <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
             <p>
-              Reverse osmosis forces water through a semi-permeable membrane with pores small enough to block dissolved contaminants while allowing pure water molecules to pass through. The membrane rejects contaminants at the molecular level — including substances too small for standard carbon or sediment filters to capture. This makes RO the most thorough residential water purification method available.
+              Reverse osmosis forces water through a semi-permeable membrane with pores small enough to block dissolved contaminants while allowing pure water molecules to pass through. The membrane rejects contaminants at the molecular level, including substances too small for standard carbon or sediment filters to capture. This makes RO the most thorough residential water purification method available.
             </p>
             <p>
-              A typical under-sink RO system includes multiple filtration stages that work in sequence. Water first passes through a sediment pre-filter that removes particles and protects the membrane. Next, a carbon pre-filter removes chlorine and chloramines — which would damage the RO membrane if not removed first. The water then passes through the reverse osmosis membrane itself, where up to 99 percent of dissolved contaminants are separated and flushed to drain. Finally, a carbon post-filter polishes the taste of the purified water before it reaches your dedicated RO faucet.
+              A typical under-sink RO system includes multiple filtration stages that work in sequence. Water first passes through a sediment pre-filter that removes particles and protects the membrane. Next, a carbon pre-filter removes chlorine and chloramines, which would damage the RO membrane if not removed first. The water then passes through the reverse osmosis membrane itself, where up to 99 percent of dissolved contaminants are separated and flushed to drain. Finally, a carbon post-filter polishes the taste of the purified water before it reaches your dedicated RO faucet.
             </p>
             <p>
-              For Tampa Bay homeowners, RO is particularly valuable because the region&apos;s water contains elevated total dissolved solids from the limestone aquifer, residual sodium from water softeners, and disinfection byproducts from chloramine treatment. An RO system at your kitchen sink gives you bottled-water quality directly from the tap — eliminating the cost, waste, and inconvenience of buying plastic water bottles. Many Tampa Bay families report that after installing an RO system, they stop buying bottled water entirely.
+              For Tampa Bay homeowners, RO is particularly valuable because the region&apos;s water contains elevated total dissolved solids from the limestone aquifer, residual sodium from water softeners, and disinfection byproducts from chloramine treatment. An RO system at your kitchen sink gives you bottled-water quality directly from the tap, eliminating the cost, waste, and inconvenience of buying plastic water bottles. Many Tampa Bay families report that after installing an RO system, they stop buying bottled water entirely.
             </p>
             <p>
               Jusi H2O installs RO systems as standalone drinking water solutions or as the final stage of a complete <Link href="/water-treatment" className="text-blue-600 hover:underline">water treatment system</Link>. When paired with a <Link href="/water-softener" className="text-blue-600 hover:underline">water softener</Link> and <Link href="/whole-house-filtration" className="text-blue-600 hover:underline">whole-house filtration</Link>, the RO membrane lasts longer because it receives pre-treated water with fewer contaminants to process.
@@ -72,7 +72,7 @@ export default function ReverseOsmosisPage() {
         <div className="max-w-5xl mx-auto">
           <h2 id="removes-heading" className="text-3xl font-bold text-center mb-4">What Reverse Osmosis Removes from Your Water</h2>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-10">
-            RO membranes reject contaminants at the molecular level — far beyond what standard filters can achieve.
+            RO membranes reject contaminants at the molecular level, far beyond what standard filters can achieve.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm">
@@ -89,7 +89,7 @@ export default function ReverseOsmosisPage() {
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Arsenic and Nitrates</h3>
-              <p className="text-gray-600">These contaminants can be present in well water and occasionally in municipal supplies. RO membranes reject both arsenic and nitrates at high efficiency — a capability most other residential filters lack.</p>
+              <p className="text-gray-600">These contaminants can be present in well water and occasionally in municipal supplies. RO membranes reject both arsenic and nitrates at high efficiency, a capability most other residential filters lack.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-2">Chlorine and Chloramines</h3>
@@ -115,11 +115,11 @@ export default function ReverseOsmosisPage() {
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Professional Under-Sink Installation</h3>
-              <p className="text-gray-600">Our technicians install the system under your kitchen sink, connect the dedicated RO faucet, and route the drain line — all without damaging your countertop or cabinetry. Installation is typically complete in two to three hours.</p>
+              <p className="text-gray-600">Our technicians install the system under your kitchen sink, connect the dedicated RO faucet, and route the drain line, all without damaging your countertop or cabinetry. Installation is typically complete in two to three hours.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Refrigerator and Ice Maker Connection</h3>
-              <p className="text-gray-600">We can connect your RO system to your refrigerator water line so your ice and cold water dispenser also produce purified water — not just the kitchen faucet.</p>
+              <p className="text-gray-600">We can connect your RO system to your refrigerator water line so your ice and cold water dispenser also produce purified water, not just the kitchen faucet.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Filter Replacement Service</h3>
@@ -127,7 +127,7 @@ export default function ReverseOsmosisPage() {
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Eliminate Bottled Water</h3>
-              <p className="text-gray-600">An RO system produces water that meets or exceeds bottled water purity — at a fraction of the per-gallon cost. Most families recoup the system cost within the first year by eliminating bottled water purchases.</p>
+              <p className="text-gray-600">An RO system produces water that meets or exceeds bottled water purity, at a fraction of the per-gallon cost. Most families recoup the system cost within the first year by eliminating bottled water purchases.</p>
             </article>
             <article className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-lg mb-3">Transparent Pricing</h3>
@@ -153,7 +153,7 @@ export default function ReverseOsmosisPage() {
               <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" aria-label="Step 2">2</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">System Selection and Quote</h3>
-                <p className="text-gray-600">We recommend an RO system matched to your water conditions and usage needs — including the number of filtration stages, tank size, and whether to include refrigerator/ice maker connection. Your quote details every component and cost.</p>
+                <p className="text-gray-600">We recommend an RO system matched to your water conditions and usage needs, including the number of filtration stages, tank size, and whether to include refrigerator/ice maker connection. Your quote details every component and cost.</p>
               </div>
             </li>
             <li className="flex gap-6">
@@ -188,7 +188,7 @@ export default function ReverseOsmosisPage() {
           <div className="space-y-6">
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Does Reverse Osmosis Waste a Lot of Water?</h3>
-              <p className="text-gray-700">Modern RO systems produce three to four gallons of purified water for every gallon sent to drain — a significant improvement over older systems. The reject water can also be routed to landscape irrigation. When you consider that most households use only a few gallons per day for drinking and cooking, the total water usage is modest.</p>
+              <p className="text-gray-700">Modern RO systems produce three to four gallons of purified water for every gallon sent to drain, a significant improvement over older systems. The reject water can also be routed to landscape irrigation. When you consider that most households use only a few gallons per day for drinking and cooking, the total water usage is modest.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Does RO Remove Beneficial Minerals?</h3>
@@ -196,7 +196,7 @@ export default function ReverseOsmosisPage() {
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">How Does RO Water Taste Compared to Bottled Water?</h3>
-              <p className="text-gray-700">Most people describe RO water as very clean and neutral-tasting. It is comparable to or better than premium bottled water because the purification happens right at your tap — the water does not sit in plastic for weeks or months before you drink it. The carbon post-filter stage ensures a polished, fresh taste.</p>
+              <p className="text-gray-700">Most people describe RO water as very clean and neutral-tasting. It is comparable to or better than premium bottled water because the purification happens right at your tap, the water does not sit in plastic for weeks or months before you drink it. The carbon post-filter stage ensures a polished, fresh taste.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="font-semibold text-lg mb-2">Can I Connect an RO System to My Refrigerator?</h3>
@@ -213,7 +213,7 @@ export default function ReverseOsmosisPage() {
       {/* CTA */}
       <section className="py-20 px-4 bg-blue-600 text-white" aria-labelledby="cta-heading">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 id="cta-heading" className="text-3xl font-bold mb-4">Stop Buying Bottled Water — Get Pure Water from Your Tap</h2>
+          <h2 id="cta-heading" className="text-3xl font-bold mb-4">Stop Buying Bottled Water, Get Pure Water from Your Tap</h2>
           <p className="text-blue-100 text-lg mb-8">Jusi H2O installs reverse osmosis drinking water systems throughout Tampa Bay. Schedule a free water test and find out how clean your water can be.</p>
           <address className="not-italic flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-block bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors">Schedule Free Water Test</Link>
@@ -230,14 +230,18 @@ export default function ReverseOsmosisPage() {
             <li><Link href="/water-testing" className="text-blue-600 hover:underline">Water Testing</Link></li>
           </ul>
         </nav>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guide">
+          <h2 className="text-lg font-semibold mb-3">Read our complete guide</h2>
+          <p className="text-gray-700"><Link href="/water-treatment/reverse-osmosis-drinking-water" className="text-blue-600 hover:underline">Reverse Osmosis Drinking Water in Tampa Bay</Link>, including PFAS removal, contaminant tables, and pairing with a whole-house softener.</p>
+        </nav>
         <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
-          <h2 className="text-lg font-semibold mb-3">Reverse Osmosis by Area</h2>
+          <h2 className="text-lg font-semibold mb-3">Reverse Osmosis by City</h2>
           <ul className="space-y-2">
-            <li><Link href="/reverse-osmosis-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Hillsborough County, FL</Link></li>
-            <li><Link href="/reverse-osmosis-in-pinellas-county-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Pinellas County, FL</Link></li>
-            <li><Link href="/reverse-osmosis-in-sarasota-county-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Sarasota County, FL</Link></li>
-            <li><Link href="/reverse-osmosis-in-tampa-bay-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Tampa Bay, FL</Link></li>
-            <li><Link href="/reverse-osmosis-in-florida" className="text-blue-600 hover:underline">Reverse Osmosis in Florida</Link></li>
+            <li><Link href="/reverse-osmosis-tampa-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Tampa, FL</Link></li>
+            <li><Link href="/reverse-osmosis-st-petersburg-fl" className="text-blue-600 hover:underline">Reverse Osmosis in St. Petersburg, FL</Link></li>
+            <li><Link href="/reverse-osmosis-clearwater-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Clearwater, FL</Link></li>
+            <li><Link href="/reverse-osmosis-brandon-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Brandon, FL</Link></li>
+            <li><Link href="/reverse-osmosis-sarasota-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Sarasota, FL</Link></li>
           </ul>
         </nav>
     </main>

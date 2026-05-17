@@ -3,7 +3,7 @@ Allow: /
 
 Sitemap: https://jusih2o.com/sitemap.xml
 
-# AI training data crawlers — block
+# AI training data crawlers, block
 User-agent: GPTBot
 Disallow: /
 
@@ -31,7 +31,7 @@ Disallow: /
 User-agent: cohere-ai
 Disallow: /
 
-# AI search index builders — allow (these can send traffic)
+# AI search index builders, allow (these can send traffic)
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -41,7 +41,7 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-# User-triggered AI fetches — allow
+# User-triggered AI fetches, allow
 User-agent: ChatGPT-User
 Allow: /
 
@@ -50,6 +50,20 @@ Allow: /
 
 User-agent: Perplexity-User
 Allow: /
+
+# Additional AI crawlers, explicit Allow per SEOMAN portfolio GEO policy 2026-05-16
+User-Agent: Claude-Web
+Allow: /
+
+User-Agent: Bytespider
+Allow: /
+
+User-Agent: FacebookBot
+Allow: /
+
+User-Agent: DuckAssistBot
+Allow: /
+
 # LLM content discovery
 # https://jusih2o.com/llms.txt
 # https://jusih2o.com/llms-full.txt

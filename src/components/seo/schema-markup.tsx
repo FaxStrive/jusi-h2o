@@ -4,12 +4,14 @@ import { usePathname } from 'next/navigation'
 
 const SITE_URL = 'https://jusih2o.com'
 const BUSINESS_NAME = 'Jusi H2O'
-const SCHEMA_TYPE = 'Plumber'
-const DATE_MODIFIED = '2026-04-19'
+const SCHEMA_TYPE: string[] = ['HomeAndConstructionBusiness', 'Plumber']
+const DATE_MODIFIED = '2026-05-14'
+const ORG_ID = `${SITE_URL}/#organization`
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': SCHEMA_TYPE,
+  '@id': ORG_ID,
   name: BUSINESS_NAME,
   description:
     'Jusi H2O provides professional water filtration, water softeners, and reverse osmosis systems in Tampa Bay, FL. Free in-home water testing with same-day results. Serving Hillsborough, Pinellas, Manatee, Sarasota, and Polk counties.',
@@ -43,7 +45,26 @@ const localBusinessSchema = {
     { '@type': 'City', name: 'Clearwater, FL' },
     { '@type': 'City', name: 'Brandon, FL' },
     { '@type': 'City', name: 'Sarasota, FL' },
+    { '@type': 'City', name: 'Bradenton, FL' },
+    { '@type': 'City', name: 'Lakeland, FL' },
+    { '@type': 'City', name: 'Plant City, FL' },
+    { '@type': 'City', name: 'Riverview, FL' },
+    { '@type': 'City', name: 'Wesley Chapel, FL' },
+    { '@type': 'City', name: 'Land O\'Lakes, FL' },
+    { '@type': 'City', name: 'New Port Richey, FL' },
+    { '@type': 'City', name: 'Largo, FL' },
+    { '@type': 'City', name: 'Palm Harbor, FL' },
+    { '@type': 'City', name: 'Pinellas Park, FL' },
+    { '@type': 'City', name: 'Seminole, FL' },
+    { '@type': 'City', name: 'Dunedin, FL' },
+    { '@type': 'City', name: 'Tarpon Springs, FL' },
+    { '@type': 'City', name: 'Bartow, FL' },
+    { '@type': 'City', name: 'Winter Haven, FL' },
   ],
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', 'h2', '.speakable', '[data-speakable]', '[data-bluf]'],
+  },
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
@@ -372,7 +393,7 @@ const SERVICE_SCHEMA_MAP: Record<
   },
 }
 
-// HowTo rich results were deprecated Sept 2023 — replaced with ItemList process schema
+// HowTo rich results were deprecated Sept 2023, replaced with ItemList process schema
 const PROCESS_SCHEMA_MAP: Record<string, { name: string; description: string; steps: Array<{ name: string; text: string }> }> = {
   '/': {
     name: 'How to Get Better Water in 3 Simple Steps',
@@ -520,10 +541,7 @@ function getServiceSchema(pathname: string) {
     url: `${SITE_URL}${pathname}`,
     dateModified: DATE_MODIFIED,
     provider: {
-      '@type': SCHEMA_TYPE,
-      name: BUSINESS_NAME,
-      url: SITE_URL,
-      telephone: '+18133030515',
+      '@id': ORG_ID,
     },
     areaServed: [
       { '@type': 'City', name: 'Tampa, FL' },

@@ -26,9 +26,9 @@
 ## Executive Summary
 
 - **[HIGH]** Add FAQPage schema to pages with question headings
-- **[HIGH]** Fix NAP mismatch — phone number in schema does not match phone visible on page (hurts local rankings)
-- **[HIGH]** Fix title tag lengths — must be 50-60 characters (industry standard for SERP display)
-- **[HIGH]** Fix meta description lengths — must be 120-160 characters (industry standard for SERP display)
+- **[HIGH]** Fix NAP mismatch, phone number in schema does not match phone visible on page (hurts local rankings)
+- **[HIGH]** Fix title tag lengths, must be 50-60 characters (industry standard for SERP display)
+- **[HIGH]** Fix meta description lengths, must be 120-160 characters (industry standard for SERP display)
 - **[HIGH]** Wrap all phone numbers in tel: links for click-to-call on mobile
 
 ---
@@ -75,11 +75,11 @@
 | Business address visible on page | 1 | 1 | PASS |  |
 | E-E-A-T: License number visible | 2 | 2 | PASS |  |
 | E-E-A-T: Years in business stated | 1 | 1 | PASS |  |
-| Pages have sufficient internal links (min 2) | 1 | 0 | FAIL | 2 page(s) have fewer than 2 internal links — isolated pages receive less link equity: /gallery, /ser... |
+| Pages have sufficient internal links (min 2) | 1 | 0 | FAIL | 2 page(s) have fewer than 2 internal links, isolated pages receive less link equity: /gallery, /ser... |
 | Service pages cross-link to related services | 1 | 1 | PASS | 20 service page(s) found |
-| Blog posts link to relevant service pages | 1 | 0 | FAIL | Blog posts do not link to service pages — add contextual links from blog content to service pages to... |
+| Blog posts link to relevant service pages | 1 | 0 | FAIL | Blog posts do not link to service pages, add contextual links from blog content to service pages to... |
 | Breadcrumb navigation implemented | 1 | 1 | PASS | 2 page(s) have breadcrumb nav |
-| No thin content pages (min 300 words) | 1 | 0 | FAIL | 15 page(s) have fewer than 300 words — thin content rarely ranks well: /about, /before-after, /conta... |
+| No thin content pages (min 300 words) | 1 | 0 | FAIL | 15 page(s) have fewer than 300 words, thin content rarely ranks well: /about, /before-after, /conta... |
 | Pages have heading structure (H2/H3) | 1 | 1 | PASS |  |
 | Content-to-code ratio (text vs. HTML/JS) | 1 | 1 | PASS | 32 pages with ratio data |
 
@@ -135,7 +135,7 @@
 | Form submission tracking | 1 | 0 | FAIL | 1 form(s) without analytics event on submit. Add gtag("event", "form_submit") or dataLayer.push in o... |
 | Conversion funnel (CTA on all pages) | 1 | 0 | FAIL | Dead-end pages without CTA: /before-after, /blog, /blog/[slug], /gallery, /service-area (+10 more) |
 | Image alt text quality (descriptive, not filename) | 1 | 1 | PASS |  |
-| Images use modern formats (WebP/AVIF) | 1 | 0 | FAIL | 13 image(s) use legacy formats (JPG/PNG) — convert to WebP or AVIF for 25-50% smaller file sizes |
+| Images use modern formats (WebP/AVIF) | 1 | 0 | FAIL | 13 image(s) use legacy formats (JPG/PNG), convert to WebP or AVIF for 25-50% smaller file sizes |
 | Image filenames are descriptive (not IMG_1234) | 1 | 1 | PASS |  |
 | Below-fold images use lazy loading | 1 | 1 | PASS |  |
 | Image SEO overall (alt + format + filename + lazy) | 1 | 1 | PASS | 37 total images audited |
@@ -224,17 +224,17 @@
 ### HIGH
 
 1. **[Structured Data]** Add FAQPage schema to pages with question headings
-2. **[Structured Data]** Fix NAP mismatch — phone number in schema does not match phone visible on page (hurts local rankings)
-3. **[On-Page]** Fix title tag lengths — must be 50-60 characters (industry standard for SERP display)
-4. **[On-Page]** Fix meta description lengths — must be 120-160 characters (industry standard for SERP display)
+2. **[Structured Data]** Fix NAP mismatch, phone number in schema does not match phone visible on page (hurts local rankings)
+3. **[On-Page]** Fix title tag lengths, must be 50-60 characters (industry standard for SERP display)
+4. **[On-Page]** Fix meta description lengths, must be 120-160 characters (industry standard for SERP display)
 5. **[Performance]** Wrap all phone numbers in tel: links for click-to-call on mobile
-6. **[On-Page]** Fix duplicate content — multiple pages have >50% content overlap, risking cannibalization
-7. **[On-Page]** Expand thin content pages — pages with fewer than 300 words rarely rank for competitive terms. Add service details, process steps, FAQs, cost information, and local context.
+6. **[On-Page]** Fix duplicate content, multiple pages have >50% content overlap, risking cannibalization
+7. **[On-Page]** Expand thin content pages, pages with fewer than 300 words rarely rank for competitive terms. Add service details, process steps, FAQs, cost information, and local context.
 ### MEDIUM
 
 8. **[On-Page]** Remove or obfuscate plain text email addresses to prevent spam scraping
 9. **[On-Page]** Align title tags and meta descriptions with top page keywords for better ranking
-10. **[On-Page]** Add internal links to orphan pages — these pages have no links pointing to them from other pages
+10. **[On-Page]** Add internal links to orphan pages, these pages have no links pointing to them from other pages
 11. **[OG/Social]** Add social profile links to footer (Missing: twitter, linkedin, youtube)
 12. **[LLM/GEO]** Optimize section lengths: each H2/H3 section should be 134-250 words for ideal LLM citation extraction
 13. **[Structured Data]** Add GeoCoordinates to LocalBusiness schema via .seo-config.json (latitude/longitude)
@@ -242,12 +242,12 @@
 15. **[Structured Data]** Add AggregateRating to schema via .seo-config.json (reviewRating/reviewCount)
 16. **[Performance]** Add conversion event tracking to analytics: gtag("event", "generate_lead"), dataLayer.push for form submissions and phone clicks
 17. **[Performance]** Install call tracking (CallRail, CallTrackingMetrics) to measure phone call conversions and attribute calls to marketing channels
-18. **[Performance]** Add analytics event firing on form submissions — forms exist but have no conversion tracking in onSubmit handlers
+18. **[Performance]** Add analytics event firing on form submissions, forms exist but have no conversion tracking in onSubmit handlers
 19. **[Performance]** Fix conversion funnel dead-ends: Dead-end pages without CTA: /before-after, /blog, /blog/[slug], /gallery, /service-area (+10 more)
 20. **[Performance]** 60-80% of calls go unanswered during peak hours. Consider adding: (1) after-hours answering service, (2) AI voice agent for 24/7 coverage, (3) callback request form, (4) SMS text-back automation.
-21. **[Performance]** Convert images from JPG/PNG to WebP or AVIF format — modern formats are 25-50% smaller with same visual quality, improving page speed scores
-22. **[On-Page]** Add internal links to isolated pages — pages with fewer than 2 internal links receive less link equity and are harder for crawlers to discover and prioritize
-23. **[On-Page]** Add links from blog posts to relevant service pages — topical cluster architecture channels blog traffic to conversion pages and signals content authority to Google
+21. **[Performance]** Convert images from JPG/PNG to WebP or AVIF format, modern formats are 25-50% smaller with same visual quality, improving page speed scores
+22. **[On-Page]** Add internal links to isolated pages, pages with fewer than 2 internal links receive less link equity and are harder for crawlers to discover and prioritize
+23. **[On-Page]** Add links from blog posts to relevant service pages, topical cluster architecture channels blog traffic to conversion pages and signals content authority to Google
 ### LOW
 
 24. **[Performance]** Move inline styles to CSS classes or Tailwind utilities

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Water Softener Installation Pinellas County FL | Jusi H2O',
-    description: 'Jusi H2O provides professional water softener services in Pinellas County, FL. Free consultation and expert service from locally trusted specialists.',
+    description: 'Pinellas County water softener installation covering St. Petersburg, Clearwater, Largo, and Pinellas Park. Free in-home water test from WQA and NSF certified specialists.',
     url: 'https://jusih2o.com/water-softener-in-pinellas-county-fl',
     siteName: 'Jusi H2O',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Jusi H2O Water Filtration Services Tampa Bay' }],
@@ -26,7 +26,7 @@ export default function WaterSoftenerInPinellasCountyFLPage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How Much Does Water Softener Cost in Pinellas County, FL?","acceptedAnswer":{"@type":"Answer","text":"Water softener pricing in Pinellas County, FL ranges from entry-level to whole-home solutions depending on your property's requirements. Jusi H2O provides transparent, written quotes after a free in-home evaluation — no estimates over the phone that change once we arrive."}},{"@type":"Question","name":"Does Jusi H2O Serve All of Pinellas County, FL?","acceptedAnswer":{"@type":"Answer","text":"Jusi H2O covers all of Pinellas County, FL and nearby areas. Our Pinellas County, FL-based scheduling means faster appointment availability than companies dispatching from outside the region."}},{"@type":"Question","name":"How Quickly Can Jusi H2O Schedule Water Softener in Pinellas County, FL?","acceptedAnswer":{"@type":"Answer","text":"Jusi H2O prioritizes fast scheduling for Pinellas County, FL homeowners — most appointments are confirmed within 24 hours of inquiry. Emergency availability varies by season; call ahead if your situation is urgent."}},{"@type":"Question","name":"Is Jusi H2O Licensed and Insured for Water Softener in Florida?","acceptedAnswer":{"@type":"Answer","text":"Yes. Jusi H2O is fully licensed, bonded, and insured in Florida. All technicians carry current state-required certifications, and we provide documentation before any work begins at your Pinellas County, FL property."}},{"@type":"Question","name":"Why Should Pinellas County, FL Homeowners Choose Jusi H2O for Water Softener?","acceptedAnswer":{"@type":"Answer","text":"Jusi H2O is a locally trusted provider with deep experience serving Pinellas County, FL. We offer professional service, transparent pricing, ongoing support, and solutions designed specifically for the water quality, climate, and housing conditions found in Pinellas County, FL — not generic packages."}},{"@type":"Question","name":"Is Pinellas County, FL Tap Water Safe to Drink Without a Filter?","acceptedAnswer":{"@type":"Answer","text":"Pinellas County, FL municipal water meets all EPA Safe Drinking Water Act standards, which legally qualifies it as safe. However, the Environmental Working Group's Tap Water Database identifies dozens of contaminants in most Florida water supplies that exceed independent health-based guidelines. Jusi H2O recommends a free water test to understand exactly what's in your Pinellas County, FL tap water."}}]}` }}
+        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How Much Does Water Softener Cost in Pinellas County, FL?","acceptedAnswer":{"@type":"Answer","text":"Water softener pricing in Pinellas County, FL ranges from entry-level to whole-home solutions depending on your property's requirements. Jusi H2O provides transparent, written quotes after a free in-home evaluation, no estimates over the phone that change once we arrive."}},{"@type":"Question","name":"Does Jusi H2O Serve All of Pinellas County, FL?","acceptedAnswer":{"@type":"Answer","text":"Jusi H2O covers all of Pinellas County, FL and nearby areas. Our Pinellas County, FL-based scheduling means faster appointment availability than companies dispatching from outside the region."}},{"@type":"Question","name":"How Quickly Can Jusi H2O Schedule Water Softener in Pinellas County, FL?","acceptedAnswer":{"@type":"Answer","text":"Jusi H2O prioritizes fast scheduling for Pinellas County, FL homeowners, most appointments are confirmed within 24 hours of inquiry. Emergency availability varies by season; call ahead if your situation is urgent."}},{"@type":"Question","name":"Is Jusi H2O Licensed and Insured for Water Softener in Florida?","acceptedAnswer":{"@type":"Answer","text":"Yes. Jusi H2O is fully licensed, bonded, and insured in Florida. All technicians carry current state-required certifications, and we provide documentation before any work begins at your Pinellas County, FL property."}},{"@type":"Question","name":"Why Should Pinellas County, FL Homeowners Choose Jusi H2O for Water Softener?","acceptedAnswer":{"@type":"Answer","text":"Jusi H2O is a locally trusted provider with deep experience serving Pinellas County, FL. We offer professional service, transparent pricing, ongoing support, and solutions designed specifically for the water quality, climate, and housing conditions found in Pinellas County, FL, not generic packages."}},{"@type":"Question","name":"Is Pinellas County, FL Tap Water Safe to Drink Without a Filter?","acceptedAnswer":{"@type":"Answer","text":"Pinellas County, FL municipal water meets all EPA Safe Drinking Water Act standards, which legally qualifies it as safe. However, the Environmental Working Group's Tap Water Database identifies dozens of contaminants in most Florida water supplies that exceed independent health-based guidelines. Jusi H2O recommends a free water test to understand exactly what's in your Pinellas County, FL tap water."}}]}` }}
       />
       <script
         type="application/ld+json"
@@ -51,7 +51,7 @@ export default function WaterSoftenerInPinellasCountyFLPage() {
         </h1>
 
         <p className="text-lg mb-8 text-gray-700">
-          Looking for professional water softener in Pinellas County, FL? Jusi H2O provides expert water softener solutions for homes and businesses throughout Pinellas County, FL. Our WQA-certified and NSF-trained technicians understand local conditions and deliver solutions tailored to Pinellas County, FL&apos;s specific needs — not generic packages designed for any market.
+          Looking for professional water softener in Pinellas County, FL? Jusi H2O provides expert water softener solutions for homes and businesses throughout Pinellas County, FL. Our WQA-certified and NSF-trained technicians understand local conditions and deliver solutions tailored to Pinellas County, FL&apos;s specific needs, not generic packages designed for any market.
         </p>
 
         <section aria-labelledby="services-heading">
@@ -59,14 +59,14 @@ export default function WaterSoftenerInPinellasCountyFLPage() {
             Our Water Softener Services in Pinellas County, FL
           </h2>
           <p className="mb-6 text-gray-700">
-            As a trusted water softener provider serving Pinellas County, FL, Jusi H2O offers comprehensive solutions backed by professional service and ongoing support. Every recommendation is based on your Pinellas County, FL home&apos;s specific needs — not a one-size-fits-all package.
+            As a trusted water softener provider serving Pinellas County, FL, Jusi H2O offers comprehensive solutions backed by professional service and ongoing support. Every recommendation is based on your Pinellas County, FL home&apos;s specific needs, not a one-size-fits-all package.
           </p>
         </section>
 
         <section aria-labelledby="local-context-heading">
           <h2 id="local-context-heading" className="text-2xl font-semibold mb-4">Water Quality in Pinellas County, FL</h2>
           <p className="mb-6 text-gray-700">
-            Municipal water in Pinellas County, FL meets EPA Safe Drinking Water Act standards, but that standard was last comprehensively updated in 1974. The Environmental Working Group&apos;s Tap Water Database identifies dozens of contaminants in Florida water supplies that are legal under current law but exceed the organization&apos;s health-based guidelines — including chromium-6, trihalomethanes, and haloacetic acids.
+            Municipal water in Pinellas County, FL meets EPA Safe Drinking Water Act standards, but that standard was last comprehensively updated in 1974. The Environmental Working Group&apos;s Tap Water Database identifies dozens of contaminants in Florida water supplies that are legal under current law but exceed the organization&apos;s health-based guidelines, including chromium-6, trihalomethanes, and haloacetic acids.
           </p>
         </section>
 
@@ -74,8 +74,8 @@ export default function WaterSoftenerInPinellasCountyFLPage() {
           <h2 id="why-us-heading" className="text-2xl font-semibold mb-4">Why Pinellas County, FL Residents Choose Jusi H2O</h2>
           <ul className="list-disc pl-6 mb-10 space-y-2 text-gray-700">
             <li>WQA-certified and NSF-trained specialists dedicated to Pinellas County, FL and surrounding area communities</li>
-            <li>Free consultations and personalized recommendations — no obligation, no sales pressure</li>
-            <li>Licensed, bonded, and insured — all work fully documented and guaranteed</li>
+            <li>Free consultations and personalized recommendations, no obligation, no sales pressure</li>
+            <li>Licensed, bonded, and insured, all work fully documented and guaranteed</li>
             <li>Ongoing maintenance plans and support long after installation in Pinellas County, FL</li>
             <li>Full-service coverage: Water Softener, Whole-House Filtration, Reverse Osmosis and more in Pinellas County, FL</li>
           </ul>
@@ -101,7 +101,7 @@ export default function WaterSoftenerInPinellasCountyFLPage() {
           <div className="space-y-6 mb-10">
             <div>
               <h3 className="font-semibold text-lg mb-2">How Much Does Water Softener Cost in Pinellas County, FL?</h3>
-              <p className="text-gray-700">Water softener pricing in Pinellas County, FL ranges from entry-level to whole-home solutions depending on your property&apos;s requirements. Jusi H2O provides transparent, written quotes after a free in-home evaluation — no estimates over the phone that change once we arrive.</p>
+              <p className="text-gray-700">Water softener pricing in Pinellas County, FL ranges from entry-level to whole-home solutions depending on your property&apos;s requirements. Jusi H2O provides transparent, written quotes after a free in-home evaluation, no estimates over the phone that change once we arrive.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Does Jusi H2O Serve All of Pinellas County, FL?</h3>
@@ -109,7 +109,7 @@ export default function WaterSoftenerInPinellasCountyFLPage() {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">How Quickly Can Jusi H2O Schedule Water Softener in Pinellas County, FL?</h3>
-              <p className="text-gray-700">Jusi H2O prioritizes fast scheduling for Pinellas County, FL homeowners — most appointments are confirmed within 24 hours of inquiry. Emergency availability varies by season; call ahead if your situation is urgent.</p>
+              <p className="text-gray-700">Jusi H2O prioritizes fast scheduling for Pinellas County, FL homeowners, most appointments are confirmed within 24 hours of inquiry. Emergency availability varies by season; call ahead if your situation is urgent.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Is Jusi H2O Licensed and Insured for Water Softener in Florida?</h3>
@@ -117,7 +117,7 @@ export default function WaterSoftenerInPinellasCountyFLPage() {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Why Should Pinellas County, FL Homeowners Choose Jusi H2O for Water Softener?</h3>
-              <p className="text-gray-700">Jusi H2O is a locally trusted provider with deep experience serving Pinellas County, FL. We offer professional service, transparent pricing, ongoing support, and solutions designed specifically for the water quality, climate, and housing conditions found in Pinellas County, FL — not generic packages.</p>
+              <p className="text-gray-700">Jusi H2O is a locally trusted provider with deep experience serving Pinellas County, FL. We offer professional service, transparent pricing, ongoing support, and solutions designed specifically for the water quality, climate, and housing conditions found in Pinellas County, FL, not generic packages.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Is Pinellas County, FL Tap Water Safe to Drink Without a Filter?</h3>
