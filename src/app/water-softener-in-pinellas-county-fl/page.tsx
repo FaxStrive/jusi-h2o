@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Water Softener Installation Pinellas County FL',
-  description: 'Water softener installation across Pinellas County, FL including St. Petersburg, Clearwater, Largo, and Pinellas Park. WQA and NSF certified, 2,500 five-star reviews.',
+  description: 'Water softener installation for Pinellas County, FL. Free in-home water test. Marquis Pendergrass. Call (813) 303-0515.',
   alternates: {
     canonical: 'https://jusih2o.com/water-softener-in-pinellas-county-fl',
   },
@@ -126,10 +126,10 @@ export default function WaterSoftenerInPinellasCountyFLPage() {
           </div>
         </section>
 
-        <section aria-labelledby="cta-heading" className="bg-gray-50 p-8 rounded-xl border border-gray-200">
-          <h2 id="cta-heading" className="text-2xl font-semibold mb-3">
+        <section aria-label="Schedule water softener installation" className="bg-gray-50 p-8 rounded-xl border border-gray-200">
+          <div className="text-2xl font-semibold mb-3">
             Get Water Softener in Pinellas County, FL Today
-          </h2>
+          </div>
           <p className="mb-5 text-gray-700">
             Call Jusi H2O at (813) 303-0515 or schedule your free consultation. We serve Pinellas County, FL and surrounding communities.
           </p>
@@ -149,41 +149,38 @@ export default function WaterSoftenerInPinellasCountyFLPage() {
           </address>
         </section>
 
-        <nav className="mt-12 pt-8 border-t" aria-label="Related pages">
-          <h2 className="text-lg font-semibold mb-3">Explore More</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link href="/water-softener" className="text-blue-600 hover:underline">
-                Water Softener Overview
-              </Link>
-            </li>
-            <li>
-              <Link href="/water-filtration" className="text-blue-600 hover:underline">
-                Water Filtration in Pinellas County
-              </Link>
-            </li>
-            <li>
-              <Link href="/water-testing" className="text-blue-600 hover:underline">
-                Water Testing Services
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" className="text-blue-600 hover:underline">
-                Contact Jusi H2O
-              </Link>
-            </li>
-          </ul>
+        <nav className="mt-12 pt-8 border-t" aria-label="Related service areas">
+          <h2 className="text-lg font-semibold mb-3">Also Serving Tampa Bay</h2>
+          <div className="flex flex-wrap gap-3 text-sm">
+            <Link href="/water-softener-tampa-fl" className="text-blue-600 hover:underline">Tampa, FL</Link>
+            <Link href="/water-softener-st-petersburg-fl" className="text-blue-600 hover:underline">St. Petersburg, FL</Link>
+            <Link href="/water-softener-clearwater-fl" className="text-blue-600 hover:underline">Clearwater, FL</Link>
+            <Link href="/water-softener-brandon-fl" className="text-blue-600 hover:underline">Brandon, FL</Link>
+            <Link href="/water-softener-sarasota-fl" className="text-blue-600 hover:underline">Sarasota, FL</Link>
+            <Link href="/service-areas" className="text-blue-600 hover:underline">All Service Areas</Link>
+          </div>
+        </nav>
+
+        <nav className="mt-8 pt-8 border-t" aria-label="Related resources">
+          <h2 className="text-lg font-semibold mb-3">Related Resources</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+            <Link href="/about" className="text-blue-600 hover:underline">About Jusi H2O</Link>
+            <Link href="/pricing" className="text-blue-600 hover:underline">Transparent Pricing</Link>
+            <Link href="/certifications" className="text-blue-600 hover:underline">NSF and WQA Certifications</Link>
+            <Link href="/water-treatment" className="text-blue-600 hover:underline">Water Treatment Services</Link>
+            <Link href="/water-softener" className="text-blue-600 hover:underline">Water Softener Installation</Link>
+            <Link href="/whole-house-filtration" className="text-blue-600 hover:underline">Whole-House Filtration</Link>
+            <Link href="/reverse-osmosis" className="text-blue-600 hover:underline">Reverse Osmosis Systems</Link>
+            <Link href="/well-water-treatment" className="text-blue-600 hover:underline">Well Water Treatment</Link>
+            <Link href="/water-testing" className="text-blue-600 hover:underline">Free Water Testing</Link>
+            <Link href="/blog/hard-water-tampa-bay-guide" className="text-blue-600 hover:underline">Hard Water in Tampa Bay (Guide)</Link>
+            <Link href="/blog/tampa-bay-water-sources-whats-in-your-tap" className="text-blue-600 hover:underline">Tampa Bay Water Sources</Link>
+            <Link href="/blog/best-water-softener-tampa-bay" className="text-blue-600 hover:underline">Best Water Softener Tampa Bay</Link>
+            <Link href="/contact" className="text-blue-600 hover:underline">Contact Jusi H2O</Link>
+            <Link href="/faq" className="text-blue-600 hover:underline">Frequently Asked Questions</Link>
+          </div>
         </nav>
       </article>
-
-        <nav className="mt-12 pt-8 border-t border-gray-200" aria-label="Related services">
-          <h2 className="text-lg font-semibold mb-3">Related Services</h2>
-          <ul className="space-y-2">
-            <li><Link href="/water-softener" className="text-blue-600 hover:underline">Water Softener Installation</Link></li>
-            <li><Link href="/reverse-osmosis" className="text-blue-600 hover:underline">Reverse Osmosis Systems</Link></li>
-            <li><Link href="/whole-house-filtration" className="text-blue-600 hover:underline">Whole-House Filtration</Link></li>
-          </ul>
-        </nav>
     </main>
   )
 }
