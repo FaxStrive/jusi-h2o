@@ -222,14 +222,23 @@ export default function WaterTreatmentPage() {
             <li><Link href="/well-water-treatment" className="text-blue-600 hover:underline">Well Water Treatment</Link></li>
           </ul>
         </nav>
-        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
-          <h2 className="text-lg font-semibold mb-3">Water Treatment by Area</h2>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guides">
+          <h2 className="text-lg font-semibold mb-3">Featured Water Treatment Guides</h2>
           <ul className="space-y-2">
-            <li><Link href="/water-treatment-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Water Treatment in Hillsborough County, FL</Link></li>
-            <li><Link href="/water-treatment-in-pinellas-county-fl" className="text-blue-600 hover:underline">Water Treatment in Pinellas County, FL</Link></li>
-            <li><Link href="/water-treatment-in-sarasota-county-fl" className="text-blue-600 hover:underline">Water Treatment in Sarasota County, FL</Link></li>
-            <li><Link href="/water-treatment-in-tampa-bay-fl" className="text-blue-600 hover:underline">Water Treatment in Tampa Bay, FL</Link></li>
-            <li><Link href="/water-treatment-in-florida" className="text-blue-600 hover:underline">Water Treatment in Florida</Link></li>
+            <li><Link href="/water-treatment/hard-water-tampa-bay" className="text-blue-600 hover:underline">Hard Water in Tampa Bay: A Complete Treatment Guide</Link></li>
+            <li><Link href="/water-treatment/florida-well-water" className="text-blue-600 hover:underline">Florida Well Water Treatment: Tampa Bay Region Guide</Link></li>
+            <li><Link href="/water-treatment/reverse-osmosis-drinking-water" className="text-blue-600 hover:underline">Reverse Osmosis Drinking Water in Tampa Bay</Link></li>
+          </ul>
+        </nav>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
+          <h2 className="text-lg font-semibold mb-3">Popular Service Areas</h2>
+          <ul className="space-y-2">
+            <li><Link href="/water-softener-tampa-fl" className="text-blue-600 hover:underline">Water Softener in Tampa, FL</Link></li>
+            <li><Link href="/water-softener-st-petersburg-fl" className="text-blue-600 hover:underline">Water Softener in St. Petersburg, FL</Link></li>
+            <li><Link href="/water-softener-clearwater-fl" className="text-blue-600 hover:underline">Water Softener in Clearwater, FL</Link></li>
+            <li><Link href="/water-softener-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Water Softener in Hillsborough County, FL</Link></li>
+            <li><Link href="/water-softener-in-pinellas-county-fl" className="text-blue-600 hover:underline">Water Softener in Pinellas County, FL</Link></li>
+            <li><Link href="/service-areas" className="text-blue-600 hover:underline">View all service areas</Link></li>
           </ul>
         </nav>
     </main>

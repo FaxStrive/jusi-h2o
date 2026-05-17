@@ -23,6 +23,12 @@ const footerLinks = {
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
   ],
+  guides: [
+    { href: "/water-treatment", label: "Water Treatment Hub" },
+    { href: "/water-treatment/hard-water-tampa-bay", label: "Hard Water in Tampa Bay" },
+    { href: "/water-treatment/florida-well-water", label: "Florida Well Water" },
+    { href: "/water-treatment/reverse-osmosis-drinking-water", label: "Reverse Osmosis Drinking Water" },
+  ],
 };
 
 export function Footer() {
@@ -140,7 +146,30 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
-                          <li><Link href="/service-areas">Service Areas</Link></li>
+              <li>
+                <Link
+                  href="/service-areas"
+                  className="text-primary-200 hover:text-white transition-colors duration-200 text-sm"
+                >
+                  Service Areas
+                </Link>
+              </li>
+            </ul>
+
+            <h4 className="font-heading font-semibold text-sm uppercase tracking-widest text-primary-300 mt-8 mb-5">
+              Guides
+            </h4>
+            <ul className="space-y-3">
+              {footerLinks.guides.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-primary-200 hover:text-white transition-colors duration-200 text-sm"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

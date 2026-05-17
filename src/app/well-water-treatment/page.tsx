@@ -227,14 +227,18 @@ export default function WellWaterTreatmentPage() {
             <li><Link href="/water-testing" className="text-blue-600 hover:underline">Water Testing</Link></li>
           </ul>
         </nav>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guide">
+          <h2 className="text-lg font-semibold mb-3">Read our complete guide</h2>
+          <p className="text-gray-700"><Link href="/water-treatment/florida-well-water" className="text-blue-600 hover:underline">Florida Well Water Treatment: Tampa Bay Region Guide</Link>, including iron, sulfide, and pH staging for Floridan Aquifer wells.</p>
+        </nav>
         <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
-          <h2 className="text-lg font-semibold mb-3">Well Water Treatment by Area</h2>
+          <h2 className="text-lg font-semibold mb-3">Well Water Treatment by City</h2>
           <ul className="space-y-2">
-            <li><Link href="/well-water-treatment-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Well Water Treatment in Hillsborough County, FL</Link></li>
-            <li><Link href="/well-water-treatment-in-pinellas-county-fl" className="text-blue-600 hover:underline">Well Water Treatment in Pinellas County, FL</Link></li>
-            <li><Link href="/well-water-treatment-in-sarasota-county-fl" className="text-blue-600 hover:underline">Well Water Treatment in Sarasota County, FL</Link></li>
-            <li><Link href="/well-water-treatment-in-tampa-bay-fl" className="text-blue-600 hover:underline">Well Water Treatment in Tampa Bay, FL</Link></li>
-            <li><Link href="/well-water-treatment-in-florida" className="text-blue-600 hover:underline">Well Water Treatment in Florida</Link></li>
+            <li><Link href="/well-water-treatment-tampa-fl" className="text-blue-600 hover:underline">Well Water Treatment in Tampa, FL</Link></li>
+            <li><Link href="/well-water-treatment-plant-city-fl" className="text-blue-600 hover:underline">Well Water Treatment in Plant City, FL</Link></li>
+            <li><Link href="/well-water-treatment-brandon-fl" className="text-blue-600 hover:underline">Well Water Treatment in Brandon, FL</Link></li>
+            <li><Link href="/well-water-treatment-sarasota-fl" className="text-blue-600 hover:underline">Well Water Treatment in Sarasota, FL</Link></li>
+            <li><Link href="/well-water-treatment-lakeland-fl" className="text-blue-600 hover:underline">Well Water Treatment in Lakeland, FL</Link></li>
           </ul>
         </nav>
     </main>

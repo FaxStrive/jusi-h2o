@@ -230,14 +230,18 @@ export default function ReverseOsmosisPage() {
             <li><Link href="/water-testing" className="text-blue-600 hover:underline">Water Testing</Link></li>
           </ul>
         </nav>
+        <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Featured guide">
+          <h2 className="text-lg font-semibold mb-3">Read our complete guide</h2>
+          <p className="text-gray-700"><Link href="/water-treatment/reverse-osmosis-drinking-water" className="text-blue-600 hover:underline">Reverse Osmosis Drinking Water in Tampa Bay</Link>, including PFAS removal, contaminant tables, and pairing with a whole-house softener.</p>
+        </nav>
         <nav className="mt-8 pt-8 border-t border-gray-200" aria-label="Service areas">
-          <h2 className="text-lg font-semibold mb-3">Reverse Osmosis by Area</h2>
+          <h2 className="text-lg font-semibold mb-3">Reverse Osmosis by City</h2>
           <ul className="space-y-2">
-            <li><Link href="/reverse-osmosis-in-hillsborough-county-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Hillsborough County, FL</Link></li>
-            <li><Link href="/reverse-osmosis-in-pinellas-county-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Pinellas County, FL</Link></li>
-            <li><Link href="/reverse-osmosis-in-sarasota-county-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Sarasota County, FL</Link></li>
-            <li><Link href="/reverse-osmosis-in-tampa-bay-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Tampa Bay, FL</Link></li>
-            <li><Link href="/reverse-osmosis-in-florida" className="text-blue-600 hover:underline">Reverse Osmosis in Florida</Link></li>
+            <li><Link href="/reverse-osmosis-tampa-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Tampa, FL</Link></li>
+            <li><Link href="/reverse-osmosis-st-petersburg-fl" className="text-blue-600 hover:underline">Reverse Osmosis in St. Petersburg, FL</Link></li>
+            <li><Link href="/reverse-osmosis-clearwater-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Clearwater, FL</Link></li>
+            <li><Link href="/reverse-osmosis-brandon-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Brandon, FL</Link></li>
+            <li><Link href="/reverse-osmosis-sarasota-fl" className="text-blue-600 hover:underline">Reverse Osmosis in Sarasota, FL</Link></li>
           </ul>
         </nav>
     </main>

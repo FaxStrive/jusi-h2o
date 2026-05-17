@@ -23,6 +23,7 @@ const navLinks = [
   { href: "/about", label: "About" },
   { href: "/testimonials", label: "Testimonials" },
   { href: "/service-area", label: "Service Area" },
+  { href: "/water-treatment", label: "Guides" },
   { href: "/faq", label: "FAQ" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
