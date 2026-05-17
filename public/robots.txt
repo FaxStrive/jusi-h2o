@@ -50,6 +50,20 @@ Allow: /
 
 User-agent: Perplexity-User
 Allow: /
+
+# Additional AI crawlers, explicit Allow per SEOMAN portfolio GEO policy 2026-05-16
+User-Agent: Claude-Web
+Allow: /
+
+User-Agent: Bytespider
+Allow: /
+
+User-Agent: FacebookBot
+Allow: /
+
+User-Agent: DuckAssistBot
+Allow: /
+
 # LLM content discovery
 # https://jusih2o.com/llms.txt
 # https://jusih2o.com/llms-full.txt
