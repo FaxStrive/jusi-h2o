@@ -216,6 +216,54 @@ const websiteSchema = {
   },
 }
 
+const homepageFaqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  dateModified: DATE_MODIFIED,
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How do I know if my water has a problem?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Common signs include white scale buildup on faucets, dry skin and hair after showering, spots on dishes, unpleasant taste or smell, and discolored water. Schedule a free in-home water test to identify exactly what is in your water.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is hard water and why is it a problem?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Hard water contains high levels of calcium and magnesium minerals. It causes scale buildup in pipes and appliances, reduces soap effectiveness, leaves spots on dishes and fixtures, and can make skin and hair feel dry. It is one of the most common water issues in Tampa Bay.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is Tampa Bay water safe to drink?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'While Tampa Bay municipal water meets EPA standards, it often contains chlorine, hard minerals, and trace contaminants that affect taste, smell, and your home. A water test reveals exactly what is in your specific water supply.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is the in-home water test really free?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, our in-home water test is completely free with no obligation. Our technician will test your water, explain the results in plain language, and recommend solutions if you are interested. There is zero pressure to purchase.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What does the free water test check for?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'We test for hardness, chlorine, pH levels, iron, total dissolved solids (TDS), and other common contaminants specific to your water source. The test takes about 30 minutes and results are available immediately on-site.',
+      },
+    },
+  ],
+}
+
 const SERVICE_SCHEMA_MAP: Record<
   string,
   { name: string; description: string; faq: Array<{ q: string; a: string }> }
@@ -577,9 +625,9 @@ export default function SchemaMarkup() {
   const pathname = usePathname()
   const schemas: object[] = []
 
-  // Homepage: LocalBusiness + WebSite
+  // Homepage: LocalBusiness + WebSite + FAQPage
   if (pathname === '/') {
-    schemas.push(localBusinessSchema, websiteSchema)
+    schemas.push(localBusinessSchema, websiteSchema, homepageFaqSchema)
   }
 
   // All interior pages: BreadcrumbList
